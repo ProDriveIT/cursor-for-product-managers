@@ -1,6 +1,6 @@
 # Self-Service Travel
 
-**Status:** Sprint **prepared**; execution queued as work-order **#3** (after EOS L10-ready + one-client HTML reports)  
+**Status:** Sprint **prepared**; execution queued as work-order **#3** (after EOS L10-ready + Quest/one-client HTML monthly report)  
 **Owner:** James Stock  
 **Stakeholders:** MSP Org champion TBD; eng/ops TBD  
 **Strategy draft:** [`../../company-level-context/product-vision-and-strategy/self-service-travel-strategy.md`](../../company-level-context/product-vision-and-strategy/self-service-travel-strategy.md)  

@@ -204,10 +204,10 @@
     },
     {
       "priority": 2,
-      "action": "Deliver work-order #2: one named client, full HTML report",
+      "action": "Deliver work-order #2: Quest (one client) full HTML monthly report",
       "owner": "James Stock",
       "due_date": null,
-      "link": "initiatives/client-facing-reports/"
+      "link": "initiatives/client-monthly-report/"
     },
     {
       "priority": 3,

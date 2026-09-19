@@ -65,7 +65,7 @@
 ## Improvements (priority)
 
 1. **Now — James:** Drive work-order #1 (EOS L10-ready); do not start SST sprint day.
-2. **After #1 — James:** Deliver work-order #2 (one named client, full HTML); name the client in `initiatives/client-facing-reports/README.md`.
+2. **After #1 — James:** Deliver work-order #2 (Quest Fund Placement full HTML) via `initiatives/client-monthly-report/`.
 3. **Before sprint day — James:** Finish [sprint-prep checklist](../../initiatives/self-service-travel/sprint-prep.md) (MSP Org champion, eng/ops, access, calendar).
 4. **Sprint day — James + eng/ops:** Run [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md) (signals, A1/A2 tests designed, OMTM, options).
 5. **Day after sprint — James:** Re-run `/product-strategy-review`; only then consider funding reporting / one-click / onboarding.

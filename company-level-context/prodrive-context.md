@@ -70,7 +70,7 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 | Product | Repo | Status from this agent |
 |---------|------|------------------------|
 | EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **C′ on main (19 Sep)** — CEOS/Azure L10 bake-off; Lists not the board; Phase 0 host merged |
-| Client monthly reports | TBD | Not started in this workspace |
+| Client monthly reports | [GitHub-Repos](https://github.com/ProDriveIT/GitHub-Repos) — KPI automation + Reporting Agent; `reporting-client` superseded | PM initiative: [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [canonical path](../initiatives/client-monthly-report/canonical-path.md) |
 | EOS in Practice (business notes) | https://github.com/ProDriveIT/Github-SupportingData (`50-eos`) | Sister knowledge home |
 
 ---
@@ -95,13 +95,15 @@ Detail: [`product-vision-and-strategy/product-work-order.md`](./product-vision-a
 - **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
-### B. Client-facing reports (order #2)
+### B. Client monthly reports (order #2 — active; prior art exists)
 
-- **Intent:** One named client · **full HTML** client-facing report (proof of work / value).
-- **Depends on:** Order #1 exit (EOS L10-ready).
-- **Exit before #3:** Named client + HTML Pro Drive will show externally.
-- **Initiative:** [`../initiatives/client-facing-reports/`](../initiatives/client-facing-reports/)
-- **Named client:** TBD
+- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business / **vCIO / TAM** updates — so clients understand what they pay for when reactive tickets drop. Work-order scope: **one client · full HTML**.
+- **Exit before #3:** Named pilot client has a complete HTML report Pro Drive will show externally.
+- **Prior starts (GitHub-Repos):** `90 Archive/2026-01 reporting-client` (**superseded — DO NOT RESUME**); active Insights packs in `reporting-kpi-automation` (WIP-027); active **Reporting Agent** in `2026-09 agent-ecosystem-copilot` (draft → **vCIO** sign-off → send).
+- **SSOT:** [GitHub-Repos Client-Monthly-Report-Canonical-Path.md](https://github.com/ProDriveIT/GitHub-Repos/blob/main/00%20Meta/Client-Monthly-Report-Canonical-Path.md) · [initiative twin](../initiatives/client-monthly-report/canonical-path.md)
+- **Depends on:** Order #1 exit (EOS L10-ready); Insights client packs in prod; Quest pack for chosen month; Bruce sign-off on 1-pager option A.
+- **Pilot:** Quest Fund Placement · vCIO Bruce Penson · TAM Danny Bray · ops James Stock
+- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [1-pager](../initiatives/client-monthly-report/prd/1-pager-client-monthly-report.md) · [prior art](../initiatives/client-monthly-report/prior-art-github-repos.md)
 
 ### C. Self-Service Travel / PD SST (order #3 — live, strategy HOLD)
 
@@ -144,5 +146,5 @@ Do not invent live Scorecard/Rock values from GitHub `data/` — that tree is fi
 2. ~~Implementer name~~ → Rob Liddiard / Mission Group. **Open:** will Rob facilitate from the CEOS dashboard after Focus Day?
 3. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path
 4. Confirm bake-off L10 dates (**candidate: Mon 22 Sep and Mon 29 Sep**) before Focus Day
-5. Client reporting: separate product or export of same data spine? *(parked)*
+5. Client reporting: separate product or export of same data spine? *(initiative started — still open)*
 

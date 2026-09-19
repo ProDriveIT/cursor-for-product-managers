@@ -6,9 +6,9 @@
 
 | Order | Product | Exit before next starts | Initiative |
 |-------|---------|-------------------------|------------|
-| 1 | **EOS Operating Dashboard** — ready for L10 meeting run | L10 console usable for a real leadership L10 (not Focus Day on 1 Oct — that stays no-dashboard) | [`../eos-operating-dashboard/`](../eos-operating-dashboard/) |
-| 2 | **Client-facing reports** — one client, full HTML | One named client receives a complete HTML report Pro Drive is willing to show externally | [`../client-facing-reports/`](../client-facing-reports/) |
-| 3 | **PD SST (Self-Service Travel)** | After #1 and #2; then run 1-Day Evidence Sprint → re-run PRISM | [`../self-service-travel/`](../self-service-travel/) |
+| 1 | **EOS Operating Dashboard** — ready for L10 meeting run | L10 console usable for a real leadership L10 (not Focus Day on 1 Oct — that stays no-dashboard) | [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/) |
+| 2 | **Client monthly reports** — one client, full HTML | Pilot client (Quest Fund Placement) has a complete HTML report Pro Drive is willing to show externally | [`../../initiatives/client-monthly-report/`](../../initiatives/client-monthly-report/) |
+| 3 | **PD SST (Self-Service Travel)** | After #1 and #2; then run 1-Day Evidence Sprint → re-run PRISM | [`../../initiatives/self-service-travel/`](../../initiatives/self-service-travel/) |
 
 ## Capacity implication
 

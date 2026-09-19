@@ -14,7 +14,7 @@
 ## Capacity / sequencing (decided)
 
 1. EOS Operating Dashboard — ready for L10 meeting run  
-2. Client-facing reports — one client, full HTML  
+2. Client monthly reports — one client (Quest Fund Placement), full HTML  
 3. **Then** PD SST evidence sprint → strategy revision  
 
 SST discovery/build does not jump this queue without a written reordering decision.

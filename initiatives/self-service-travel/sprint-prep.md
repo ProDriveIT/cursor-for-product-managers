@@ -12,7 +12,7 @@ Prep now. Execute the 1-day sprint only when #1 and #2 have exited.
 ## Pre-sprint checklist (do before sprint day)
 
 - [ ] EOS L10 exit: console used for a real leadership L10 (or written waiver)
-- [ ] Client reports exit: named client + full HTML accepted for external show
+- [ ] Client monthly report exit: Quest (or named pilot) full HTML accepted for external show
 - [ ] MSP Org champion named (ops person who runs travel requests today)
 - [ ] Eng/ops contact named (who can pull status counts / deploy notes)
 - [ ] Access confirmed: tickets / Teams / usage logs for travel requests (last 180 days)

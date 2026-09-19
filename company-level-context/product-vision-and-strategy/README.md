@@ -13,7 +13,7 @@
 Until a full vision doc exists, use:
 
 - [`../prodrive-context.md`](../prodrive-context.md) — factual operating context
-- Initiative: [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/)
+- Initiatives: [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/), [`../../initiatives/client-monthly-report/`](../../initiatives/client-monthly-report/)
 
 ## Artifacts
 
@@ -25,4 +25,4 @@ Until a full vision doc exists, use:
 
 ## Suggested next artifact
 
-Execute work order #1 (EOS L10-ready), then #2 ([client-facing reports](../../initiatives/client-facing-reports/)). SST sprint day only after those exit: [sprint-prep](../../initiatives/self-service-travel/sprint-prep.md).
+Execute work order #1 (EOS L10-ready), then #2 ([client monthly report](../../initiatives/client-monthly-report/) — Quest, full HTML). SST sprint day only after those exit: [sprint-prep](../../initiatives/self-service-travel/sprint-prep.md).

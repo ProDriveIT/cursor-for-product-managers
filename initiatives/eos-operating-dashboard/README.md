@@ -40,6 +40,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 ## Quick Links
 
 - [Roadmap](./roadmap.md)
+- [Work PC power-up checklist](./work-pc-power-up.md)
 - [Decision revision (current)](./decision-revision-sharepoint-rejected.md)
 - [1-pager](./prd/1-pager-eos-operating-dashboard.md)
 - [Engineering repo analysis](./engineering-repo-analysis.md)
@@ -51,7 +52,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 - Decision Register on ProDrive-EOS `main` already reverses 03 Sep “Azure superseded” for L10 meeting UX.
 - CEOS skills (`ceos-l10` etc.) remain the behavioural spec for the dashboard.
 - Focus Day (1 Oct): **no dashboard** — Rob runs it his way. Phase 1 product = L10 only (Issues, Rocks, To-Dos, KPIs).
-- Client monthly reports remain a separate later initiative.
+- Client monthly reports: separate initiative — [`../client-monthly-report/`](../client-monthly-report/).
 
 ---
 *Created from initiatives template.*
