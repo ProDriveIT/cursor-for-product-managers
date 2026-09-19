@@ -9,7 +9,7 @@ This initiative is **not greenfield**. Multiple starts already exist. Use them; 
 
 | When | Path in GitHub-Repos | Status | What it is |
 |------|------------------------|--------|------------|
-| 2026-01 | [`90 Archive/2026-01 reporting-client`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/90%20Archive/2026-01%20reporting-client) | **Archived 29-08-2026** (STOP under RTEM focus) | First client “value-add” HTML generator (`Generate-ClientValueAddReport.ps1`). Same problem: clients only see reactive tickets; show proactive/alignment/etc. |
+| 2026-01 | [`90 Archive/2026-01 reporting-client`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/90%20Archive/2026-01%20reporting-client) | **SUPERSEDED 19-09-2026 — DO NOT RESUME** | First client “value-add” HTML generator (`Generate-ClientValueAddReport.ps1`). Archived Aug 2026 (RTEM STOP); superseded by Insights packs + Reporting Agent. |
 | 2026-01 (ongoing) | [`10 Projects/2026-01 reporting-kpi-automation`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-01%20reporting-kpi-automation) | **Active** | Azure KPI / Insights spine. **WIP-027** [`Monthly-Client-Service-Report.md`](https://github.com/ProDriveIT/GitHub-Repos/blob/main/10%20Projects/2026-01%20reporting-kpi-automation/Documentation/Monthly-Client-Service-Report.md) — branded `client-pack-{runId}.html` per account/month (preventative vs end-user, jobs, alignment). Human review before send. |
 | 2026-09 | [`10 Projects/2026-09 agent-ecosystem-copilot`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot) | **Active** (docs / build guides) | **Reporting Agent** — Copilot drafts monthly HTML from Insights packs → **vCIO sign-off** → send. Phase 2 adds vCIO narrative list + next **vCIO and TAM meeting** dates. First Copilot vertical slice by design. |
 
@@ -38,11 +38,14 @@ Primary briefs:
 |--------------------------------------------|--------------------------------------------------|
 | Problem framing, discovery, PRD/1-pager, measurement, stakeholder narrative | Pack generation, Copilot Reporting Agent, SharePoint lists, send workflow |
 
-**Recommendation:** Treat **Reporting Agent Phase 1–2** as the delivery path. Pull reusable ideas from archived `reporting-client` (category taxonomy, “value you can’t see” framing) into the narrative/pack design — do not revive the STOP’d PowerShell launcher as a parallel product.
+**Recommendation:** Treat **Reporting Agent Phase 1–2** as the delivery path. Pull reusable ideas from superseded `reporting-client` (category taxonomy, “value you can’t see” framing) into the narrative/pack design — do not revive the PowerShell launcher.
+
+**Agent hygiene (done 19-09-2026 in GitHub-Repos):** SSOT note in `00 Meta/`; `reporting-client` ARCHIVE/AGENTS/cursorkleosr marked DO NOT RESUME; live `AGENTS.md` walls; vault Cursor rule + `superseded` convention; Azure ValueAdd errata.
 
 ## Open reconciliation items
 
 1. Confirm path/name of the **external reports repo** and link it here.
 2. ~~Pilot client + named pilot **vCIO**~~ — **Locked:** Quest Fund Placement · Bruce Penson (vCIO) · Danny Bray (TAM) · James Stock (ops). See [1-pager](./prd/1-pager-client-monthly-report.md).
-3. Capture Quest economic-buyer reaction after first approved cycle (demand evidence still company-wide, not Quest-specific).
-4. Confirm Quest Insights pack exists for the chosen `YYYY-MM` before calling Phase 1 live.
+3. ~~Prevent agent drift into dead starts~~ — **Done 19-09-2026** in GitHub-Repos (superseded + SSOT + AGENTS walls). Twin: [canonical-path.md](./canonical-path.md).
+4. Capture Quest economic-buyer reaction after first approved cycle (demand evidence still company-wide, not Quest-specific).
+5. Confirm Quest Insights pack exists for the chosen `YYYY-MM` before calling Phase 1 live.

@@ -37,9 +37,9 @@ Without this surface, low reactive volume reads as low service. Ticket dumps mak
 
 ## Lessons
 
-Three prior starts teach the constraints for this decision. First, the Jan 2026 **value-add** HTML generator solved the same problem (show work clients cannot see) and was **STOP’d in August 2026** under the RTEM mission filter; restarting that launcher as a parallel product would burn focus again. Second, **Insights client packs** (WIP-027) already encode preventative vs end-user, jobs, and alignment from Autotask; inventing a second numbers engine breaks trust. Third, the Sep 2026 **Reporting Agent** pack already locked draft ≠ send, vCIO as sign-off, and pack-as-truth. The uncomfortable gap: we do not yet have a Quest-specific recorded quote of “what are we paying for?”; the demand signal is company-wide. The pilot must produce buyer reaction evidence, not assume the report will be loved.
+Three prior starts teach the constraints for this decision. First, the Jan 2026 **value-add** HTML generator solved the same problem (show work clients cannot see), was **STOP’d in August 2026** under the RTEM mission filter, and was **superseded 19-09-2026** (DO NOT RESUME) in favour of Insights packs + Reporting Agent. Second, **Insights client packs** (WIP-027) already encode preventative vs end-user, jobs, and alignment from Autotask; inventing a second numbers engine breaks trust. Third, the Sep 2026 **Reporting Agent** pack already locked draft ≠ send, vCIO as sign-off, and pack-as-truth. The uncomfortable gap: we do not yet have a Quest-specific recorded quote of “what are we paying for?”; the demand signal is company-wide. The pilot must produce buyer reaction evidence, not assume the report will be loved.
 
-- Lesson: same problem already had a STOP’d tool; consolidate, don’t fork
+- Lesson: same problem already had a STOP’d tool; it is now **superseded** — consolidate, don’t fork
 - Lesson: numbers come only from Insights packs; agents never invent metrics
 - Lesson: vCIO approval is the gate; auto-send is out
 - Gap: Quest buyer reaction is untested; pilot must capture it

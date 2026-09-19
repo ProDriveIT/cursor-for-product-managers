@@ -8,7 +8,8 @@
 **1-pager:** [`prd/1-pager-client-monthly-report.md`](./prd/1-pager-client-monthly-report.md)  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)  
 **Prior art:** [`prior-art-github-repos.md`](./prior-art-github-repos.md)  
-**Related engineering:** [GitHub-Repos — reporting-kpi-automation](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-01%20reporting-kpi-automation), [agent-ecosystem-copilot (Reporting Agent)](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot), [archived reporting-client](https://github.com/ProDriveIT/GitHub-Repos/tree/main/90%20Archive/2026-01%20reporting-client)  
+**Canonical path (SSOT):** [`canonical-path.md`](./canonical-path.md) · [GitHub-Repos twin](https://github.com/ProDriveIT/GitHub-Repos/blob/main/00%20Meta/Client-Monthly-Report-Canonical-Path.md)  
+**Related engineering:** [GitHub-Repos — reporting-kpi-automation](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-01%20reporting-kpi-automation), [agent-ecosystem-copilot (Reporting Agent)](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot), [archived reporting-client — SUPERSEDED](https://github.com/ProDriveIT/GitHub-Repos/tree/main/90%20Archive/2026-01%20reporting-client)  
 **Related initiative:** [`../eos-operating-dashboard/`](../eos-operating-dashboard/) (EOS Facilitator / EHAN handoff — separate surface)
 
 ## Initiative Goal
@@ -27,6 +28,8 @@ The report must give a clear, client-facing picture of:
 ## Current Status
 
 - [x] Prior art inventoried (GitHub-Repos — see [`prior-art-github-repos.md`](./prior-art-github-repos.md))
+- [x] Stalled starts marked **superseded** / DO NOT RESUME (GitHub-Repos hygiene 19-09-2026)
+- [x] Canonical path SSOT published ([`canonical-path.md`](./canonical-path.md))
 - [x] Pilot named: Quest Fund Placement · vCIO Bruce · TAM Danny · ops James
 - [x] 1-pager drafted — [`prd/1-pager-client-monthly-report.md`](./prd/1-pager-client-monthly-report.md)
 - [ ] 1-pager signed (Bruce Approve on option A)
@@ -56,8 +59,9 @@ The report must give a clear, client-facing picture of:
 
 ## Quick Links
 
+- [Canonical path (SSOT)](./canonical-path.md)
 - [Prior art (GitHub-Repos)](./prior-art-github-repos.md)
-- [PRD](./prd/)
+- [1-pager](./prd/1-pager-client-monthly-report.md)
 - [User Research Summary](./user-interviews/synthesis/)
 - [Priority Opportunities](./opportunities/)
 - [Assumptions & Tests](./assumptions/)
