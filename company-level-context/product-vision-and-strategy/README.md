@@ -27,7 +27,7 @@
 | B | Sell these as services to existing clients |
 | C | Longer term — sell outside the managed-client base |
 
-**Verdict in map:** Estate Control (Standardiser spine + Archiver / SPAT / Travel / Inforcer / CE Mobile) is the coherent commercial family. EOS / Performance Hub stay internal. Minutes is a vertical SKU.
+**Verdict in map:** Estate Control (Standardiser spine + Archiver / SPAT / Travel / Inforcer / CE Mobile) is the coherent commercial family. EOS stays internal. Performance Hub **killed** (replaced by EOS). Minutes is a vertical SKU.
 
 ## Suggested next artifact
 

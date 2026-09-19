@@ -21,7 +21,7 @@ This map classifies every current initiative against those goals. Scores are **H
 
 **The portfolio is not yet a clear product offering.** It is three overlapping piles:
 
-1. **Internal operating system** — EOS dashboard, Performance Hub, EHAN/Facilitator  
+1. **Internal operating system** — EOS dashboard, EHAN/Facilitator (Performance Hub **killed**)  
 2. **Client M365 / SharePoint / identity tooling** — Standardiser, Archiver, SPAT, Travel, CE Mobile, Inforcer  
 3. **Vertical / narrative products** — MSP Meeting Minutes, Client Monthly Report  
 
@@ -29,7 +29,7 @@ Piles 2 and 3 can become a sellable line. Pile 1 must stay — but it is **not**
 
 **What will work:** Treat **M365 Estate Control** (Standardiser + Archiver + SPAT + Travel + Inforcer + CE Mobile) as one commercial family aimed at goals A and B, with **Standardiser as the spine** (design → audit → align → enforce). Sell **Minutes** and **Monthly Report** as attach / proof-of-value, not as the core catalogue.
 
-**What will not work:** Marketing ten separate “products” externally, or claiming every tool reduces RTEM. EOS and Performance Hub do not sell. Directory Group Review and half-built tooling dilute clarity until they join a family or die.
+**What will not work:** Marketing ten separate “products” externally, or claiming every tool reduces RTEM. EOS does not sell. Directory Group Review and half-built tooling dilute clarity until they join a family or die. **PD Performance Hub is killed** — do not revive a second internal KPI surface beside EOS.
 
 Evidence that would change this verdict: a named buyer (not James) already paying for a multi-tool “estate package,” or Autotask data showing Travel/Minutes as top RTEM killers vs SharePoint sprawl.
 

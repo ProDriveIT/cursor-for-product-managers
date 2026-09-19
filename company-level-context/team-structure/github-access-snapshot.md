@@ -13,7 +13,7 @@ Authenticated identity: **ProDriveIT** (user account). `gh` CLI often cannot lis
 | [prodrive-agent-ops](https://github.com/ProDriveIT/prodrive-agent-ops) | Agent Ops platform + Travel / SPAT / CE Mobile / Archiver |
 | [msp-meeting-minutes-agent](https://github.com/ProDriveIT/msp-meeting-minutes-agent) | Live meeting minutes product |
 | [inforcer-alignment-portal](https://github.com/ProDriveIT/inforcer-alignment-portal) | Inforcer alignment SWA |
-| [pd-performance-hub](https://github.com/ProDriveIT/pd-performance-hub) | Team KPI / review app |
+| [pd-performance-hub](https://github.com/ProDriveIT/pd-performance-hub) | **Killed** — historical; replaced by EOS |
 | [Pro-Drive-IT-Limited/ProDrive-EOS](https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS) | EOS product engineering |
 
 ## Public repositories

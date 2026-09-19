@@ -86,7 +86,7 @@ This file is the grounding reference for Cursor skills in this workspace. Prefer
 | 2 | Client monthly reports — one client, full HTML | Quest (or named pilot) complete HTML Pro Drive will show externally |
 | 3 | Self-Service Travel — evidence sprint | Only after #1 and #2; then 1-Day Evidence Sprint → re-run PRISM |
 
-Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Inforcer portal, Performance Hub) are **operational / core Estate Control** — maintain under change control; do not displace #1–#3 unless James reorders in writing. See [product map](./product-vision-and-strategy/product-map.md) for how they score on RTEM / services / external sales.
+Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Inforcer portal) are **operational / core Estate Control** — maintain under change control; do not displace #1–#3 unless James reorders in writing. See [product map](./product-vision-and-strategy/product-map.md) for how they score on RTEM / services / external sales. **PD Performance Hub is killed** — replaced by EOS ([archive](../initiatives/archive/pd-performance-hub-summary.md)).
 
 ---
 
@@ -120,7 +120,12 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 | Initiative | Status | Notes |
 |------------|--------|-------|
 | [MSP Meeting Minutes](../initiatives/msp-meeting-minutes/) | **Live · stable v1.0** | CoSec vertical — **change freeze without James Stock input** |
-| [PD Performance Hub](../initiatives/pd-performance-hub/) | **Built · adoption unclear** | Internal only — not a commercial SKU |
+
+### Killed
+
+| Initiative | Status | Notes |
+|------------|--------|-------|
+| [PD Performance Hub](../initiatives/archive/pd-performance-hub/) | **Killed 2026-09-19** | Replaced by EOS Operating Dashboard / Scorecard path — do not resume |
 
 ### Below initiative threshold (track here only)
 
@@ -177,13 +182,13 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 - **Engineering:** https://github.com/ProDriveIT/prodrive-agent-ops/tree/main/products/sharepoint-standardiser
 - **Initiative:** [`initiatives/sharepoint-standardiser/`](../initiatives/sharepoint-standardiser/)
 
-### F–I. Other Estate Control + internal
+### F–H. Other Estate Control + killed
 
 - **SPAT** — snapshot “who can open this?” for client IT Contacts; Pixel live  
 - **CE Mobile Status** — phone readiness gate; Automation Account schedules  
 - **SharePoint Archiver** — non-synced Archive library pattern (OneDrive 300k)  
 - **Inforcer Alignment Portal** — browsable baseline alignment (Azure SWA; Entra-locked to Pro Drive)  
-- **PD Performance Hub** — manager KPI dashboard + BreatheHR PDFs (desktop Flask app; not a SKU)
+- **~~PD Performance Hub~~** — **Killed** 2026-09-19; replaced by EOS ([archive summary](../initiatives/archive/pd-performance-hub-summary.md))
 
 ---
 
@@ -197,7 +202,7 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 | [ProDriveIT/prodrive-agent-ops](https://github.com/ProDriveIT/prodrive-agent-ops) | Multi-tenant app-only Agent Ops + product folders (Travel is separate Entra app) |
 | [ProDriveIT/msp-meeting-minutes-agent](https://github.com/ProDriveIT/msp-meeting-minutes-agent) | Meeting minutes product |
 | [ProDriveIT/inforcer-alignment-portal](https://github.com/ProDriveIT/inforcer-alignment-portal) | Alignment portal site |
-| [ProDriveIT/pd-performance-hub](https://github.com/ProDriveIT/pd-performance-hub) | Performance Hub |
+| [ProDriveIT/pd-performance-hub](https://github.com/ProDriveIT/pd-performance-hub) | **Killed** — historical only; replaced by EOS |
 | [ProDriveIT/Pro-Drive-Public](https://github.com/ProDriveIT/Pro-Drive-Public) | Public service desk docs / runbooks |
 | [ProDriveIT/cursor-for-product-managers](https://github.com/ProDriveIT/cursor-for-product-managers) | This PM toolkit |
 | [ProDriveIT/CIPP](https://github.com/ProDriveIT/CIPP) / [CIPP-API](https://github.com/ProDriveIT/CIPP-API) | M365 multitenant management forks |
@@ -219,7 +224,7 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 - Work order + SST strategy: [`product-vision-and-strategy/`](./product-vision-and-strategy/)
 - Proposed V/TO seed: Supporting Data `50-eos/vision/` (not yet Agreed)
 - OKRs: [`okrs/`](./okrs/)
-- Team / R&R: [`team-structure/`](./team-structure/) — Acc Chart draft in §2; Performance Hub org codes: BP, MT, JS, DB, CR, DS
+- Team / R&R: [`team-structure/`](./team-structure/) — Acc Chart draft in §2; historical org codes BP, MT, JS, DB, CR, DS (were in Performance Hub; still useful as people shorthand)
 
 Until those folders have agreed docs, treat this file + the product map as the primary company context.
 
@@ -244,13 +249,12 @@ Snapshot: [`team-structure/github-access-snapshot.md`](./team-structure/github-a
 1. **Reconcile Focus Day dates** — Supporting Data says 17 Sep 2026; EOS initiative materials say 1 Oct 2026. Confirm what happened and what is next with Rob.
 2. **MSP Meeting Minutes change control** — James to define who may propose changes and how freeze is lifted (**explicit owner action**).
 3. **Product map decisions** — Approve Estate Control family name; confirm Standardiser as spine; whether Estate Control gets capacity after #1 or only via PS delivery ([product-map.md](./product-vision-and-strategy/product-map.md) §8).
-4. **PD Performance Hub** — confirm whether managers still use it, or archive / Power Platform path wins.
-5. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path.
-6. Confirm L10 bake-off dates relative to Focus Day outcome.
-7. Client reporting commercially: separate product vs export of same data spine — still open.
-8. Will Rob facilitate from the CEOS dashboard after Focus Day / Vision Building?
-9. Promote missing live product clients (Pixel, Brunner, David Shepherd, CSC) into `35-clients/` packs where durable truth is needed.
-10. Define which Autotask categories count toward Estate Control RTEM impact.
+4. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path.
+5. Confirm L10 bake-off dates relative to Focus Day outcome.
+6. Client reporting commercially: separate product vs export of same data spine — still open.
+7. Will Rob facilitate from the CEOS dashboard after Focus Day / Vision Building?
+8. Promote missing live product clients (Pixel, Brunner, David Shepherd, CSC) into `35-clients/` packs where durable truth is needed.
+9. Define which Autotask categories count toward Estate Control RTEM impact.
 
 ---
 

@@ -33,7 +33,7 @@ When moving an initiative to archive:
 
 ## 🔍 Quick Reference
 Recent archived initiatives:
-- [Add completed initiative summaries here]
+- [PD Performance Hub](./pd-performance-hub-summary.md) — **Killed** 2026-09-19; replaced by EOS
 
 ---
 *Archived initiatives provide valuable organizational learning and context.*
