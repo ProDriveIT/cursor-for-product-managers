@@ -69,7 +69,7 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 | Product | Repo | Status from this agent |
 |---------|------|------------------------|
 | EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **Analysed 2026-09-19** — M365-native path decided; Azure dashboard superseded; Hub live |
-| Client monthly reports | TBD | Initiative started — [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) |
+| Client monthly reports | [GitHub-Repos](https://github.com/ProDriveIT/GitHub-Repos) — KPI automation + Reporting Agent; archived `reporting-client` | PM initiative: [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · prior art notes therein |
 | EOS in Practice (business notes) | https://github.com/ProDriveIT/Github-SupportingData (`50-eos`) | Sister knowledge home |
 
 ---
@@ -89,11 +89,12 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
 
-### B. Client monthly reports (active — planning)
+### B. Client monthly reports (active — planning; prior art exists)
 
-- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business/VC TAM updates — so clients understand what they pay for when reactive tickets drop.
-- **Depends on:** Stable operational data contract (likely after EOS dashboard data spine is clear); named pilot clients and owner.
-- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/)
+- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business / **vCIO / TAM** updates — so clients understand what they pay for when reactive tickets drop.
+- **Prior starts (GitHub-Repos):** archived `90 Archive/2026-01 reporting-client` (value-add HTML, STOP’d Aug 2026); active Insights packs in `reporting-kpi-automation` (WIP-027); active **Reporting Agent** in `2026-09 agent-ecosystem-copilot` (draft → **vCIO** sign-off → send).
+- **Depends on:** Insights client packs in prod; named pilot client + pilot **vCIO**; external reports repo for HTML assembly.
+- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [`prior-art-github-repos.md`](../initiatives/client-monthly-report/prior-art-github-repos.md)
 
 ---
 
