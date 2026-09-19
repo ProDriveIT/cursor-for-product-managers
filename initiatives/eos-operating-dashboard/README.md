@@ -28,7 +28,9 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 - [x] Hub use test *(dummy L10 — Lists feel like fudge; zero LT engagement)*
 - [x] One-pager revised to **C′** *(revive Azure/CEOS dashboard)*
 - [ ] Decision Register updated in ProDrive-EOS — **draft PR open:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/3
+- [x] Dashboard stand-up package — **draft PR open:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/4
 - [ ] Bruce + Matt sign-off on C′
+- [ ] Azure App Service provision (`az login` on Pro Drive admin machine)
 - [ ] Dashboard bake-off (2 L10s)
 - [ ] Five consecutive pure-EOS L10s recorded
 
@@ -38,6 +40,8 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 - [1-pager](./prd/1-pager-eos-operating-dashboard.md)
 - [Engineering repo analysis](./engineering-repo-analysis.md)
 - [Diagnostic notes](./diagnostic-eos-dashboard.md)
+- [Bake-off runbook (ProDrive-EOS)](https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/blob/cursor/stand-up-l10-dashboard-d8ca/prodrive/deployment/Dashboard-Bakeoff-Runbook.md)
+- [Stand-up PR #4](https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/4)
 
 ## Notes
 

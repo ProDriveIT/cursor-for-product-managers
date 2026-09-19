@@ -70,6 +70,20 @@ Until that PR merges, treat the branch as the source of truth for agents on that
 
 ---
 
+## Stand-up (Phase 0) — in progress
+
+**Draft PR:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/4 (branch `cursor/stand-up-l10-dashboard-d8ca`)
+
+| Open today | How |
+|------------|-----|
+| Local host | `python apps/eos-dashboard/server.py` → `http://localhost:8000/` (after `python dashboard/build.py`) |
+| Artifact | Actions → Build Pro Drive EOS dashboard → download `prodrive-eos-dashboard` |
+| Azure | `prodrive/deploy/azure/` after `az login` — target `eos.prodriveit.co.uk` + Easy Auth |
+
+Runbook: `prodrive/deployment/Dashboard-Bakeoff-Runbook.md` on the stand-up branch.
+
+---
+
 ## Sign-off
 
 | Name | Role | Decision (C′/A′′/B′/D) | Date |
