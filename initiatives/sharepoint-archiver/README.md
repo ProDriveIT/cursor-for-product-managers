@@ -4,7 +4,8 @@
 **Owner:** James Stock  
 **Stakeholders:** Client SharePoint owners facing OneDrive 300k sync limits; Pro Drive delivery engineers  
 **Engineering:** https://github.com/ProDriveIT/prodrive-agent-ops/tree/main/products/sharepoint-archiver  
-**Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
+**Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)  
+**Product map:** [`../../company-level-context/product-vision-and-strategy/product-map.md`](../../company-level-context/product-vision-and-strategy/product-map.md) · family: **Estate Control** (module under Standardiser spine)
 
 ## Initiative Goal
 
