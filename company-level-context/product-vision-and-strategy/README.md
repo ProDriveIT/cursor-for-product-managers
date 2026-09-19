@@ -13,7 +13,7 @@
 Until a full vision doc exists, use:
 
 - [`../prodrive-context.md`](../prodrive-context.md) — factual operating context
-- Initiative: [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/)
+- Initiatives: [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/), [`../../initiatives/client-monthly-report/`](../../initiatives/client-monthly-report/)
 
 ## Suggested next artifact
 

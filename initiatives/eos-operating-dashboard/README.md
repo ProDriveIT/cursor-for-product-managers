@@ -43,7 +43,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 
 - 03 Sep “Azure superseded” row is pending reversal based on Hub usability evidence.
 - CEOS skills (`ceos-l10` etc.) remain the behavioural spec for the dashboard.
-- Client monthly reports remain a separate later initiative.
+- Client monthly reports: separate initiative — [`../client-monthly-report/`](../client-monthly-report/).
 
 ---
 *Created from initiatives template.*

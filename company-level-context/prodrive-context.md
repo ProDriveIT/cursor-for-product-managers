@@ -69,7 +69,7 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 | Product | Repo | Status from this agent |
 |---------|------|------------------------|
 | EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **Analysed 2026-09-19** — M365-native path decided; Azure dashboard superseded; Hub live |
-| Client monthly reports | TBD | Not started in this workspace |
+| Client monthly reports | TBD | Initiative started — [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) |
 | EOS in Practice (business notes) | https://github.com/ProDriveIT/Github-SupportingData (`50-eos`) | Sister knowledge home |
 
 ---
@@ -89,11 +89,11 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
 
-### B. Client monthly reports (parked)
+### B. Client monthly reports (active — planning)
 
-- **Intent:** Client-facing monthly proof of work / value.
-- **Depends on:** Stable operational data contract (likely after EOS dashboard data spine is clear).
-- **Initiative:** Not created yet — create after EOS diagnostic survives.
+- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business/VC TAM updates — so clients understand what they pay for when reactive tickets drop.
+- **Depends on:** Stable operational data contract (likely after EOS dashboard data spine is clear); named pilot clients and owner.
+- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/)
 
 ---
 
@@ -126,5 +126,5 @@ Do not invent live Scorecard/Rock values from GitHub `data/` — that tree is fi
 2. Implementer name; will they run from this console?
 3. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path
 4. First Monday L10 date on the new console
-5. Client reporting: separate product or export of same data spine? *(parked)*
+5. Client reporting: separate product or export of same data spine? *(initiative started — still open)*
 
