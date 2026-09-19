@@ -2,7 +2,7 @@
 
 **Status:** Skeleton — fill gaps before heavyweight PRDs.  
 **Last updated:** 2026-09-19  
-**Owner:** TBD
+**Owner:** James Stock (Integrator)
 
 This file is the grounding reference for Cursor skills in this workspace. Incomplete sections are marked `TODO`. Prefer short, factual bullets over marketing language.
 

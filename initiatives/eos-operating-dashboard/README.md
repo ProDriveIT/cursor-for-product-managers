@@ -1,9 +1,10 @@
 # EOS Operating Dashboard
 
 **Status:** Decision revision — Hub/Lists rejected after use; revive CEOS/Azure L10 dashboard  
-**Timeline:** TBD — 2-meeting dashboard bake-off  
+**Timeline:** Bake-off before **Focus Day 1 Oct 2026** (Rob Liddiard); then 5 consecutive pure L10s  
 **Owner:** James Stock (Integrator)  
-**Stakeholders:** James, Bruce Penson (Visionary), Matt Taylor, Rob / Mission Group (coach)  
+**Stakeholders:** James, Bruce Penson (Visionary), Matt Taylor, **Rob Liddiard** (Mission Group — implementer)  
+**Roadmap:** [`roadmap.md`](./roadmap.md)  
 **Engineering repo:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS  
 **Live Hub (rejected as L10 board):** https://prodrive365.sharepoint.com/sites/ManagementTeam  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)  
