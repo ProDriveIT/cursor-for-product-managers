@@ -53,8 +53,8 @@ Evidence that would change this verdict: a named buyer (not James) already payin
 └────────┘ └────────────────────┘  └──────────────────┘
     │              │                        │
     │              ├ Monthly Report         ├ EOS Dashboard
-    │              └ (Reporting Agent)      ├ Performance Hub
-    │                                       └ Facilitator / EHAN
+    │              └ (Reporting Agent)      └ Facilitator / EHAN
+    │                         (~~Performance Hub~~ killed → EOS)
     ├ ★ SharePoint Standardiser  ← spine
     ├ SharePoint Archiver
     ├ SPAT
@@ -83,7 +83,7 @@ Specialist vertical (B now → C later):
 | Client Monthly Report | Proof / attach | Planning | Low* | **High** | Low | Make proactive work visible when tickets drop |
 | MSP Meeting Minutes | Vertical | Live · freeze | Low | **High** (niche) | **High** | Board minutes from audio + pack |
 | EOS Operating Dashboard | Internal OS | Priority #1 | None | None | None | Leadership L10 fidelity |
-| PD Performance Hub | Internal OS | Unclear | None | None | None | Manager KPI / BreatheHR reviews |
+| ~~PD Performance Hub~~ | — | **Killed** | — | — | — | Replaced by EOS (2026-09-19) |
 | Directory Group Review | Below bar | Local tool | Med | Low | Low | HTML group membership review |
 | Agent Ops / CIPP | Platform | Infra | — | — | — | Enable products; not sold |
 
@@ -126,7 +126,7 @@ Specialist vertical (B now → C later):
 
 ### What breaks coherence
 
-1. **Calling EOS / Performance Hub / EHAN “products” in the same catalogue** — buyers do not care; LT should not either when discussing SKUs.  
+1. **Calling EOS / EHAN “products” in the same catalogue as Estate Control** — buyers do not care; LT should not either when discussing SKUs. Performance Hub already killed for this reason.  
 2. **Ten parallel initiatives without a family owner** — capacity will keep shipping islands; RTEM will not move as a system metric.  
 3. **Selling C before B is productised** — external sales need packaging, support, pricing, and a buyer who is not already on Autotask. Travel is closest; Standardiser is not ready for C until provisioning + support model exist.  
 4. **Monthly Report as a “product” without Estate Control outcomes to report** — risk of a pretty HTML that still cannot answer “what did you do?” if Align/Enforce work is invisible.
@@ -136,7 +136,7 @@ Specialist vertical (B now → C later):
 | Goal | Put weight on | Defer / ring-fence |
 |------|---------------|-------------------|
 | **A RTEM** | Standardiser, Archiver, Inforcer, SPAT, Travel | EOS (internal), Minutes (niche RTEM), Monthly Report (narrative) |
-| **B Services** | Package Estate Control as SOW modules; Monthly Report as retain/expand proof; Minutes as CoSec SKU | Performance Hub; Directory Group Review |
+| **B Services** | Package Estate Control as SOW modules; Monthly Report as retain/expand proof; Minutes as CoSec SKU | Directory Group Review; killed Performance Hub |
 | **C External** | Travel first (live + packagable); Minutes second (niche but productised); Estate Control only after repeatable enrol + support | Everything that still needs James on every client |
 
 ---
@@ -158,7 +158,8 @@ What would change my mind: Scorecard shows RTEM already ≤0.50 and stuck on com
 | Estate Control | [`sharepoint-standardiser`](../../initiatives/sharepoint-standardiser/), [`sharepoint-archiver`](../../initiatives/sharepoint-archiver/), [`sharepoint-permissions-audit`](../../initiatives/sharepoint-permissions-audit/), [`self-service-travel`](../../initiatives/self-service-travel/), [`inforcer-alignment-portal`](../../initiatives/inforcer-alignment-portal/), [`ce-mobile-status`](../../initiatives/ce-mobile-status/) |
 | Proof / attach | [`client-monthly-report`](../../initiatives/client-monthly-report/) |
 | Vertical | [`msp-meeting-minutes`](../../initiatives/msp-meeting-minutes/) |
-| Internal OS | [`eos-operating-dashboard`](../../initiatives/eos-operating-dashboard/), [`pd-performance-hub`](../../initiatives/pd-performance-hub/) |
+| Internal OS | [`eos-operating-dashboard`](../../initiatives/eos-operating-dashboard/) |
+| Killed | [`archive/pd-performance-hub`](../../initiatives/archive/pd-performance-hub/) — replaced by EOS |
 
 ---
 
