@@ -2,29 +2,29 @@
 
 **Status:** Planning  
 **Timeline:** TBD  
-**Owner:** You (Integrator)  
-**Stakeholders:** You (Integrator), Bruce (MD), Matt (management), third-party EOS implementer (name TBD), eng owner of Azure hosting  
+**Owner:** James (Integrator)  
+**Stakeholders:** James (Integrator), Bruce (MD), Matt (management), third-party EOS implementer (name TBD), eng owner of Azure hosting  
 **Engineering repo:** `ProDrive-EOS` (assumed) — **not accessible from this workspace yet**  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
+**1-pager:** [`prd/1-pager-eos-operating-dashboard.md`](./prd/1-pager-eos-operating-dashboard.md)
 
 ## Initiative Goal
 
-Make the **Integrator’s** EOS week workable: one opinionated portal where leadership updates Scorecard/KPIs, Rocks, and Issues (and you run L10 from the same SSOT) — so chase/admin cost drops and you can hold Bruce and Matt to the process.
+Make **James’s** EOS week workable: Leadership L10 room mode on Azure / M365 / Copilot so Friday prep stays under 20 minutes, Monday L10 runs pure EOS from one Scorecard/agenda/Issues/To-Dos screen, and Bruce/Matt have a single plan to follow.
 
-**Working v1 hypothesis:** **B — Leadership L10 room mode** (fixed agenda, Scorecard, Issues, To-Dos on shared screen). Optimize for Integrator facilitation and Bruce’s “what next / why.”
+**Success bar:** 5 consecutive pure-EOS leadership L10s; KPIs via dashboard and/or current automated+manual → spreadsheet path mirrored to the Scorecard.
 
-**v1.1 (after first real L10s):** Matt’s 2-minute async Scorecard/Rock updates.
-
-**Explicit non-goals for v1:** Time logging (dropped), AI chase/automation, Focus Days, department Traction, Bruce customization sandbox.
+**Working v1:** L10 room mode only. **v1.1:** Matt async updates. **Out:** time logging, AI chase, departments, Focus Days, third-party SaaS.
 
 ## Current Status
 
 - [ ] User Research Complete
 - [ ] Opportunities Identified
-- [x] Failure post-mortem captured *(SSOT gap + MD process drift + passenger departments)*
-- [x] Primary user named *(Integrator — you; contributors Bruce, Matt)*
-- [x] Product diagnostic survived *(wedge = L10 room mode B; conditions apply)*
-- [ ] One-pager drafted
+- [x] Failure post-mortem captured
+- [x] Primary user named *(James — Integrator)*
+- [x] Product diagnostic survived *(wedge = L10 room mode)*
+- [x] One-pager drafted *([prd/1-pager-eos-operating-dashboard.md](./prd/1-pager-eos-operating-dashboard.md))*
+- [ ] One-pager signed off *(James, Bruce, Matt)*
 - [ ] PRD Drafted / prototype built
 - [ ] Tasks Generated
 - [ ] Development Started (in engineering repo)

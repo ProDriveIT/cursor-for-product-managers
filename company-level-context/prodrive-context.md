@@ -27,11 +27,13 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 | EOS status | **Not in use.** Prior adoption abandoned. Re-adopting via custom dashboard + third-party implementer. |
 | Why prior attempt failed | (1) No SSOT — whiteboard/notes/Teams/SharePoint, inconsistent by person/week; (2) MD (Bruce) adapted process until it wasn’t EOS; peers didn’t challenge; (3) Implementer role exists to hold accountability; (4) Department Traction became solo/passenger meetings; pick-and-choose process |
 | EOS champion (named person) | TODO — distinguish from Integrator |
-| Integrator / Visionary (named) | **Integrator: you (repo owner / PM in this workspace).** Visionary/MD: **Bruce**. Management peer: **Matt** (time-poor) |
+| Integrator / Visionary (named) | **Integrator: James.** Visionary/MD: **Bruce**. Management peer: **Matt** (time-poor) |
 | Third-party EOS implementer | **Yes** — accountability / process fidelity (esp. vs Bruce drift). Name: TODO |
-| Cadence | **None live yet.** Ambition: L10 → Focus Days → Traction; management first, then departments |
+| Cadence | Target: Monday L10; James prep Friday. **Not live yet** on the new console |
+| KPI pipeline today | Mix of automated + manual → spreadsheet → management Scorecard → (planned) same numbers on dashboard |
+| Hosting constraint | **Azure + Microsoft 365 + Copilot only.** Self-hosted in Pro Drive. **No third-party tools** |
 | Tools used in failed attempt | Whiteboard/loop, notes, Teams, SharePoint (no single system) |
-| Pain / risk | Integrator admin + chase load; Bruce process drift; Matt update friction; prior SSOT chaos. Risk: scope → PSA/AI platform before L10 habit |
+| Pain / risk | Integrator admin + chase load; Bruce process drift; Matt update friction; prior SSOT chaos. Risk: scope → platform before L10 habit |
 
 **EOS components — aspiration vs live:**
 
@@ -76,15 +78,17 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 ### A. EOS Operating Dashboard (priority)
 
 - **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
-- **Primary users (named):** **You (Integrator)** — admin, number collection, chase. Contributors: **Matt** (fast KPI/Rock updates), **Bruce** (stay on plan in L10). Implementer uses SSOT for accountability.
-- **Job to be done (working):** Make the Integrator’s weekly EOS admin/chase cheap enough that leadership L10 can stick; give Bruce an on-screen “what next / why”; give Matt a 2-minute update path
-- **v1 wedge (locked):** **B — Leadership L10 room mode** — fixed agenda + Scorecard + Issues + To-Dos on shared screen (“what next / why”)
-- **v1.1 (next):** Thin async Scorecard/Rock updates for Matt (2-minute path) once room mode is proven
-- **Out of scope for v1:** Time logging (**dropped**), AI chase, Focus Days, department Traction, Bruce customization, analytics/agents platform
-- **Non-software dependency:** Implementer + you enforce drift in-meeting; Bruce accepts fixed agenda for trial
-- **Named people so far:** You (Integrator), Bruce (MD), Matt (time-poor management), implementer (name TODO)
-- **First L10 date:** TODO
+- **Primary users (named):** **James (Integrator)** — admin, number collection, chase. Contributors: **Matt** (fast KPI/Rock updates later), **Bruce** (stay on plan in L10). Implementer uses SSOT for accountability.
+- **Job to be done (working):** Make James’s Friday L10 prep under 20 minutes and run Monday L10 from one SSOT so Bruce/Matt stick to pure EOS
+- **Success bar (90-day style):** 5 consecutive pure-EOS leadership L10s; KPIs on dashboard before meeting or via current automated/manual → spreadsheet path mirrored to Scorecard
+- **v1 wedge (locked):** **B — Leadership L10 room mode** on Azure / M365 / Copilot only
+- **v1.1 (next):** Thin async Scorecard/Rock updates for Matt once room mode is proven
+- **Out of scope for v1:** Time logging (**dropped**), AI chase, Focus Days, department Traction, Bruce customization, third-party SaaS
+- **Decision:** 1-pager recommends build now (option A); sign-off required from James, Bruce, and Matt
+- **Named people so far:** James (Integrator), Bruce (MD), Matt (management), implementer (name TODO)
+- **First L10 date:** TODO (Monday cadence)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
+- **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
 
 ### B. Client monthly reports (parked)
@@ -121,8 +125,9 @@ It **cannot** resolve `ProDriveIT/ProDrive-EOS` (or `prodrive-eos` / `EOS`). Pri
 
 ## 7. Open questions (block clarity)
 
-1. Exact name and location of the EOS engineering repo?
-2. Who is the named primary user of the EOS dashboard?
-3. What is the current weekly workaround for Level 10 / Scorecard / Rocks?
-4. Azure tenancy and hosting constraints (Entra ID, region, CIPP relationship)?
-5. Is client reporting a separate product or an export surface of the same data spine?
+1. Exact name and location of the EOS engineering repo? *(still blocking for build)*
+2. Implementer name; will they run from this console?
+3. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path
+4. First Monday L10 date on the new console
+5. Client reporting: separate product or export of same data spine? *(parked)*
+
