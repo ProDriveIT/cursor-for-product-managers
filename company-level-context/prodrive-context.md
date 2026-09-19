@@ -24,13 +24,14 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 
 | Field | Value |
 |-------|--------|
-| EOS status | **Not in use.** Prior adoption attempt abandoned. Re-adopting via custom dashboard. |
-| Why prior attempt failed | Effort maintaining **separate EOS tools** (details TBD — which tools / weekly tasks) |
-| EOS champion (named person) | TODO |
-| Integrator / Visionary (named) | TODO |
-| Cadence | **None live yet.** Target: L10, Focus Days, Traction in one site (management first, then departments) |
-| Tools used for EOS today | None active — TODO: list tools used in the failed attempt |
-| Pain with current EOS tooling | N/A (not running). Risk: recreating admin burden inside one app |
+| EOS status | **Not in use.** Prior adoption abandoned. Re-adopting via custom dashboard + third-party implementer. |
+| Why prior attempt failed | (1) No SSOT — whiteboard/notes/Teams/SharePoint, inconsistent by person/week; (2) MD (Bruce) adapted process until it wasn’t EOS; peers didn’t challenge; (3) Implementer role exists to hold accountability; (4) Department Traction became solo/passenger meetings; pick-and-choose process |
+| EOS champion (named person) | TODO — distinguish champion vs MD vs implementer |
+| Integrator / Visionary (named) | Visionary/MD: **Bruce**. Integrator: TODO |
+| Third-party EOS implementer | **Yes** — accountability / keep process faithful (esp. vs Bruce drift). Name: TODO |
+| Cadence | **None live yet.** Ambition: L10 → Focus Days → Traction; management first, then departments |
+| Tools used in failed attempt | Whiteboard/loop, notes, Teams, SharePoint (no single system) |
+| Pain / risk | Process drift and weak challenge culture; tool sprawl was real but secondary. Risk: building software as a substitute for authority |
 
 **EOS components — aspiration vs live:**
 
@@ -76,9 +77,11 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 - **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
 - **Primary users (named):** TODO — management team first; then department leads (names required)
-- **Job to be done (working):** Make a **second EOS adoption** stick by collapsing tool maintenance into one system of record
-- **v1 wedge (hypothesis):** Whatever maintenance tasks killed attempt #1 — likely L10 loop (Scorecard + Issues + To-Dos) before Focus Days / full Traction / agents
-- **Out of scope for v1 (coach recommendation):** Department portals, analytics platform, agent hooks, “all of EOS” — until one team runs 8 consecutive L10s
+- **Job to be done (working):** Provide a **canonical, hard-to-fork** place to run leadership EOS (L10 first) so the implementer and peers can enforce agreed process vs ad-hoc variants; later departments, reporting, agents
+- **v1 wedge (hypothesis):** Opinionated leadership L10 (Scorecard + Rocks + Issues + To-Dos + same agenda every week) — **not** customizable “Bruce mode,” not Focus Days/departments/agents yet
+- **Out of scope for v1 (coach recommendation):** Department Traction, Focus Days, analytics platform, agent hooks, deep customization — until ~8 consecutive real leadership L10s
+- **Non-software dependency:** Implementer + at least one non-Bruce leader willing to challenge drift in-meeting using the SSOT
+- **Named people so far:** Bruce (MD / process drift risk). Implementer name: TODO. Integrator / product owner: TODO
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 - **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
 

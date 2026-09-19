@@ -3,21 +3,24 @@
 **Status:** Planning  
 **Timeline:** TBD  
 **Owner:** TBD (Pro Drive product owner)  
-**Stakeholders:** TBD — Integrator, Visionary, department heads, eng owner of Azure hosting  
+**Stakeholders:** Bruce (MD), third-party EOS implementer (name TBD), management team, eng owner of Azure hosting  
 **Engineering repo:** `ProDrive-EOS` (assumed) — **not accessible from this workspace yet**  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
 
 ## Initiative Goal
 
-Enable a **second EOS adoption** at Pro Drive by putting L10, Focus Days, Traction, and related operating work in one Azure-hosted site — so the management team (later departments) is not killed by multi-tool maintenance like last time. Persist structured data for later reporting, analysis, and agents.
+Enable a **second EOS adoption** with a single Azure-hosted **system of record** for leadership operating rhythm — so process isn’t reinvented each week in Teams/SharePoint/notes, and the third-party implementer (plus peers) can point at an agreed plan when the MD drifts off EOS.
 
-**Working v1 hypothesis (unvalidated):** Ship only the meeting loop that removes the *named* admin burden from the failed attempt (likely Scorecard + Issues + To-Dos for L10). Defer Focus Days, full Traction suite, department rollouts, analytics, and agents until one team completes ~8 consecutive L10s.
+**Working v1 hypothesis:** Opinionated **leadership L10 only** (fixed agenda, Scorecard, Rocks, Issues, To-Dos). Defer Focus Days, department Traction, analytics, and agents until ~8 consecutive L10s with real multi-person participation.
+
+**Explicit non-goal for v1:** Software that “manages Bruce.” Authority stays with implementer + leadership; product makes drift visible and costly to ignore.
 
 ## Current Status
 
 - [ ] User Research Complete
 - [ ] Opportunities Identified
-- [ ] Product diagnostic survived *(in progress — pre-adoption; prior attempt abandoned)*
+- [x] Failure post-mortem captured *(SSOT gap + MD process drift + passenger departments)*
+- [ ] Product diagnostic survived *(in progress)*
 - [ ] One-pager drafted
 - [ ] PRD Drafted / prototype built
 - [ ] Tasks Generated
@@ -52,9 +55,11 @@ Enable a **second EOS adoption** at Pro Drive by putting L10, Focus Days, Tracti
 
 ## Notes
 
-- This PM toolkit repo holds discovery and specs only. Application code lives in the EOS engineering repo once access is confirmed.
-- Client monthly reports are intentionally **not** in this initiative; they depend on a clear data spine and should get their own folder later.
-- CIPP / CIPP-API under ProDriveIT may matter for M365/Azure tenant context — do not assume they are the EOS product.
+- Prior attempt: inconsistent artifacts (loop/notes/Teams/SharePoint); Bruce adapted EOS; peers didn’t challenge; implementer hired for accountability; ops Traction collapsed to solo meeting.
+- Design implication: **rigidity over flexibility** in v1.
+- This PM toolkit holds discovery/specs only; app code lives in the engineering repo once accessible.
+- Client monthly reports are a separate later initiative.
+- CIPP / CIPP-API may matter for M365/Azure context — not the EOS product.
 
 ---
 *Created from initiatives template. Use `/setup-initiative` for new initiatives.*
