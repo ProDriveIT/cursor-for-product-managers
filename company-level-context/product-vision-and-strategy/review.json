@@ -1,0 +1,242 @@
+{
+  "skill": "product-strategy-review",
+  "framework": "PRISM",
+  "product_or_area": "Pro Drive Self-Service Travel",
+  "owner": "James Stock",
+  "review_window": {
+    "start": null,
+    "end": null
+  },
+  "reviewed_at": "2026-09-19",
+  "updated_at": "2026-09-19",
+  "work_order": {
+    "link": "company-level-context/product-vision-and-strategy/product-work-order.md",
+    "sequence": [
+      "EOS Operating Dashboard — L10-ready",
+      "Client-facing reports — one client full HTML",
+      "PD SST — evidence sprint day"
+    ],
+    "sst_position": 3
+  },
+  "doc_link": "company-level-context/product-vision-and-strategy/self-service-travel-strategy.md",
+  "evidence_hub_link": "initiatives/self-service-travel/",
+  "company_context_link": "company-level-context/prodrive-context.md",
+  "evidence_gate": {
+    "status": "HOLD",
+    "core_count": 1,
+    "required_minimum": 4,
+    "must_include": [2, 3],
+    "core_items": [
+      {
+        "id": 1,
+        "name": "last_180_day_signals",
+        "met": false,
+        "detail": "Zero dated founder/customer notes, tickets, or competitor moves in hub; only intake claim that tool is live for MSP Org."
+      },
+      {
+        "id": 2,
+        "name": "riskiest_assumptions_tagged",
+        "met": false,
+        "detail": "Starters in assumptions/riskiest-assumptions.md; A1/A2 tests not designed/run; A3 sequencing accepted via work order."
+      },
+      {
+        "id": 3,
+        "name": "success_criterion",
+        "met": false,
+        "detail": "Template at prd/success-criterion.md; no chosen OMTM or threshold."
+      },
+      {
+        "id": 4,
+        "name": "discovery_plan_or_okr_draft",
+        "met": false,
+        "detail": "Outline at prd/discovery-plan-2wk.md; dates/owners not set until sprint day."
+      },
+      {
+        "id": 5,
+        "name": "versioned_evidence_hub",
+        "met": true,
+        "detail": "Hub created at initiatives/self-service-travel/ and linked from strategy draft."
+      }
+    ],
+    "advanced_items_met": 0,
+    "auto_escalate": false,
+    "hold_reason": "≤3 core items met; missing mandatory #2 and #3. Intake is a three-item feature list, not a strategy."
+  },
+  "riskiest_assumptions": [],
+  "baseline_metric": null,
+  "north_star": null,
+  "capacity_window": null,
+  "runway_months": null,
+  "prism_scores": {
+    "P_problem_diagnosis": {
+      "score": 0,
+      "rationale": "No causal analysis, JTBD, or behavioral data. Limitations are solution labels (reporting, one-click deploy, onboarding).",
+      "citations": [
+        "[[ev-intake|company-level-context/product-vision-and-strategy/self-service-travel-strategy.md#L15-L22|2026-09-19]]"
+      ]
+    },
+    "R_reframe_opportunity": {
+      "score": 0,
+      "rationale": "No timing rationale, competitive whitespace, or user/business shift articulated.",
+      "citations": [
+        "[[ev-intake|company-level-context/product-vision-and-strategy/self-service-travel-strategy.md#L24-L28|2026-09-19]]"
+      ]
+    },
+    "I_intentional_bets": {
+      "score": 0,
+      "rationale": "No explicit bet, trade-offs, non-goals, or success/failure thresholds. Three capabilities read as an unbounded roadmap.",
+      "citations": [
+        "[[ev-intake|company-level-context/product-vision-and-strategy/self-service-travel-strategy.md#L17-L21|2026-09-19]]"
+      ]
+    },
+    "S_systemized_execution": {
+      "score": 0,
+      "rationale": "No OKRs, discovery loops, leading indicators, or operating rhythm for this product. Company OKR folder is still placeholder.",
+      "citations": [
+        "[[ev-ctx|company-level-context/okrs/README.md|2026-09-19]]",
+        "[[ev-hub|initiatives/self-service-travel/README.md#L14-L22|2026-09-19]]"
+      ]
+    },
+    "M_momentum_meta_reflection": {
+      "score": 1,
+      "rationale": "Production existence for MSP Org is a momentum signal, but no retros, stopped work, or updated assumptions are recorded.",
+      "citations": [
+        "[[ev-intake|company-level-context/product-vision-and-strategy/self-service-travel-strategy.md#L13-L15|2026-09-19]]"
+      ]
+    },
+    "overall_average": 0.2
+  },
+  "strategic_options_compared": 0,
+  "options_warning": "Fewer than 3 strategic options compared; required before Approve/Conditional.",
+  "modes": {
+    "mode_0_principle_alignment": {
+      "status": "incomplete",
+      "finding": "Company vision/strategy folders are placeholders; Self-Service Travel is absent from prodrive-context products-in-flight. Cannot test mission coherence."
+    },
+    "mode_1_socratic": {
+      "status": "fail",
+      "checklist": {
+        "thesis": false,
+        "outcomes": false,
+        "opportunity": false,
+        "causality": false,
+        "alternatives_3plus": false,
+        "trade_offs": false,
+        "unit_economics": false,
+        "disconfirming_evidence": false
+      }
+    },
+    "mode_2_bias_guardrails": {
+      "confirmation": "Intake lists capabilities already believed needed; no disconfirming search planned until sprint.",
+      "availability": "Live MSP Org deployment is salient; may over-weight that one tenant as market proof.",
+      "sunk_cost": "Production investment can push build-more without proving demand for reporting/deploy/onboarding.",
+      "survivorship": "Only MSP Org is live; failed or non-started clients are invisible without central reporting (circular).",
+      "overconfidence": "One-click deploy and full onboarding stated as limitations without effort/impact evidence.",
+      "anchoring": "Three feature headings anchor the roadmap before problem diagnosis."
+    },
+    "mode_3_options_capital": {
+      "status": "not_scored",
+      "note": "Deferred to evidence sprint task 7."
+    },
+    "mode_4_scenarios_runway": {
+      "status": "not_scored",
+      "base": null,
+      "upside": null,
+      "downside": null
+    },
+    "mode_5_premortem_kill_switch": {
+      "top_failure_causes": [
+        "Build reporting/deploy/onboarding as features with no named user changing behavior",
+        "MSP Org-only usage mistaken for multi-client product-market fit",
+        "Capacity conflict with EOS Operating Dashboard starves both",
+        "One-click deploy ships but clients stall on trust/process (wrong bottleneck)",
+        "No kill criteria; team keeps expanding scope while metrics undefined"
+      ],
+      "leading_indicators": [
+        "Weekly active travel requesters outside MSP Org",
+        "Median time MSP Org request planned → ended",
+        "Failed-request rate and reason codes",
+        "Hours eng/ops spend per new client go-live"
+      ],
+      "kill_criteria": [
+        "After 2-week discovery: cannot name a person who will use central reporting weekly",
+        "After instrumented 30 days: no failed/stuck requests worth intervening on",
+        "One-click deploy pilot: second client not live within agreed SLA with <N support hours"
+      ],
+      "adaptation_plan": "Run 1-Day Evidence Sprint; re-review only when gate = PROCEED."
+    },
+    "mode_6_stakeholder_lens": {
+      "investor_board": "No thesis or unit economics; HOLD protects capital from a feature build.",
+      "engineering": "Need problem + kill criteria before estimating reporting vs deploy vs onboarding.",
+      "gtm": "Cannot sell multi-client Self-Service Travel without deploy/onboarding proof and a segment.",
+      "customer_support": "Central reporting may help ops; validate ticket volume before building a console."
+    }
+  },
+  "impact_confidence": [
+    {
+      "item": "Central travel-request reporting (all statuses)",
+      "impact": "unknown",
+      "confidence": "low",
+      "note": "No baseline failure/stuck rates or operator pain evidence."
+    },
+    {
+      "item": "Near one-click deployment for other clients",
+      "impact": "unknown",
+      "confidence": "low",
+      "note": "Assumes deploy friction is the binding constraint; untested."
+    },
+    {
+      "item": "Full client onboarding experience",
+      "impact": "unknown",
+      "confidence": "low",
+      "note": "Solution-shaped; overlaps deploy; no funnel drop-off data."
+    }
+  ],
+  "decision": "HOLD",
+  "decision_rule_applied": "Required inputs missing and evidence gate ≤3 core (must include #2 and #3). Score-based Approve/Conditional/Revise not applicable until PROCEED.",
+  "improvements": [
+    {
+      "priority": 1,
+      "action": "Drive work-order #1: EOS dashboard ready for L10 meeting run",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/eos-operating-dashboard/"
+    },
+    {
+      "priority": 2,
+      "action": "Deliver work-order #2: Quest (one client) full HTML monthly report",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/client-monthly-report/"
+    },
+    {
+      "priority": 3,
+      "action": "Complete sprint-prep checklist (champion, eng/ops, access, calendar)",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/self-service-travel/sprint-prep.md"
+    },
+    {
+      "priority": 4,
+      "action": "Run 1-Day Evidence Sprint after #1 and #2 exit",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/self-service-travel/evidence-sprint-1day.md"
+    },
+    {
+      "priority": 5,
+      "action": "Re-run /product-strategy-review; fund SST build only if gate PROCEED",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "company-level-context/product-vision-and-strategy/review.md"
+    }
+  ],
+  "next_review_date": null,
+  "next_review_trigger": "After SST sprint day (work-order #3); not before EOS L10-ready and one-client HTML exit",
+  "anti_patterns_flagged": [
+    "strategy_as_feature_list",
+    "untested_assumptions_as_fact",
+    "no_stopped_work",
+    "lagging_or_missing_metrics"
+  ]
+}

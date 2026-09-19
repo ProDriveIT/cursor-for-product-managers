@@ -77,9 +77,13 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 ## 4. Products in flight
 
-### A. EOS Operating Dashboard (priority)
+**Locked work order (James Stock, 2026-09-19):** (1) EOS L10-ready → (2) one-client full HTML reports → (3) PD SST evidence sprint.  
+Detail: [`product-vision-and-strategy/product-work-order.md`](./product-vision-and-strategy/product-work-order.md)
+
+### A. EOS Operating Dashboard (order #1)
 
 - **Intent:** Purpose-built Leadership L10 console (CEOS/Azure dashboard), not SharePoint Lists as the meeting board
+- **Exit before #2:** Console usable for a real leadership L10 meeting run
 - **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS
 - **Hub use test (2026-09-19):** Dummy L10 on Lists felt like a fudge; zero LT engagement; feels like OneNote/Loop/Planner. **A′ (Power App on Lists) withdrawn.**
 - **Current recommendation:** **C′** — revive Azure/CEOS dashboard; update Decision Register; 2-meeting bake-off
@@ -91,15 +95,25 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
+### B. Client monthly reports (order #2 — active; prior art exists)
 
-### B. Client monthly reports (active — planning; prior art exists)
-
-- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business / **vCIO / TAM** updates — so clients understand what they pay for when reactive tickets drop.
+- **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business / **vCIO / TAM** updates — so clients understand what they pay for when reactive tickets drop. Work-order scope: **one client · full HTML**.
+- **Exit before #3:** Named pilot client has a complete HTML report Pro Drive will show externally.
 - **Prior starts (GitHub-Repos):** `90 Archive/2026-01 reporting-client` (**superseded — DO NOT RESUME**); active Insights packs in `reporting-kpi-automation` (WIP-027); active **Reporting Agent** in `2026-09 agent-ecosystem-copilot` (draft → **vCIO** sign-off → send).
 - **SSOT:** [GitHub-Repos Client-Monthly-Report-Canonical-Path.md](https://github.com/ProDriveIT/GitHub-Repos/blob/main/00%20Meta/Client-Monthly-Report-Canonical-Path.md) · [initiative twin](../initiatives/client-monthly-report/canonical-path.md)
-- **Depends on:** Insights client packs in prod; Quest pack for chosen month; Bruce sign-off on 1-pager option A.
+- **Depends on:** Order #1 exit (EOS L10-ready); Insights client packs in prod; Quest pack for chosen month; Bruce sign-off on 1-pager option A.
 - **Pilot:** Quest Fund Placement · vCIO Bruce Penson · TAM Danny Bray · ops James Stock
 - **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [1-pager](../initiatives/client-monthly-report/prd/1-pager-client-monthly-report.md) · [prior art](../initiatives/client-monthly-report/prior-art-github-repos.md)
+
+### C. Self-Service Travel / PD SST (order #3 — live, strategy HOLD)
+
+- **Intent:** TBD — intake lists central travel-request reporting, near one-click multi-client deploy, and full client onboarding.
+- **Owner:** James Stock
+- **Status:** Live for MSP Org. PRISM gate **HOLD**. Sprint **prepared**; sprint **day** only after #1 and #2 exit.
+- **Strategy draft:** [`product-vision-and-strategy/self-service-travel-strategy.md`](./product-vision-and-strategy/self-service-travel-strategy.md)
+- **Review:** [`product-vision-and-strategy/review.md`](./product-vision-and-strategy/review.md)
+- **Sprint prep:** [`../initiatives/self-service-travel/sprint-prep.md`](../initiatives/self-service-travel/sprint-prep.md)
+- **Initiative / evidence hub:** [`../initiatives/self-service-travel/`](../initiatives/self-service-travel/)
 
 ---
 
