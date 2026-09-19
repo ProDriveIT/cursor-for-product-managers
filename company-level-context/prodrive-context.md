@@ -24,23 +24,27 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 
 | Field | Value |
 |-------|--------|
-| EOS status | TODO — implementing / running / stalled |
+| EOS status | **Not in use.** Prior adoption attempt abandoned. Re-adopting via custom dashboard. |
+| Why prior attempt failed | Effort maintaining **separate EOS tools** (details TBD — which tools / weekly tasks) |
 | EOS champion (named person) | TODO |
 | Integrator / Visionary (named) | TODO |
-| Cadence | TODO — Level 10 day/time, quarterly planning |
-| Tools used for EOS today | TODO — Ninety.io, spreadsheets, Notion, whiteboard, other |
-| Pain with current EOS tooling | TODO — what breaks weekly |
+| Cadence | **None live yet.** Target: L10, Focus Days, Traction in one site (management first, then departments) |
+| Tools used for EOS today | None active — TODO: list tools used in the failed attempt |
+| Pain with current EOS tooling | N/A (not running). Risk: recreating admin burden inside one app |
 
-**EOS components in scope for product work (tick what we actually run):**
+**EOS components — aspiration vs live:**
 
-- [ ] Vision / V/TO
-- [ ] Rocks
-- [ ] Scorecard
-- [ ] Issues list
-- [ ] To-Dos
-- [ ] Level 10 meeting
-- [ ] People analyzer / accountability chart
-- [ ] Other: TODO
+| Component | Live today? | In “single site” ambition? |
+|-----------|-------------|----------------------------|
+| Vision / V/TO / Traction | No | Yes |
+| Rocks | No | Yes |
+| Scorecard | No | Yes |
+| Issues list | No | Yes |
+| To-Dos | No | Yes |
+| Level 10 meeting | No | Yes (management → departments) |
+| Focus Days | No | Yes |
+| People analyzer / accountability chart | No | TODO |
+| Reporting / analytics / agents on EOS data | No | Yes (later capability) |
 
 ---
 
@@ -70,12 +74,13 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 ### A. EOS Operating Dashboard (priority)
 
-- **Intent:** Single Azure-hosted web dashboard to run Pro Drive’s EOS operating rhythm.
-- **Primary users (named):** TODO — not “leadership”; name Integrator, department heads, etc.
-- **Job to be done:** TODO — e.g. “run Level 10 without hunting across three tools”
-- **v1 wedge (hypothesis):** Scorecard + Issues for Level 10 — *revisit after `/product-diagnostic`*
-- **Out of scope for v1:** TODO
+- **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
+- **Primary users (named):** TODO — management team first; then department leads (names required)
+- **Job to be done (working):** Make a **second EOS adoption** stick by collapsing tool maintenance into one system of record
+- **v1 wedge (hypothesis):** Whatever maintenance tasks killed attempt #1 — likely L10 loop (Scorecard + Issues + To-Dos) before Focus Days / full Traction / agents
+- **Out of scope for v1 (coach recommendation):** Department portals, analytics platform, agent hooks, “all of EOS” — until one team runs 8 consecutive L10s
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
+- **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
 
 ### B. Client monthly reports (parked)
 

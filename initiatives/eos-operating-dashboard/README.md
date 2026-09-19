@@ -9,15 +9,15 @@
 
 ## Initiative Goal
 
-Give Pro Drive a single Azure-hosted web surface to run its EOS operating rhythm (Scorecard, Rocks, Issues, To-Dos, Level 10) without assembling the week from multiple tools.
+Enable a **second EOS adoption** at Pro Drive by putting L10, Focus Days, Traction, and related operating work in one Azure-hosted site — so the management team (later departments) is not killed by multi-tool maintenance like last time. Persist structured data for later reporting, analysis, and agents.
 
-**Working v1 hypothesis (unvalidated):** Level 10 essentials — live Scorecard + Issues list — before a full “every aspect of EOS” platform. Narrow or kill this via `/product-diagnostic`.
+**Working v1 hypothesis (unvalidated):** Ship only the meeting loop that removes the *named* admin burden from the failed attempt (likely Scorecard + Issues + To-Dos for L10). Defer Focus Days, full Traction suite, department rollouts, analytics, and agents until one team completes ~8 consecutive L10s.
 
 ## Current Status
 
 - [ ] User Research Complete
 - [ ] Opportunities Identified
-- [ ] Product diagnostic survived
+- [ ] Product diagnostic survived *(in progress — pre-adoption; prior attempt abandoned)*
 - [ ] One-pager drafted
 - [ ] PRD Drafted / prototype built
 - [ ] Tasks Generated
