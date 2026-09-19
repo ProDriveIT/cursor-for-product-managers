@@ -40,6 +40,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 ## Quick Links
 
 - [Roadmap](./roadmap.md)
+- [Work PC power-up checklist](./work-pc-power-up.md)
 - [Decision revision (current)](./decision-revision-sharepoint-rejected.md)
 - [1-pager](./prd/1-pager-eos-operating-dashboard.md)
 - [Engineering repo analysis](./engineering-repo-analysis.md)
