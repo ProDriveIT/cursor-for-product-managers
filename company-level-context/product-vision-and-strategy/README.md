@@ -1,28 +1,34 @@
 # Product vision & strategy
 
-**Status:** Placeholder — replace with real Pro Drive strategy docs.
+**Status:** Working — product map added; full vision still Proposed via V/TO.
 
 ## What belongs here
 
 - Company / product vision (1–2 pages)
 - Current-year strategy narrative (bets, non-goals, constraints)
 - Positioning vs alternatives (for MSP ops tooling and client reporting, when relevant)
+- **Product map** scored against commercial goals
 
 ## Working pointers
 
-Until a full vision doc exists, use:
+| Doc | Use |
+|-----|-----|
+| [`../prodrive-context.md`](../prodrive-context.md) | Factual operating context |
+| [`product-map.md`](./product-map.md) | Portfolio map + clarity/coherence vs RTEM / services / external sales |
+| [`product-work-order.md`](./product-work-order.md) | Locked capacity sequence: EOS → one-client HTML → SST |
+| [`self-service-travel-strategy.md`](./self-service-travel-strategy.md) | Travel intake — PRISM **HOLD** |
+| [`review.md`](./review.md) / [`review.json`](./review.json) | Self-Service Travel PRISM review (2026-09-19) |
 
-- [`../prodrive-context.md`](../prodrive-context.md) — factual operating context
-- Initiatives: [`../../initiatives/eos-operating-dashboard/`](../../initiatives/eos-operating-dashboard/), [`../../initiatives/client-monthly-report/`](../../initiatives/client-monthly-report/)
+## Commercial goals (product map)
 
-## Artifacts
+| # | Goal |
+|---|------|
+| A | Reduce RTEM |
+| B | Sell these as services to existing clients |
+| C | Longer term — sell outside the managed-client base |
 
-| Doc | Status |
-|-----|--------|
-| [`product-work-order.md`](./product-work-order.md) | Locked sequence: EOS → one-client HTML → SST |
-| [`self-service-travel-strategy.md`](./self-service-travel-strategy.md) | Intake — PRISM **HOLD**; owner James Stock |
-| [`review.md`](./review.md) / [`review.json`](./review.json) | Self-Service Travel review (2026-09-19) |
+**Verdict in map:** Estate Control (Standardiser spine + Archiver / SPAT / Travel / Inforcer / CE Mobile) is the coherent commercial family. EOS stays internal. Performance Hub **killed** (replaced by EOS). Minutes is a vertical SKU.
 
 ## Suggested next artifact
 
-Execute work order #1 (EOS L10-ready), then #2 ([client monthly report](../../initiatives/client-monthly-report/) — Quest, full HTML). SST sprint day only after those exit: [sprint-prep](../../initiatives/self-service-travel/sprint-prep.md).
+Keep work order #1–#3. In parallel, decide whether Estate Control / Standardiser gets explicit capacity or only rides PS delivery — see open decisions in [`product-map.md`](./product-map.md).

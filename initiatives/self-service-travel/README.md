@@ -1,19 +1,25 @@
 # Self-Service Travel
 
-**Status:** Sprint **prepared**; execution queued as work-order **#3** (after EOS L10-ready + Quest/one-client HTML monthly report)  
+**Status:** **Live** (MSP Secretaries + David Shepherd + Pro Drive dogfood); strategy **HOLD**; sprint **prepared** as work-order **#3**  
 **Owner:** James Stock  
-**Stakeholders:** MSP Org champion TBD; eng/ops TBD  
+**Stakeholders:** Travel IT Contacts (MSP: Claire Kett, Philippa Keith; DSWF: Natalie Archer, Katie Abbott); Pro Drive engineers via JIT  
+**Portal:** https://travel.prodriveit.co.uk  
+**Engineering:** https://github.com/ProDriveIT/prodrive-agent-ops/tree/main/products/self-service-travel-requests  
 **Strategy draft:** [`../../company-level-context/product-vision-and-strategy/self-service-travel-strategy.md`](../../company-level-context/product-vision-and-strategy/self-service-travel-strategy.md)  
 **PRISM review:** [`../../company-level-context/product-vision-and-strategy/review.md`](../../company-level-context/product-vision-and-strategy/review.md)  
-**Work order:** [`../../company-level-context/product-vision-and-strategy/product-work-order.md`](../../company-level-context/product-vision-and-strategy/product-work-order.md)
+**Work order:** [`../../company-level-context/product-vision-and-strategy/product-work-order.md`](../../company-level-context/product-vision-and-strategy/product-work-order.md)  
+**Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
 
 ## Initiative goal
 
 TBD after 1-Day Evidence Sprint. Intake lists three capability gaps (central reporting, one-click client deploy, client onboarding). Those stay solution statements until linked to named users, observed behaviors, and a success criterion.
 
+**What is already true in production:** IT Contact (Approvers group) books time-boxed geo sign-in; destination-lazy CA; home named location never written; mail from `travel@prodriveit.co.uk`; Entra app `ProDrive-Travel` (never Agent Ops / CIPP for Graph).
+
 ## Current status
 
-- [x] Live in production for MSP Org (stated)
+- [x] Live for MSP Secretaries (customer live 16 Sep 2026) and David Shepherd (testing complete; send Natalie URL when back)
+- [x] Pro Drive dogfood enabled
 - [x] Owner assigned (James Stock)
 - [x] Work order locked (#3)
 - [x] Sprint templates + prep checklist ready
