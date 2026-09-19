@@ -43,5 +43,6 @@ Primary briefs:
 ## Open reconciliation items
 
 1. Confirm path/name of the **external reports repo** and link it here.
-2. Pilot client + named pilot **vCIO** (Entra user) — already required by Build-Reporting-Agent.
-3. Whether PM discovery should validate the locked decisions (esp. vCIO-as-operator and draft≠send) or only the client-facing *content* of the report.
+2. ~~Pilot client + named pilot **vCIO**~~ — **Locked:** Quest Fund Placement · Bruce Penson (vCIO) · Danny Bray (TAM) · James Stock (ops). See [1-pager](./prd/1-pager-client-monthly-report.md).
+3. Capture Quest economic-buyer reaction after first approved cycle (demand evidence still company-wide, not Quest-specific).
+4. Confirm Quest Insights pack exists for the chosen `YYYY-MM` before calling Phase 1 live.

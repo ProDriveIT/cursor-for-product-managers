@@ -93,8 +93,9 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 - **Intent:** Auto-generated HTML monthly report that makes proactive MSP value visible — proactive work, initiatives, alignment, business / **vCIO / TAM** updates — so clients understand what they pay for when reactive tickets drop.
 - **Prior starts (GitHub-Repos):** archived `90 Archive/2026-01 reporting-client` (value-add HTML, STOP’d Aug 2026); active Insights packs in `reporting-kpi-automation` (WIP-027); active **Reporting Agent** in `2026-09 agent-ecosystem-copilot` (draft → **vCIO** sign-off → send).
-- **Depends on:** Insights client packs in prod; named pilot client + pilot **vCIO**; external reports repo for HTML assembly.
-- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [`prior-art-github-repos.md`](../initiatives/client-monthly-report/prior-art-github-repos.md)
+- **Depends on:** Insights client packs in prod; Quest pack for chosen month; Bruce sign-off on 1-pager option A.
+- **Pilot:** Quest Fund Placement · vCIO Bruce Penson · TAM Danny Bray · ops James Stock
+- **Initiative:** [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [1-pager](../initiatives/client-monthly-report/prd/1-pager-client-monthly-report.md) · [prior art](../initiatives/client-monthly-report/prior-art-github-repos.md)
 
 ---
 
