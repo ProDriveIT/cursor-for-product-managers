@@ -2,7 +2,7 @@
 
 **Status:** Skeleton — fill gaps before heavyweight PRDs.  
 **Last updated:** 2026-09-19  
-**Owner:** TBD
+**Owner:** James Stock (Integrator)
 
 This file is the grounding reference for Cursor skills in this workspace. Incomplete sections are marked `TODO`. Prefer short, factual bullets over marketing language.
 
@@ -28,7 +28,8 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 | Why prior attempt failed | (1) No SSOT — whiteboard/notes/Teams/SharePoint, inconsistent by person/week; (2) MD (Bruce) adapted process until it wasn’t EOS; peers didn’t challenge; (3) Implementer role exists to hold accountability; (4) Department Traction became solo/passenger meetings; pick-and-choose process |
 | EOS champion (named person) | TODO — distinguish from Integrator |
 | Integrator / Visionary (named) | **Integrator: James.** Visionary/MD: **Bruce**. Management peer: **Matt** (time-poor) |
-| Third-party EOS implementer | **Yes** — accountability / process fidelity (esp. vs Bruce drift). Name: TODO |
+| Third-party EOS implementer | **Yes** — **Rob Liddiard**, Mission Group (`rob@mission-group.co.uk`). Accountability / process fidelity (esp. vs Bruce drift). |
+| Focus Day (first with Rob) | **1 October 2026** — Rob runs it; **no CEOS dashboard** that day |
 | Cadence | Target: Monday L10; James prep Friday. **Not live yet** on the new console |
 | KPI pipeline today | Mix of automated + manual → spreadsheet → management Scorecard → (planned) same numbers on dashboard |
 | Hosting constraint | **Azure + Microsoft 365 + Copilot only.** Self-hosted in Pro Drive. **No third-party tools** |
@@ -68,8 +69,8 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 | Product | Repo | Status from this agent |
 |---------|------|------------------------|
-| EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **Analysed 2026-09-19** — M365-native path decided; Azure dashboard superseded; Hub live |
-| Client monthly reports | [GitHub-Repos](https://github.com/ProDriveIT/GitHub-Repos) — KPI automation + Reporting Agent; archived `reporting-client` | PM initiative: [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · prior art notes therein |
+| EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **C′ on main (19 Sep)** — CEOS/Azure L10 bake-off; Lists not the board; Phase 0 host merged |
+| Client monthly reports | [GitHub-Repos](https://github.com/ProDriveIT/GitHub-Repos) — KPI automation + Reporting Agent; `reporting-client` superseded | PM initiative: [`../initiatives/client-monthly-report/`](../initiatives/client-monthly-report/) · [canonical path](../initiatives/client-monthly-report/canonical-path.md) |
 | EOS in Practice (business notes) | https://github.com/ProDriveIT/Github-SupportingData (`50-eos`) | Sister knowledge home |
 
 ---
@@ -82,8 +83,10 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS
 - **Hub use test (2026-09-19):** Dummy L10 on Lists felt like a fudge; zero LT engagement; feels like OneNote/Loop/Planner. **A′ (Power App on Lists) withdrawn.**
 - **Current recommendation:** **C′** — revive Azure/CEOS dashboard; update Decision Register; 2-meeting bake-off
-- **Primary users:** James (Integrator), Bruce (Visionary), Matt; coach Rob / Mission Group
+- **Primary users:** James (Integrator), Bruce (Visionary), Matt; implementer **Rob Liddiard** (Mission Group)
+- **Hard date:** Focus Day **1 Oct 2026** (Rob; **no dashboard**). Phase 1 product = L10 only.
 - **Success bar:** 5 consecutive pure-EOS L10s; Friday prep under 20 minutes
+- **Roadmap:** [`../initiatives/eos-operating-dashboard/roadmap.md`](../initiatives/eos-operating-dashboard/roadmap.md)
 - **Decision note:** [`../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md`](../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md)
 - **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
@@ -125,9 +128,9 @@ Do not invent live Scorecard/Rock values from GitHub `data/` — that tree is fi
 
 ## 7. Open questions (block clarity)
 
-1. Exact name and location of the EOS engineering repo? *(still blocking for build)*
-2. Implementer name; will they run from this console?
+1. ~~Exact name and location of the EOS engineering repo?~~ → `Pro-Drive-IT-Limited/ProDrive-EOS`
+2. ~~Implementer name~~ → Rob Liddiard / Mission Group. **Open:** will Rob facilitate from the CEOS dashboard after Focus Day?
 3. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path
-4. First Monday L10 date on the new console
+4. Confirm bake-off L10 dates (**candidate: Mon 22 Sep and Mon 29 Sep**) before Focus Day
 5. Client reporting: separate product or export of same data spine? *(initiative started — still open)*
 

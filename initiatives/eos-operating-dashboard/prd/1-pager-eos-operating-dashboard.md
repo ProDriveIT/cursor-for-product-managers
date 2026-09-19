@@ -47,7 +47,7 @@ The last EOS attempt taught four lessons this proposal takes as constraints. Fir
 | **Feasibility** | L10 room mode can be built and hosted entirely on existing Azure / M365 / Copilot without third-party SaaS | Architecture spike in `ProDrive-EOS` (or successor repo): auth (Entra), data store, app host; kill custom build if spike fails |
 | **Usability** | James can prep Friday in under 20 minutes and run Monday L10 from the screen without leaving to Teams/SharePoint for core artifacts | Time James’s Friday prep for first 3 L10s; log every off-screen fetch during the meeting |
 
-Open assumptions still untested: eng access and state of the EOS code repo; exact list of automated vs manual KPIs; implementer name and whether they will facilitate from this console; whether Matt will adopt async updates in v1.1.
+Open assumptions still untested: exact list of automated vs manual KPIs; whether Rob will facilitate from this console after Focus Day (1 Oct 2026); whether Matt will adopt async updates in v1.1. Implementer named: **Rob Liddiard**, Mission Group.
 
 - Solution: opinionated Leadership L10 Console on Azure/M365/Copilot only
 - In: fixed agenda, Scorecard, Issues, To-Dos; spreadsheet-fed KPIs allowed in v1
