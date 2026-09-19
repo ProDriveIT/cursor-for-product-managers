@@ -2,9 +2,9 @@
 
 **Initiative:** eos-operating-dashboard  
 **Owner:** James (Integrator)  
-**Decision makers:** James, Bruce, Matt (all three must sign off)  
+**Decision makers:** James owns the C′ path. Bruce and Matt sign the **product** after 3 live L10s.  
 **Date:** 2026-09-19  
-**Status:** Draft for decision — **Revision 2 active** (Hub rejected after use; revive Azure/CEOS dashboard)  
+**Status:** C′ decided by Integrator — **Revision 2 active** (Hub rejected after use; revive Azure/CEOS dashboard)  
 **Related:** [Diagnostic](../diagnostic-eos-dashboard.md) · [Company context](../../../company-level-context/prodrive-context.md)
 
 ---
@@ -43,7 +43,7 @@ The last EOS attempt taught four lessons this proposal takes as constraints. Fir
 | Risk axis | Assumption | Test plan |
 |-----------|------------|-----------|
 | **Value** | Five pure-EOS L10s on one screen are worth eng spend vs restarting on spreadsheets alone | Count consecutive compliant L10s; stop build expansion until 5 are hit |
-| **Viability** | Bruce, James, and Matt will all sign off and Bruce will keep accepting the fixed agenda for the trial | Written sign-off on this 1-pager; after L10 #2, check whether agenda was remixed |
+| **Viability** | Bruce will keep accepting the fixed agenda in the room; Bruce and Matt will sign the product after 3 live L10s | After each bake-off L10, check whether the agenda was remixed; product sign-off after L10 #3 |
 | **Feasibility** | L10 room mode can be built and hosted entirely on existing Azure / M365 / Copilot without third-party SaaS | Architecture spike in `ProDrive-EOS` (or successor repo): auth (Entra), data store, app host; kill custom build if spike fails |
 | **Usability** | James can prep Friday in under 20 minutes and run Monday L10 from the screen without leaving to Teams/SharePoint for core artifacts | Time James’s Friday prep for first 3 L10s; log every off-screen fetch during the meeting |
 
@@ -56,7 +56,7 @@ Open assumptions still untested: exact list of automated vs manual KPIs; whether
 
 ## Decision Requests
 
-James, Bruce, and Matt are asked to decide the following together. The recommended path is **A**.
+James decided the path. Bruce and Matt are asked to sign the **running product** after 3 L10s, not this paper. The recommended path is **C′** (Revision 2).
 
 1. **Build now?**  
    - **A (recommended):** Approve building Leadership L10 room mode on Pro Drive Azure / M365 / Copilot, scoped as above, aimed at five consecutive pure-EOS leadership L10s and sub-20-minute Friday prep.  
@@ -66,13 +66,13 @@ James, Bruce, and Matt are asked to decide the following together. The recommend
 
 2. **Scope lock:** Confirm v1 excludes department Traction, Focus Days, time logging, third-party SaaS, and AI chase until five consecutive compliant L10s are recorded.
 
-3. **Sign-off:** James / Bruce / Matt each mark Approve or Reject on option A with date.
+3. **Sign-off:** James marks the path. Bruce / Matt mark the product after L10 #3.
 
 | Name | Role | Decision (A/B/C/D) | Approve scope lock? | Date |
 |------|------|--------------------|---------------------|------|
-| James | Integrator | | | |
-| Bruce | MD | | | |
-| Matt | Management | | | |
+| James | Integrator | C′ (path decided) | Yes | 2026-09-19 |
+| Bruce | MD | Product after 3 L10s | | |
+| Matt | Management | Product after 3 L10s | | |
 
 ---
 
@@ -88,16 +88,16 @@ James ran a dummy L10 on the live SharePoint EOS Hub and shared the site with th
 
 ### Current recommendation
 
-- **C′ (recommended):** Revive **CEOS/Azure Leadership L10 dashboard** as the meeting console. Update the ProDrive-EOS Decision Register. Bake off with two L10s before full SSOT cutover. Keep Azure/M365/Copilot hosting; **do not** use SharePoint Lists as the in-meeting board.
+- **C′ (decided):** Revive **CEOS/Azure Leadership L10 dashboard** as the meeting console. Decision Register already updated. Bake off with **three** L10s, then Bruce + Matt sign the product. Keep Azure/M365/Copilot hosting; **do not** use SharePoint Lists as the in-meeting board.
 - **A′′:** Power App-only L10 room mode (no raw Lists) as a competing bake-off.
 - **B′:** Keep Hub Lists (rejected by this test).
 - **D:** Pause build; coach-led process only.
 
 | Name | Role | Decision (C′/A′′/B′/D) | Approve scope lock? | Date |
 |------|------|-------------------------|---------------------|------|
-| James | Integrator | C′ (proposed) | | 2026-09-19 |
-| Bruce | MD / Visionary | | | |
-| Matt | Management | | | |
+| James | Integrator | C′ (decided) | Yes | 2026-09-19 |
+| Bruce | MD / Visionary | Product after 3 L10s | | |
+| Matt | Management | Product after 3 L10s | | |
 
-**Recommendation:** Choose **C′**, update the Decision Register in ProDrive-EOS, and schedule the dashboard bake-off against the same outcome metrics (five consecutive pure L10s; Friday prep under 20 minutes).
+**Decision:** **C′** is in force. Decision Register already updated. Bake-off is 3 L10s; then Bruce and Matt sign the product against the same outcome metrics (five consecutive pure L10s; Friday prep under 20 minutes).
 

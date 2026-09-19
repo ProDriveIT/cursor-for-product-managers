@@ -3,7 +3,7 @@
 **Last updated:** 2026-09-19  
 **Owner:** James Stock (Integrator)  
 **Hard calendar anchor:** Focus Day with Rob Liddiard (Mission Group) — **1 October 2026**  
-**Decision path:** C′ (CEOS/Azure L10 board) — Bruce + Matt sign-off still open
+**Decision path:** C′ (CEOS/Azure L10 board) — **decided by James 19 Sep 2026**. Bruce + Matt sign the product after 3 live L10s.
 
 ---
 
@@ -30,8 +30,8 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 
 | Date | What | Product role |
 |------|------|----------------|
-| **Now – 30 Sep** | Sign C′; run **2 L10 bake-offs** on CEOS dashboard (localhost or Azure if provisioned) | Prove L10 UX — independent of Focus Day |
-| **Mon 22 Sep / Mon 29 Sep** | Likely Leadership L10 slots | Prefer these as bake-off #1 and #2 |
+| **Now – 6 Oct** | Run **3 L10 bake-offs** on CEOS dashboard (localhost or Azure if provisioned); then ask Bruce + Matt to sign the product | Prove L10 UX — independent of Focus Day |
+| **Mon 22 Sep / Mon 29 Sep / Mon 6 Oct** | Leadership L10 slots | Bake-off #1, #2, and #3 (third is the first Monday L10 after Focus Day unless another slot is named) |
 | **1 Oct 2026** | **Focus Day — first session with Rob Liddiard** | **No dashboard.** Rob runs the day as he wishes (paper / his templates / whatever he uses) |
 | **After 1 Oct** | Weekly L10s toward **5 consecutive pure-EOS** | Dashboard is the L10 board only; Rob holds process fidelity |
 
@@ -46,14 +46,14 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 - Phase 0 host on `main` (local server + Azure IaC)
 
 **Must do (does not block Focus Day)**
-1. Bruce + Matt **sign C′** (written on 1-pager / decision note)
-2. **Two facilitated L10s** on the CEOS dashboard (share-screen in Teams)
+1. **Three facilitated L10s** on the CEOS dashboard (share-screen in Teams)
+2. After L10 #3: Bruce + Matt **sign the product** (not the 1-pager)
 3. Optional: Azure host + Easy Auth if James can `az login` on work PC
 
 **Kill / pause rules**
 - If Bruce remixed the agenda off-screen in both bake-offs → do not expand eng; fix facilitation + Rob contract first
 - If Friday prep stays >20 min → fix Scorecard feed path before API work
-- If Bruce/Matt refuse C′ → stop dashboard build; keep L10s on whatever interim surface James can run
+- If Bruce/Matt refuse the product after 3 L10s → stop dashboard build; keep L10s on whatever interim surface James can run
 
 ### 1 Oct Focus Day — off product
 
@@ -100,7 +100,7 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 
 | Work | Owner |
 |------|--------|
-| C′ sign-off | James drives; Bruce + Matt decide |
+| C′ path | James decided 19 Sep; Bruce + Matt sign the product after 3 L10s |
 | Bake-off L10s | James facilitates; Bruce + Matt in room |
 | Azure provision | James (`az login` on work PC) |
 | Focus Day 1 Oct | Rob Liddiard leads; James Integrator |

@@ -2,7 +2,7 @@
 
 **Date:** 2026-09-19  
 **Owner:** James Stock (Integrator)  
-**Status:** Proposed LT decision — overturn Lists-as-meeting-UX; revive CEOS/Azure dashboard path  
+**Status:** Decided by Integrator 19 Sep 2026 — overturn Lists-as-meeting-UX; revive CEOS/Azure dashboard path. Product sign-off after 3 L10s.  
 **Supersedes:** 1-pager revision A′ (continue Power App on Lists)
 
 ---
@@ -28,7 +28,7 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 **What the evidence supports:** Meeting UX must be a purpose-built EOS console (agenda + Scorecard + Rocks + Issues + To-Dos in one composition), not list views.
 
-**What the evidence does not yet prove:** That the CEOS/Azure dashboard will win with Bruce and Matt in a live L10. It was never fully tested. “Looked powerful” is interest. Gate revival on **two facilitated L10s** (dummy then real) with the same success bar: pure EOS agenda, Friday prep under 20 minutes, and someone other than James driving updates.
+**What the evidence does not yet prove:** That the CEOS/Azure dashboard will win with Bruce and Matt in a live L10. It was never fully tested. “Looked powerful” is interest. Gate the **product** (not the path) on **three facilitated L10s** with the same success bar: pure EOS agenda, Friday prep under 20 minutes, and someone other than James driving updates.
 
 **Honest caveat:** The M365 plan’s intended meeting surface was a **Power App**, not raw Lists. James tested the Hub/Lists experience. That still matters: zero engagement with the Hub is a failed adoption signal for “EOS lives in SharePoint,” and Power App would still sit on the same Lists mental model. Prefer a clean revive of the CEOS dashboard over another SharePoint-shaped bet unless LT insists on a Power App bake-off first.
 
@@ -40,7 +40,7 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 | Option | Meaning |
 |--------|---------|
-| **C′ (recommended)** | **Revive CEOS/Azure Leadership L10 dashboard** as the meeting console. Update EOS Decision Register: Azure dashboard is again an active production candidate for **meeting UX**. Run a 2-meeting bake-off before declaring SSOT cutover. |
+| **C′ (decided)** | **Revive CEOS/Azure Leadership L10 dashboard** as the meeting console. Decision Register already updated. Run a **3-meeting** bake-off; then Bruce + Matt sign the product. |
 | **A′′** | Build **Power App** L10 room mode only (no raw Lists in meeting). Timebox vs C′. |
 | **B′** | Keep using Hub Lists for 4 more weeks (reject — already failed the feel test). |
 | **D** | Pause product build; coach-led L10 on paper/template until Rob/LT Agree seats and V/TO. |
@@ -88,6 +88,6 @@ Runbook: [`prodrive/deployment/Dashboard-Bakeoff-Runbook.md`](https://github.com
 
 | Name | Role | Decision (C′/A′′/B′/D) | Date |
 |------|------|-------------------------|------|
-| James | Integrator | C′ (proposed) | 2026-09-19 |
-| Bruce | Visionary / MD | | |
-| Matt | Management | | |
+| James | Integrator | C′ (decided) | 2026-09-19 |
+| Bruce | Visionary / MD | Product after 3 L10s | |
+| Matt | Management | Product after 3 L10s | |
