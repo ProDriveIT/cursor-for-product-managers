@@ -49,6 +49,65 @@ Do **not** start by browsing the whole ProDrive-EOS tree.
 
 ---
 
+## 1b. Desktop & Cursor setup (once, then per session)
+
+### Folder layout (clone once)
+
+```
+C:\work\ProDriveIT\cursor-for-product-managers     ← PM toolkit (roadmap, power-up, 1-pager)
+C:\work\Pro-Drive-IT-Limited\ProDrive-EOS          ← eng (dashboard, Azure IaC)
+```
+
+Auth: Cursor signed in + Git for Windows + `gh auth login` (or HTTPS/SSH) as an account that can see **both** orgs. Azure CLI installed for Lane C.
+
+### One folder = one window (default)
+
+**Do not** open a multi-root `.code-workspace` as your main AI workspace. Rules, skills, and `AGENTS.md` are project-scoped; multi-root muddies Agent context.
+
+| Today’s lane | Open this folder |
+|--------------|------------------|
+| A — Sign-off / roadmap / power-up | `cursor-for-product-managers` |
+| B — Bake-off (run dashboard) | `ProDrive-EOS` |
+| C — Azure provision | `ProDrive-EOS` |
+| D — Eng fix | `ProDrive-EOS` |
+
+Need both visible? **Two Cursor windows**, one folder each — not one combined workspace.
+
+### Mode cheat sheet
+
+| Mode | When |
+|------|------|
+| **Ask** | Orient, “where is X?”, read-only before touching files |
+| **Plan** | Multi-file change you want to approve before Build |
+| **Agent** | Implement, run `build.py` / server, guided `az` with your approval |
+| **Inline Edit (Ctrl+K)** | Tiny change in the open file |
+| **Tab** | Autocomplete while you type — not for IaC/bake-off workflows |
+
+Switch with **Shift+Tab** or the mode picker. **New chat when the lane changes** (modes/chats don’t share context well across jobs).
+
+### Per-repo instructions
+
+| Opened folder | What the agent should pick up |
+|---------------|-------------------------------|
+| Toolkit | `.cursor/skills/`, `initiatives/eos-operating-dashboard/`, this power-up |
+| ProDrive-EOS | root `AGENTS.md`, `prodrive/deployment/Dashboard-Bakeoff-Runbook.md` |
+
+Toolkit skills are **not** available if only EOS is open (unless you copy them to user skills). Open the matching repo.
+
+### Agent approvals (Windows)
+
+Settings → Agents → Approvals: keep review on for shell. First `az login` / provision: approve yourself. Don’t let Agent run destructive Azure without you watching.
+
+### Per-session IDE steps (after §0)
+
+1. File → Open Folder → **lane’s repo** (table above).  
+2. Wait for indexing.  
+3. `git checkout main && git pull`.  
+4. Open this file (toolkit) or the bake-off runbook (EOS).  
+5. New chat → correct mode → paste first-message template (§3).  
+
+---
+
 ## 2. Pick the lane (one only)
 
 ### Lane A — Sign-off (no code)
@@ -97,7 +156,9 @@ If auth takes >30 minutes, abandon and use localhost share-screen for bake-off.
 
 | Do | Don’t |
 |----|--------|
-| One agent chat = one lane | “Also stand up Focus Day / reports / API” |
+| Open the **lane’s repo** only | Multi-root workspace “so everything is there” |
+| Ask → Plan → Agent as needed | Agent-everything before you can name the job |
+| One chat = one lane | “Also stand up Focus Day / reports / API” |
 | Paste this checklist + today’s one job into the first message | Paste the whole company history |
 | Point at `roadmap.md` + runbook | Ask the agent to “improve the EOS platform” |
 | Timebox: 25–45 min, then re-check §0 | Open Azure portal “just to look” mid-bake-off |
@@ -108,7 +169,8 @@ If auth takes >30 minutes, abandon and use localhost share-screen for bake-off.
 > Phase 1 L10 only. Focus Day 1 Oct = no dashboard.  
 > Today’s one job: **[lane + sentence]**.  
 > Do not touch Focus Day product, client reports, or Lists-as-board.  
-> Relevant: `initiatives/eos-operating-dashboard/roadmap.md`
+> Opened folder: **[toolkit | ProDrive-EOS]**.  
+> Relevant: `initiatives/eos-operating-dashboard/roadmap.md` (toolkit) or `prodrive/deployment/Dashboard-Bakeoff-Runbook.md` (EOS).
 
 ---
 
