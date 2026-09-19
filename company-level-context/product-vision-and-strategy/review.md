@@ -1,17 +1,19 @@
 # PRISM Strategy Review — Self-Service Travel
 
 **Decision: HOLD**  
-**Reviewed:** 2026-09-19 · **Next review:** 2026-09-26  
+**Owner:** James Stock  
+**Reviewed:** 2026-09-19 · **Next review:** after sprint day (work-order #3; not before EOS L10-ready + one-client HTML)  
 **Doc:** [`self-service-travel-strategy.md`](./self-service-travel-strategy.md) · **Hub:** [`../../initiatives/self-service-travel/`](../../initiatives/self-service-travel/)  
+**Work order:** [`product-work-order.md`](./product-work-order.md)  
 **Machine-readable:** [`review.json`](./review.json)
 
 ## Executive Summary
 
-- Evidence gate fails: **1/5** core items (hub link only). Missing mandatory tagged assumptions (#2) and success criterion (#3).
+- Evidence gate fails: **1/5** core items (hub link only). Missing mandatory tagged assumptions (#2) and success criterion (#3). Starter assumption templates exist; tests not run.
 - Intake is a **feature list** (reporting, one-click deploy, onboarding), not a strategy. Live for MSP Org proves existence, not multi-client demand.
 - PRISM overall **0.2/5**. Score-based Approve/Conditional/Revise does not apply until the gate returns PROCEED.
-- What would change this: ≥3 dated 180-day signals, ≥2 falsifiable assumptions, one OMTM, and ≥3 options with kill rules.
-- Immediate path: run the [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md), then re-run `/product-strategy-review`.
+- **Sequencing locked:** EOS L10-ready → one-client full HTML reports → SST sprint day. That order is correct given HOLD and Focus Day pressure; do not pull SST discovery forward.
+- Path: finish #1 and #2; complete [sprint prep](../../initiatives/self-service-travel/sprint-prep.md); run [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md); re-run `/product-strategy-review`.
 
 ## Evidence readiness gate
 
@@ -62,12 +64,12 @@
 
 ## Improvements (priority)
 
-1. **2026-09-22 — TBD owner:** Complete [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md).
-2. **2026-09-22 — TBD owner:** Tag ≥2 riskiest assumptions + ≤14-day tests.
-3. **2026-09-22 — TBD + eng/ops:** OMTM + MSP Org baseline status counts.
-4. **2026-09-26 — TBD owner:** ≥3 strategic options with kill rules; rewrite strategy past features.
-5. **2026-09-26 — TBD owner:** Add product to `prodrive-context.md`; state priority vs EOS Operating Dashboard.
+1. **Now — James:** Drive work-order #1 (EOS L10-ready); do not start SST sprint day.
+2. **After #1 — James:** Deliver work-order #2 (one named client, full HTML); name the client in `initiatives/client-facing-reports/README.md`.
+3. **Before sprint day — James:** Finish [sprint-prep checklist](../../initiatives/self-service-travel/sprint-prep.md) (MSP Org champion, eng/ops, access, calendar).
+4. **Sprint day — James + eng/ops:** Run [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md) (signals, A1/A2 tests designed, OMTM, options).
+5. **Day after sprint — James:** Re-run `/product-strategy-review`; only then consider funding reporting / one-click / onboarding.
 
 ## Next Review Date
 
-**2026-09-26** — only after sprint outputs land and inputs (owner, window, assumptions, success criterion) are filled. Until then, do not fund reporting / one-click / onboarding as a strategy bet.
+**After sprint day** (work-order #3), not on a fixed calendar date that conflicts with EOS/HTML. Until #1 and #2 exit and sprint outputs land, do not fund reporting / one-click / onboarding as a strategy bet.

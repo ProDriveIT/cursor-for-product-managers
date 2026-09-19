@@ -19,11 +19,10 @@ Until a full vision doc exists, use:
 
 | Doc | Status |
 |-----|--------|
-| [`self-service-travel-strategy.md`](./self-service-travel-strategy.md) | Intake only — PRISM **HOLD** |
+| [`product-work-order.md`](./product-work-order.md) | Locked sequence: EOS → one-client HTML → SST |
+| [`self-service-travel-strategy.md`](./self-service-travel-strategy.md) | Intake — PRISM **HOLD**; owner James Stock |
 | [`review.md`](./review.md) / [`review.json`](./review.json) | Self-Service Travel review (2026-09-19) |
 
 ## Suggested next artifact
 
-Draft `2026-eos-and-client-reporting-strategy.md` after the EOS product diagnostic: one page on problem, bet, wedge, and what we will not build this year.
-
-Complete the Self-Service Travel [1-Day Evidence Sprint](../../initiatives/self-service-travel/evidence-sprint-1day.md), then re-run `/product-strategy-review`.
+Execute work order #1 (EOS L10-ready), then #2 ([client-facing reports](../../initiatives/client-facing-reports/)). SST sprint day only after those exit: [sprint-prep](../../initiatives/self-service-travel/sprint-prep.md).

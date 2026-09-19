@@ -2,12 +2,22 @@
   "skill": "product-strategy-review",
   "framework": "PRISM",
   "product_or_area": "Pro Drive Self-Service Travel",
-  "owner": null,
+  "owner": "James Stock",
   "review_window": {
     "start": null,
     "end": null
   },
   "reviewed_at": "2026-09-19",
+  "updated_at": "2026-09-19",
+  "work_order": {
+    "link": "company-level-context/product-vision-and-strategy/product-work-order.md",
+    "sequence": [
+      "EOS Operating Dashboard — L10-ready",
+      "Client-facing reports — one client full HTML",
+      "PD SST — evidence sprint day"
+    ],
+    "sst_position": 3
+  },
   "doc_link": "company-level-context/product-vision-and-strategy/self-service-travel-strategy.md",
   "evidence_hub_link": "initiatives/self-service-travel/",
   "company_context_link": "company-level-context/prodrive-context.md",
@@ -27,19 +37,19 @@
         "id": 2,
         "name": "riskiest_assumptions_tagged",
         "met": false,
-        "detail": "No tagged assumptions file; sprint lists starter candidates only."
+        "detail": "Starters in assumptions/riskiest-assumptions.md; A1/A2 tests not designed/run; A3 sequencing accepted via work order."
       },
       {
         "id": 3,
         "name": "success_criterion",
         "met": false,
-        "detail": "No OMTM or qualitative heuristic defined."
+        "detail": "Template at prd/success-criterion.md; no chosen OMTM or threshold."
       },
       {
         "id": 4,
         "name": "discovery_plan_or_okr_draft",
         "met": false,
-        "detail": "No 1-2 week discovery plan or OKR draft for this product."
+        "detail": "Outline at prd/discovery-plan-2wk.md; dates/owners not set until sprint day."
       },
       {
         "id": 5,
@@ -187,41 +197,42 @@
   "improvements": [
     {
       "priority": 1,
-      "action": "Assign owner; set review_window_start/end; complete 1-Day Evidence Sprint",
-      "owner": "TBD product owner",
-      "due_date": "2026-09-22",
-      "link": "initiatives/self-service-travel/evidence-sprint-1day.md"
+      "action": "Drive work-order #1: EOS dashboard ready for L10 meeting run",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/eos-operating-dashboard/"
     },
     {
       "priority": 2,
-      "action": "File ≥2 tagged riskiest assumptions with ≤14-day falsification tests",
-      "owner": "TBD product owner",
-      "due_date": "2026-09-22",
-      "link": "initiatives/self-service-travel/assumptions/"
+      "action": "Deliver work-order #2: one named client, full HTML report",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/client-facing-reports/"
     },
     {
       "priority": 3,
-      "action": "Define OMTM/success criterion and pull MSP Org baseline status counts",
-      "owner": "TBD product owner + eng/ops",
-      "due_date": "2026-09-22",
-      "link": "initiatives/self-service-travel/product-analytics/"
+      "action": "Complete sprint-prep checklist (champion, eng/ops, access, calendar)",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/self-service-travel/sprint-prep.md"
     },
     {
       "priority": 4,
-      "action": "Draft ≥3 strategic options with kill rules; rewrite strategy past feature list",
-      "owner": "TBD product owner",
-      "due_date": "2026-09-26",
-      "link": "company-level-context/product-vision-and-strategy/self-service-travel-strategy.md"
+      "action": "Run 1-Day Evidence Sprint after #1 and #2 exit",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "initiatives/self-service-travel/evidence-sprint-1day.md"
     },
     {
       "priority": 5,
-      "action": "Register product in company context products-in-flight; clarify priority vs EOS dashboard",
-      "owner": "TBD product owner",
-      "due_date": "2026-09-26",
-      "link": "company-level-context/prodrive-context.md"
+      "action": "Re-run /product-strategy-review; fund SST build only if gate PROCEED",
+      "owner": "James Stock",
+      "due_date": null,
+      "link": "company-level-context/product-vision-and-strategy/review.md"
     }
   ],
-  "next_review_date": "2026-09-26",
+  "next_review_date": null,
+  "next_review_trigger": "After SST sprint day (work-order #3); not before EOS L10-ready and one-client HTML exit",
   "anti_patterns_flagged": [
     "strategy_as_feature_list",
     "untested_assumptions_as_fact",

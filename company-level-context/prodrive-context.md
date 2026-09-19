@@ -77,9 +77,13 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 ## 4. Products in flight
 
-### A. EOS Operating Dashboard (priority)
+**Locked work order (James Stock, 2026-09-19):** (1) EOS L10-ready → (2) one-client full HTML reports → (3) PD SST evidence sprint.  
+Detail: [`product-vision-and-strategy/product-work-order.md`](./product-vision-and-strategy/product-work-order.md)
+
+### A. EOS Operating Dashboard (order #1)
 
 - **Intent:** Purpose-built Leadership L10 console (CEOS/Azure dashboard), not SharePoint Lists as the meeting board
+- **Exit before #2:** Console usable for a real leadership L10 meeting run
 - **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS
 - **Hub use test (2026-09-19):** Dummy L10 on Lists felt like a fudge; zero LT engagement; feels like OneNote/Loop/Planner. **A′ (Power App on Lists) withdrawn.**
 - **Current recommendation:** **C′** — revive Azure/CEOS dashboard; update Decision Register; 2-meeting bake-off
@@ -91,21 +95,23 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
+### B. Client-facing reports (order #2)
 
-### B. Client monthly reports (parked)
+- **Intent:** One named client · **full HTML** client-facing report (proof of work / value).
+- **Depends on:** Order #1 exit (EOS L10-ready).
+- **Exit before #3:** Named client + HTML Pro Drive will show externally.
+- **Initiative:** [`../initiatives/client-facing-reports/`](../initiatives/client-facing-reports/)
+- **Named client:** TBD
 
-- **Intent:** Client-facing monthly proof of work / value.
-- **Depends on:** Stable operational data contract (likely after EOS dashboard data spine is clear).
-- **Initiative:** Not created yet — create after EOS diagnostic survives.
-
-### C. Self-Service Travel (live — strategy HOLD)
+### C. Self-Service Travel / PD SST (order #3 — live, strategy HOLD)
 
 - **Intent:** TBD — intake lists central travel-request reporting, near one-click multi-client deploy, and full client onboarding.
-- **Status:** Live in production for MSP Org (stated 2026-09-19). PRISM evidence gate **HOLD**.
+- **Owner:** James Stock
+- **Status:** Live for MSP Org. PRISM gate **HOLD**. Sprint **prepared**; sprint **day** only after #1 and #2 exit.
 - **Strategy draft:** [`product-vision-and-strategy/self-service-travel-strategy.md`](./product-vision-and-strategy/self-service-travel-strategy.md)
 - **Review:** [`product-vision-and-strategy/review.md`](./product-vision-and-strategy/review.md)
+- **Sprint prep:** [`../initiatives/self-service-travel/sprint-prep.md`](../initiatives/self-service-travel/sprint-prep.md)
 - **Initiative / evidence hub:** [`../initiatives/self-service-travel/`](../initiatives/self-service-travel/)
-- **Priority note:** Do not treat as funded multi-client roadmap until evidence sprint clears HOLD; clarify capacity vs EOS Operating Dashboard.
 
 ---
 

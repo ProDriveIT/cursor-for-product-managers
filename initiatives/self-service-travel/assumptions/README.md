@@ -1,3 +1,3 @@
 # Assumptions
 
-After the 1-Day Evidence Sprint, keep `riskiest-assumptions.md` here with ≥2 tagged items and falsification tests.
+Primary file: [`riskiest-assumptions.md`](./riskiest-assumptions.md) (A1/A2 starters + A3 sequencing decision).
