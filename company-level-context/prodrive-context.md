@@ -115,11 +115,19 @@ As of 2026-09-19, the agent authenticated as **ProDriveIT** can see these **publ
 
 - `CIPP`, `CIPP-API`, `cursor-for-product-managers`, `Pro-Drive-Public`, `second-brain-skills`
 
-It **cannot** resolve `ProDriveIT/ProDrive-EOS` (or `prodrive-eos` / `EOS`). Private repos are not listable with the current token. To ground product work in existing code:
+It **cannot** resolve any of these (tried again when asked about “Pro Drive OS”):
 
-1. Confirm the exact repo name and org/user, **or**
+- `ProDriveIT/ProDrive-EOS`, `Pro-Drive-EOS`, `EOS`
+- `ProDriveIT/Pro-Drive-OS`, `ProDrive-OS`, `prodrive-os`, `ProDriveOS`, `ProDrive-Dashboard`
+
+Private repos are not listable with the current token (`user/repos` → 403; `--visibility private` → empty). **No analysis of an existing dashboard or skill set in a Pro Drive OS / EOS engineering repo has been done** because that repo is not readable from this environment.
+
+To ground product work in existing code:
+
+1. Paste the exact GitHub URL (owner/name), **or**
 2. Grant this agent/token read access to the private repo, **or**
-3. Paste a repo snapshot / README into `initiatives/eos-operating-dashboard/` until access exists.
+3. Paste a README / architecture snapshot / skill inventory into `initiatives/eos-operating-dashboard/`
+
 
 ---
 
