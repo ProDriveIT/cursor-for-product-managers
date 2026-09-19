@@ -57,11 +57,16 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 ## Decision Register action required
 
-File in ProDrive-EOS `prodrive/governance/EOS-Decision-Register.md` (engineering repo):
+**Done (draft PR):** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/3 (branch `cursor/eos-meeting-ux-azure-d8ca`)
 
-> **2026-09-19 — Meeting UX:** SharePoint Lists / Hub rejected after dummy L10 and zero LT engagement. Azure/CEOS dashboard path reopened for Leadership L10 console pending 2-meeting bake-off. M365 remains allowed for identity, Teams meetings, and data feeds; Lists are not the L10 board.
+Updates in that PR:
 
-Until that row exists, AGENTS.md will keep telling builders “do not execute Azure brief.”
+- `prodrive/governance/EOS-Decision-Register.md` — 19 Sep 2026 meeting-UX rows
+- `AGENTS.md` — Azure/CEOS bake-off allowed; Lists-as-board forbidden
+- `prodrive/dev/Cursor-Azure-EOS-Dashboard-Build-Prompt.md` — reopened
+- `prodrive/README.md` — current direction
+
+Until that PR merges, treat the branch as the source of truth for agents on that repo.
 
 ---
 

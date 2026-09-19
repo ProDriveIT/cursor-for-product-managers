@@ -27,7 +27,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 - [x] Engineering repo analysed
 - [x] Hub use test *(dummy L10 — Lists feel like fudge; zero LT engagement)*
 - [x] One-pager revised to **C′** *(revive Azure/CEOS dashboard)*
-- [ ] Decision Register updated in ProDrive-EOS
+- [ ] Decision Register updated in ProDrive-EOS — **draft PR open:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/3
 - [ ] Bruce + Matt sign-off on C′
 - [ ] Dashboard bake-off (2 L10s)
 - [ ] Five consecutive pure-EOS L10s recorded
