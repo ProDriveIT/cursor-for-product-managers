@@ -32,9 +32,9 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 - [x] Dashboard stand-up package — **merged:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/5
 - [x] Implementer + Focus Day dated — **Rob Liddiard, 1 Oct 2026**
 - [ ] Bruce + Matt sign-off on C′
-- [ ] Dashboard bake-off (2 L10s) — **target before Focus Day** (e.g. Mon 22 + Mon 29 Sep)
-- [ ] Azure App Service provision (`az login` on Pro Drive admin machine) — optional before 1 Oct
-- [ ] Focus Day with Rob — **1 Oct 2026**
+- [ ] Dashboard bake-off (2 L10s) — **L10 Phase 1**; candidates Mon 22 + Mon 29 Sep (independent of Focus Day)
+- [ ] Azure App Service provision (`az login` on Pro Drive admin machine) — optional
+- [ ] Focus Day with Rob — **1 Oct 2026** (**no dashboard**)
 - [ ] Five consecutive pure-EOS L10s recorded
 
 ## Quick Links
@@ -50,7 +50,7 @@ Make **James’s** EOS week workable with a **purpose-built Leadership L10 dashb
 
 - Decision Register on ProDrive-EOS `main` already reverses 03 Sep “Azure superseded” for L10 meeting UX.
 - CEOS skills (`ceos-l10` etc.) remain the behavioural spec for the dashboard.
-- Focus Day ≠ product bake-off. Rob owns process/Vision that day; C′ is validated on L10s.
+- Focus Day (1 Oct): **no dashboard** — Rob runs it his way. Phase 1 product = L10 only (Issues, Rocks, To-Dos, KPIs).
 - Client monthly reports remain a separate later initiative.
 
 ---

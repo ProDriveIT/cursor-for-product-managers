@@ -80,6 +80,8 @@ Updates now on `main`:
 
 Runbook: [`prodrive/deployment/Dashboard-Bakeoff-Runbook.md`](https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/blob/main/prodrive/deployment/Dashboard-Bakeoff-Runbook.md) on `main`.
 
+**Focus Day (1 Oct 2026):** no dashboard — Rob Liddiard runs the day as he wishes. Phase 1 product scope stays Leadership L10 (Issues, Rocks, To-Dos, KPIs). Quarterly / Focus Day dashboard use is a later assessment only.
+
 ---
 
 ## Sign-off

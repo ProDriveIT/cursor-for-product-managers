@@ -29,7 +29,7 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 | EOS champion (named person) | TODO — distinguish from Integrator |
 | Integrator / Visionary (named) | **Integrator: James.** Visionary/MD: **Bruce**. Management peer: **Matt** (time-poor) |
 | Third-party EOS implementer | **Yes** — **Rob Liddiard**, Mission Group (`rob@mission-group.co.uk`). Accountability / process fidelity (esp. vs Bruce drift). |
-| Focus Day (first with Rob) | **1 October 2026** — first session with implementer |
+| Focus Day (first with Rob) | **1 October 2026** — Rob runs it; **no CEOS dashboard** that day |
 | Cadence | Target: Monday L10; James prep Friday. **Not live yet** on the new console |
 | KPI pipeline today | Mix of automated + manual → spreadsheet → management Scorecard → (planned) same numbers on dashboard |
 | Hosting constraint | **Azure + Microsoft 365 + Copilot only.** Self-hosted in Pro Drive. **No third-party tools** |
@@ -84,7 +84,7 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Hub use test (2026-09-19):** Dummy L10 on Lists felt like a fudge; zero LT engagement; feels like OneNote/Loop/Planner. **A′ (Power App on Lists) withdrawn.**
 - **Current recommendation:** **C′** — revive Azure/CEOS dashboard; update Decision Register; 2-meeting bake-off
 - **Primary users:** James (Integrator), Bruce (Visionary), Matt; implementer **Rob Liddiard** (Mission Group)
-- **Hard date:** Focus Day **1 Oct 2026** (first session with Rob)
+- **Hard date:** Focus Day **1 Oct 2026** (Rob; **no dashboard**). Phase 1 product = L10 only.
 - **Success bar:** 5 consecutive pure-EOS L10s; Friday prep under 20 minutes
 - **Roadmap:** [`../initiatives/eos-operating-dashboard/roadmap.md`](../initiatives/eos-operating-dashboard/roadmap.md)
 - **Decision note:** [`../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md`](../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md)

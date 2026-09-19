@@ -9,7 +9,20 @@
 
 ## One sentence
 
-Get Leadership running pure EOS L10s on the CEOS dashboard; use Rob’s Focus Day for Vision/Rocks/seats — not as a substitute for the L10 board.
+Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorecard). Focus Day stays Rob’s — **no dashboard**.
+
+---
+
+## Scope lock (Phase 1)
+
+| In | Out |
+|----|-----|
+| L10 shared-screen board: Issues, Rocks, To-Dos, KPIs/Scorecard | Focus Day / quarterly meeting product |
+| Fixed pure-EOS L10 agenda | Vision/V/TO tooling as a product surface |
+| One writable meeting store for bake-off | Hub Lists as the L10 board |
+| Azure host when ready (same L10 UI) | Department Traction, AI chase, Matt async (until L10 proves) |
+
+**Later assessment only:** if there is clear value, consider dashboard for quarterly / Focus Day-style sessions — not Phase 1.
 
 ---
 
@@ -17,57 +30,54 @@ Get Leadership running pure EOS L10s on the CEOS dashboard; use Rob’s Focus Da
 
 | Date | What | Product role |
 |------|------|----------------|
-| **Now – 30 Sep** | Sign C′; run **2 L10 bake-offs** on CEOS dashboard (localhost or Azure if provisioned) | Prove meeting UX before Rob arrives |
-| **Mon 22 Sep / Mon 29 Sep** | Likely Leadership L10 slots before Focus Day | Prefer these as bake-off #1 and #2 |
-| **1 Oct 2026** | **Focus Day — first session with Rob Liddiard** | Process/Vision day with implementer. Dashboard is a *support surface* if ready; Focus Day agenda is Rob’s, not a product demo |
-| **After 1 Oct** | Weekly L10s toward **5 consecutive pure-EOS** | Dashboard is the board; Rob holds fidelity |
+| **Now – 30 Sep** | Sign C′; run **2 L10 bake-offs** on CEOS dashboard (localhost or Azure if provisioned) | Prove L10 UX — independent of Focus Day |
+| **Mon 22 Sep / Mon 29 Sep** | Likely Leadership L10 slots | Prefer these as bake-off #1 and #2 |
+| **1 Oct 2026** | **Focus Day — first session with Rob Liddiard** | **No dashboard.** Rob runs the day as he wishes (paper / his templates / whatever he uses) |
+| **After 1 Oct** | Weekly L10s toward **5 consecutive pure-EOS** | Dashboard is the L10 board only; Rob holds process fidelity |
 
 ---
 
 ## Phases
 
-### Now (before 1 Oct) — bake-off gate
+### Now — L10 bake-off gate
 
 **Done**
 - Decision Register on ProDrive-EOS `main` (C′ meeting UX)
 - Phase 0 host on `main` (local server + Azure IaC)
 
-**Must finish before Focus Day**
+**Must do (does not block Focus Day)**
 1. Bruce + Matt **sign C′** (written on 1-pager / decision note)
-2. **Two facilitated L10s** on the CEOS dashboard (share-screen in Teams) — success bar from 1-pager
-3. Optional but useful: Azure host + Easy Auth if James can `az login` on work PC
+2. **Two facilitated L10s** on the CEOS dashboard (share-screen in Teams)
+3. Optional: Azure host + Easy Auth if James can `az login` on work PC
 
 **Kill / pause rules**
 - If Bruce remixed the agenda off-screen in both bake-offs → do not expand eng; fix facilitation + Rob contract first
 - If Friday prep stays >20 min → fix Scorecard feed path before API work
-- If Bruce/Matt refuse C′ → stop dashboard build; run Focus Day on paper/Rob’s template only
+- If Bruce/Matt refuse C′ → stop dashboard build; keep L10s on whatever interim surface James can run
 
-**Not required for Focus Day**
-- Azure production cutover / `eos.prodriveit.co.uk`
-- API / dual-write elimination beyond “one writable store in the meeting”
-- Matt async updates, department Traction, AI
+### 1 Oct Focus Day — off product
 
-### Next (1 Oct Focus Day)
+| In scope | Out of scope |
+|----------|----------------|
+| Rob-led Focus Day, his method | Any CEOS/Azure dashboard use |
+| James Integrator; Bruce Visionary; Matt present | Product demo, bake-off, or SSOT cutover |
+| Process / Vision / seats as Rob frames them | Building Focus Day or quarterly meeting features |
 
-| In scope for the day | Out of scope for the day |
-|----------------------|---------------------------|
-| Rob-led Focus Day (V/TO, seats, Rocks as he runs it) | Declaring dashboard SSOT cutover |
-| James as Integrator; Bruce Visionary; Matt present | Building Power App / Lists-as-board |
-| Optional: open CEOS dashboard if bake-off already passed | Treating Focus Day as the product bake-off |
+**Position:** Focus Day is implementer-led re-adoption. Phase 1 product proof is **L10 only**. Do not put the dashboard in the room on 1 Oct.
 
-**Position:** Focus Day validates **re-adoption with an implementer**. It does **not** validate C′. Do not conflate “good day with Rob” with “Lists or dashboard won.”
-
-### Later (after Focus Day → five L10s)
+### Later (after bake-off + toward five L10s)
 
 1. Weekly L10s on CEOS dashboard until **5 consecutive pure-EOS**
-2. Provision Azure Easy Auth host when ready (same UI)
+2. Provision Azure Easy Auth host when ready (same L10 UI)
 3. Only then: API / production meeting SSOT cutover (historical brief in git)
 4. **v1.1:** Matt 2-minute async Scorecard/Rock updates
+5. **Assess later (not committed):** dashboard for quarterly / Focus Day-style sessions — only if LT asks and L10 habit is solid
 
 ### Not now
 
+- Dashboard on Focus Day or quarterly sessions
+- Focus Day / V/TO product features
 - Department Traction portals
-- Focus Day *product* features
 - AI chase / agents on EOS data
 - Bruce customization sandbox
 - Client monthly reports (separate initiative)
