@@ -28,7 +28,7 @@ For the pilot, “working” means one concrete bar: for a single calendar month
 
 The opportunity is not “build another reporting platform.” It is to make proactive MSP value **legible** to one named client using the spine Pro Drive already owns: Autotask → Azure Insights client packs → Copilot **Reporting Agent** → vCIO sign-off → send. Quest is a real account with ticket history in the KPI pipeline and prior project work in the vault (AI governance, DLP, Copilot memo tooling). That makes it a fair pilot: enough proactive and alignment work to show, and a vCIO (Bruce) who already owns the account relationship.
 
-Without this surface, low reactive volume reads as low service. Ticket dumps make that worse. A monthly HTML pack that separates preventative and end-user work (pack numbers) and, in Phase 2, adds Bruce’s narrative plus next vCIO / town meeting dates turns the proactive model into something Quest can renew and expand against. Expansion to other clients is a later decision; this opportunity is Quest’s first approved cycle.
+Without this surface, low reactive volume reads as low service. Ticket dumps make that worse. A monthly HTML pack that separates preventative and end-user work (pack numbers) and, in Phase 2, adds Bruce’s narrative plus next **vCIO and TAM meeting** dates turns the proactive model into something Quest can renew and expand against. Expansion to other clients is a later decision; this opportunity is Quest’s first approved cycle.
 
 - Primary operator: Bruce (vCIO); TAM context: Danny; builder/ops: James
 - Pain: proactive success looks like “nothing happened” to the buyer
@@ -46,7 +46,7 @@ Three prior starts teach the constraints for this decision. First, the Jan 2026 
 
 ## Solutions & Assumptions
 
-**Selected solution (wedge):** Run **Reporting Agent Phase 1** for Quest Fund Placement only. Azure monthly Insights produces `client-pack-*.html` for the Autotask account `Quest Fund Placement Ltd`; Logic App lands it in SharePoint KPI Insights; Bruce asks Copilot Reporting Agent to draft that month; draft stores under Quest’s Drafts folder; Bruce approves or requests changes; send is human-gated. Phase 2 (vCIO narrative list + next vCIO / town meeting from the VSO spreadsheet) starts only after Phase 1 exit. Archived `Generate-ClientValueAddReport.ps1` stays archived; its category framing may inform narrative copy later, not a second generator.
+**Selected solution (wedge):** Run **Reporting Agent Phase 1** for Quest Fund Placement only. Azure monthly Insights produces `client-pack-*.html` for the Autotask account `Quest Fund Placement Ltd`; Logic App lands it in SharePoint KPI Insights; Bruce asks Copilot Reporting Agent to draft that month; draft stores under Quest’s Drafts folder; Bruce approves or requests changes; send is human-gated. Phase 2 (vCIO narrative list + next **vCIO and TAM meeting** dates from the meeting calendar) starts only after Phase 1 exit. Archived `Generate-ClientValueAddReport.ps1` stays archived; its category framing may inform narrative copy later, not a second generator.
 
 | Risk axis | Assumption | Test plan |
 |-----------|------------|-----------|

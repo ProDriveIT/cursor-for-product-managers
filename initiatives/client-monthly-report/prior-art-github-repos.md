@@ -11,7 +11,7 @@ This initiative is **not greenfield**. Multiple starts already exist. Use them; 
 |------|------------------------|--------|------------|
 | 2026-01 | [`90 Archive/2026-01 reporting-client`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/90%20Archive/2026-01%20reporting-client) | **Archived 29-08-2026** (STOP under RTEM focus) | First client “value-add” HTML generator (`Generate-ClientValueAddReport.ps1`). Same problem: clients only see reactive tickets; show proactive/alignment/etc. |
 | 2026-01 (ongoing) | [`10 Projects/2026-01 reporting-kpi-automation`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-01%20reporting-kpi-automation) | **Active** | Azure KPI / Insights spine. **WIP-027** [`Monthly-Client-Service-Report.md`](https://github.com/ProDriveIT/GitHub-Repos/blob/main/10%20Projects/2026-01%20reporting-kpi-automation/Documentation/Monthly-Client-Service-Report.md) — branded `client-pack-{runId}.html` per account/month (preventative vs end-user, jobs, alignment). Human review before send. |
-| 2026-09 | [`10 Projects/2026-09 agent-ecosystem-copilot`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot) | **Active** (docs / build guides) | **Reporting Agent** — Copilot drafts monthly HTML from Insights packs → **vCIO sign-off** → send. Phase 2 adds vCIO narrative list + next vCIO / town meeting dates. First Copilot vertical slice by design. |
+| 2026-09 | [`10 Projects/2026-09 agent-ecosystem-copilot`](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot) | **Active** (docs / build guides) | **Reporting Agent** — Copilot drafts monthly HTML from Insights packs → **vCIO sign-off** → send. Phase 2 adds vCIO narrative list + next **vCIO and TAM meeting** dates. First Copilot vertical slice by design. |
 
 ## Locked product decisions (from agent-ecosystem pack)
 
@@ -21,7 +21,7 @@ Do not reopen these without evidence:
 - Operator / sign-off: that client’s **vCIO** (not auto-send)
 - Numbers: from Azure Insights **client packs** only — agents never invent metrics
 - Narrative half: SharePoint list, vCIO-authored (“This month Pro Drive have worked on…”)
-- Meeting footer: VSO spreadsheet — next **vCIO meeting** + next **town meeting**
+- Meeting footer: calendar spreadsheet — next **vCIO meeting** + next **TAM meeting** (product language; some GitHub-Repos build guides still say “town meeting”)
 - Builder: James; product owner: vCIO practice
 - External **reports repo** exists for HTML templates / assembly (attach in multi-root workspace)
 
