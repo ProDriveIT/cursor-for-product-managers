@@ -11,9 +11,11 @@
 
 Make the **Integrator’s** EOS week workable: one opinionated portal where leadership updates Scorecard/KPIs, Rocks, and Issues (and you run L10 from the same SSOT) — so chase/admin cost drops and you can hold Bruce and Matt to the process.
 
-**Working v1 hypothesis:** Leadership Scorecard + Rocks + Issues (+ To-Dos) + fixed L10 agenda (“what next / why”). Optimize for Matt’s 2-minute updates and your pre-L10 completeness view.
+**Working v1 hypothesis:** **B — Leadership L10 room mode** (fixed agenda, Scorecard, Issues, To-Dos on shared screen). Optimize for Integrator facilitation and Bruce’s “what next / why.”
 
-**Explicit non-goals for v1:** Time logging, AI chase/automation, Focus Days, department Traction, Bruce customization sandbox.
+**v1.1 (after first real L10s):** Matt’s 2-minute async Scorecard/Rock updates.
+
+**Explicit non-goals for v1:** Time logging (dropped), AI chase/automation, Focus Days, department Traction, Bruce customization sandbox.
 
 ## Current Status
 
@@ -21,7 +23,7 @@ Make the **Integrator’s** EOS week workable: one opinionated portal where lead
 - [ ] Opportunities Identified
 - [x] Failure post-mortem captured *(SSOT gap + MD process drift + passenger departments)*
 - [x] Primary user named *(Integrator — you; contributors Bruce, Matt)*
-- [ ] Product diagnostic survived *(in progress — wedge next)*
+- [x] Product diagnostic survived *(wedge = L10 room mode B; conditions apply)*
 - [ ] One-pager drafted
 - [ ] PRD Drafted / prototype built
 - [ ] Tasks Generated

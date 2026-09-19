@@ -78,10 +78,12 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
 - **Primary users (named):** **You (Integrator)** — admin, number collection, chase. Contributors: **Matt** (fast KPI/Rock updates), **Bruce** (stay on plan in L10). Implementer uses SSOT for accountability.
 - **Job to be done (working):** Make the Integrator’s weekly EOS admin/chase cheap enough that leadership L10 can stick; give Bruce an on-screen “what next / why”; give Matt a 2-minute update path
-- **v1 wedge (hypothesis):** Leadership Scorecard + Rocks + Issues (+ To-Dos) in one opinionated portal — **no** time logging, **no** AI chase, **no** Focus Days/departments until update habit is real
-- **Out of scope for v1 (coach recommendation):** Time logging/PSA, AI automation, department Traction, Focus Days, deep customization (“Bruce mode”)
-- **Non-software dependency:** Implementer + you willing to challenge drift in-meeting using the SSOT; Bruce accepts fixed path for a trial period
+- **v1 wedge (locked):** **B — Leadership L10 room mode** — fixed agenda + Scorecard + Issues + To-Dos on shared screen (“what next / why”)
+- **v1.1 (next):** Thin async Scorecard/Rock updates for Matt (2-minute path) once room mode is proven
+- **Out of scope for v1:** Time logging (**dropped**), AI chase, Focus Days, department Traction, Bruce customization, analytics/agents platform
+- **Non-software dependency:** Implementer + you enforce drift in-meeting; Bruce accepts fixed agenda for trial
 - **Named people so far:** You (Integrator), Bruce (MD), Matt (time-poor management), implementer (name TODO)
+- **First L10 date:** TODO
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 - **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
 

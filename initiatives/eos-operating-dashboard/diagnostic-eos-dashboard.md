@@ -1,79 +1,68 @@
 # Diagnostic — EOS Operating Dashboard
 
 **Date:** 2026-09-19  
-**Status:** In progress (interactive)  
+**Status:** Survived with conditions — ready for one-pager  
 **Stage assumption:** Pre-product / pre-EOS adoption (prior attempt abandoned)
 
 ## Premise (as stated)
 
 A single Azure-hosted web dashboard so management (then departments) can run L10, Focus Days, Traction, and “all the things” in one site; store data for reporting, analysis, and agents.
 
-## Coach position (updated)
+## Coach position (final for this pass)
 
-**Primary user is clear: you (Integrator).** That is real specificity. The product thesis is now: *reduce Integrator admin/chase cost so you can enforce process on Bruce and Matt.*
+**Wedge locked: B — Leadership L10 room mode** (fixed agenda + Scorecard + Issues + To-Dos on a shared screen). Time logging **out** (misspoke).
 
-That thesis can work. The current feature cloud does **not**:
+**Verdict: Build this — narrowly.** It matches the Integrator job (run the meeting from one SSOT), Bruce’s “what next / why,” and the post-mortem (stop reinventing the meeting in Teams/notes).
 
-| Ask | Verdict |
-|-----|---------|
-| One place for Rocks / Issues / Scorecard (KPI) updates | **Core** — this is the Integrator wedge |
-| User-friendly, minutes-not-hours for Matt | **Core UX constraint** on that wedge |
-| “What we’re supposed to do next and why” for Bruce in-meeting | **L10 run mode** — second surface, same data |
-| Time logging | **Creep** — PSA territory unless Scorecard literally needs it; defer |
-| AI chase / automation | **Leap of faith** — build after manual chase works inside the portal |
-| Make Bruce stop doing random things | **Still not a software problem** — you + implementer enforce; product supplies the script |
+**Condition:** Pure B without *any* pre-meeting update path means Scorecard numbers still arrive via chase/Excel/you typing in the room — recreating Integrator pain. Acceptable for a **first facilitated L10** if you enter numbers live once; not acceptable as the steady state. Next slice after B works in-room: Matt’s 2-minute async Scorecard/Rock update (thin A).
 
-**Failure pattern named:** Solution expanding to “Integrator OS + PSA lite + AI chief of staff” before one weekly Scorecard/Rocks update habit exists.
+**Still out until ~8 real L10s:** Focus Days, department Traction, AI chase, analytics/agents platform, Bruce customization, time logging.
 
-**What would change my mind on AI-in-v1:** Written list of the exact chase messages you send today, frequency, and proof people respond to async nudges (email/Teams) — then automate *those* only.
+**What would change my mind against B:** Implementer insists first sessions stay on paper/Ninety, or Bruce refuses a fixed on-screen agenda for the trial.
 
-**What would change my mind on time-logging-in-v1:** A Scorecard KPI that cannot be computed without time entry and is required for the first L10.
-
-## Evidence gaps
+## Evidence summary
 
 | Gap | Status |
 |-----|--------|
-| Post-mortem | Filled |
-| Named primary user | **Filled — you (Integrator)** |
-| Secondary users | Bruce (MD, process drift); Matt (time-poor updater) |
+| Post-mortem | Filled — SSOT chaos + Bruce drift + passengers |
+| Primary user | **You (Integrator)** |
+| Contributors | Bruce (plan fidelity), Matt (later: fast updates) |
+| Wedge | **B — L10 room mode** |
+| Time logging | **Dropped** |
 | Engineering repo | Still missing |
-| Committed L10 restart date | Open |
-| Narrowest wedge | Asked next |
+| L10 restart date | Open — assignment |
 
 ## Session log
 
 ### Q1 — Demand reality
-
-Pre-adoption; second-chance bet. No “upset if disappeared” yet — proxy demand = Integrator pain when cadence restarts.
+Pre-adoption; second-chance bet. Proxy demand = Integrator admin/chase + process fidelity.
 
 ### Q2 — Post-mortem
+No SSOT; Bruce remixed EOS; peers didn’t challenge; implementer for accountability; dept Traction became solo.
 
-SSOT gap + Bruce remix + weak challenge + passenger department Traction. Implementer for accountability.
+### Q3 — Primary user
+You (Integrator). Portal to cut admin/chase; push Bruce/Matt. AI later. Time logging later retracted.
 
-### Q3 — Desperate specificity
+### Q4 — Narrowest wedge
+**Chose B.** Dropped time logging explicitly.
 
-*Who is the product for?*
+**Position on B:** Correct meeting-shaped wedge. Do not smuggle A/AI/departments into the first build. Plan thin async updates as v1.1 once room mode survives contact with a real L10.
 
-**Answer (paraphrased):** Largely for you as Integrator — meeting admin, number collection, chasing Rocks/Issues/KPIs. Want one portal (time, numbers, KPIs, Rocks), user-friendly; later AI to automate chase. Easier for you → easier to push Bruce (random/unplanned) with “what next and why,” and Matt (200-item list / time-poor) with a 2-minute browser update habit. Auto-pull KPIs where possible.
-
-**Position:** Best answer so far. Primary buyer/user = Integrator. Bruce and Matt are **constrained contributors**, not co-primary personas for v1 scope. “Make Integrator’s life easy” is a valid product; “AI + time log + full Traction + department rollout” is scope suicide.
-
-**Push into Q4:** Strip to the smallest thing that removes *your* weekly chase burden for the first L10.
-
-### Q4 — Narrowest wedge (asked next)
-
-What’s the smallest version that makes *your* Integrator week easier for the first L10 — shippable before Focus Days, AI, time logging, or department Traction?
+### Q5 / Q6 — Skipped (enough to decide)
+Observation and future-fit can wait; assignment below unblocks proof.
 
 ---
 
-## Sharpest reframe (current)
+## Sharpest reframe
 
-**EOS Integrator Console (leadership only):** Matt (and peers) update Scorecard numbers + Rock status + Issues in one place in minutes; you run L10 from that same SSOT with a fixed agenda (“what next / why”); you chase from incomplete fields — manually first, AI later. Bruce sees the plan in the room; he does not get a customization sandbox.
+**Leadership L10 Console (v1):** Shared-screen, opinionated EOS L10 — same agenda every week, live Scorecard, Issues (IDS), To-Dos/Rocks status as needed for the meeting. You facilitate; implementer can point at the plan; Bruce sees “what next / why.” No time log, no AI, no department portals.
 
 ## Weakest link
 
-Building for your future AI-assisted self before proving Bruce/Matt will update anything weekly. If Matt won’t open a tab for 2 minutes, automation amplifies empty data.
+Shipping B as a flexible “dashboard” Bruce can reshape — that recreates attempt #1. Rigidity is the feature.
 
-## One assignment (update at close)
+## One assignment
 
-_TBD_
+**Before writing a PRD:** Run (or schedule) one leadership L10 using a **clickable prototype or even a rigid shared doc that mirrors B’s agenda**, with the implementer present if possible. Note every time someone leaves the script or you had to fetch a number from elsewhere. That list becomes the v1 backlog — nothing else.
+
+**Also:** Confirm `ProDrive-EOS` repo access (or paste README) and name the implementer + first L10 date in `prodrive-context.md`.
