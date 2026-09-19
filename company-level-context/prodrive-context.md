@@ -66,10 +66,11 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 **Engineering repos (product code — not this PM toolkit):**
 
-| Product | Intended repo | Status from this agent |
-|---------|---------------|------------------------|
-| EOS Operating Dashboard | `ProDrive-EOS` (assumed) | **Not visible** — see §6 |
+| Product | Repo | Status from this agent |
+|---------|------|------------------------|
+| EOS Operating Dashboard / Hub | https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS | **Analysed 2026-09-19** — M365-native path decided; Azure dashboard superseded; Hub live |
 | Client monthly reports | TBD | Not started in this workspace |
+| EOS in Practice (business notes) | https://github.com/ProDriveIT/Github-SupportingData (`50-eos`) | Sister knowledge home |
 
 ---
 
@@ -77,19 +78,17 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 ### A. EOS Operating Dashboard (priority)
 
-- **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
-- **Primary users (named):** **James (Integrator)** — admin, number collection, chase. Contributors: **Matt** (fast KPI/Rock updates later), **Bruce** (stay on plan in L10). Implementer uses SSOT for accountability.
-- **Job to be done (working):** Make James’s Friday L10 prep under 20 minutes and run Monday L10 from one SSOT so Bruce/Matt stick to pure EOS
-- **Success bar (90-day style):** 5 consecutive pure-EOS leadership L10s; KPIs on dashboard before meeting or via current automated/manual → spreadsheet path mirrored to Scorecard
-- **v1 wedge (locked):** **B — Leadership L10 room mode** on Azure / M365 / Copilot only
-- **v1.1 (next):** Thin async Scorecard/Rock updates for Matt once room mode is proven
-- **Out of scope for v1:** Time logging (**dropped**), AI chase, Focus Days, department Traction, Bruce customization, third-party SaaS
-- **Decision:** 1-pager recommends build now (option A); sign-off required from James, Bruce, and Matt
-- **Named people so far:** James (Integrator), Bruce (MD), Matt (management), implementer (name TODO)
-- **First L10 date:** TODO (Monday cadence)
+- **Intent:** Leadership L10 / Traction console — **Power App on live M365 Lists**, not Azure App Service
+- **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS (analysed)
+- **Live Hub:** Management Team SharePoint (Phases 0–1 done; Power App not started)
+- **Primary users:** James (Integrator), Bruce (Visionary), Matt; coach Rob / Mission Group
+- **Success bar:** 5 consecutive pure-EOS L10s; Friday prep under 20 minutes
+- **v1 wedge:** Power App L10/weekly views on existing Lists + Friday Scorecard automate
+- **Do not build:** Azure App Service dashboard (superseded 03 Sep 2026)
+- **1-pager:** revise to option **A′** — see revision section in the 1-pager
+- **Analysis:** [`../initiatives/eos-operating-dashboard/engineering-repo-analysis.md`](../initiatives/eos-operating-dashboard/engineering-repo-analysis.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
-- **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
-- **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
+
 
 ### B. Client monthly reports (parked)
 
@@ -111,23 +110,14 @@ Until those folders have real docs, treat §1–4 of this file as the only compa
 
 ## 6. Access notes for Cloud Agents
 
-As of 2026-09-19, the agent authenticated as **ProDriveIT** can see these **public** repos:
+| Identity / tool | What it can see |
+|-----------------|-----------------|
+| `gh` as ProDriveIT | Public ProDriveIT repos only; **cannot** resolve ProDrive-EOS |
+| GitHub MCP | **Can** read https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS |
 
-- `CIPP`, `CIPP-API`, `cursor-for-product-managers`, `Pro-Drive-Public`, `second-brain-skills`
+Analysis written: [`../initiatives/eos-operating-dashboard/engineering-repo-analysis.md`](../initiatives/eos-operating-dashboard/engineering-repo-analysis.md)
 
-It **cannot** resolve any of these (tried again when asked about “Pro Drive OS”):
-
-- `ProDriveIT/ProDrive-EOS`, `Pro-Drive-EOS`, `EOS`
-- `ProDriveIT/Pro-Drive-OS`, `ProDrive-OS`, `prodrive-os`, `ProDriveOS`, `ProDrive-Dashboard`
-
-Private repos are not listable with the current token (`user/repos` → 403; `--visibility private` → empty). **No analysis of an existing dashboard or skill set in a Pro Drive OS / EOS engineering repo has been done** because that repo is not readable from this environment.
-
-To ground product work in existing code:
-
-1. Paste the exact GitHub URL (owner/name), **or**
-2. Grant this agent/token read access to the private repo, **or**
-3. Paste a README / architecture snapshot / skill inventory into `initiatives/eos-operating-dashboard/`
-
+Do not invent live Scorecard/Rock values from GitHub `data/` — that tree is fictional/pilot seed. Live Hub: Management Team SharePoint.
 
 ---
 

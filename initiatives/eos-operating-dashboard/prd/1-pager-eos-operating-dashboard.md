@@ -74,4 +74,26 @@ James, Bruce, and Matt are asked to decide the following together. The recommend
 | Bruce | MD | | | |
 | Matt | Management | | | |
 
-**Recommendation:** Choose **A**, lock scope, schedule the first Monday L10 against the console (or a clickable prototype of it), and treat any request to “just add” department views or Copilot chase before five consecutive L10s as out of bounds.
+---
+
+## Revision — 2026-09-19 (after ProDrive-EOS analysis)
+
+**Critical correction:** The engineering repo already decided (03 Sep 2026) that **production EOS is M365-native** (SharePoint Lists + Power App + controlled flows + Copilot Studio + Teams). The **Azure App Service dashboard/API build is superseded**. A live Management Team Hub already exists with Scorecard, Rocks, Issues, To-Dos lists and an EOS landing page. CEOS skills (including `ceos-l10`) already define L10 room behaviour against GitHub pilot data.
+
+**Therefore Decision Request 1 option A as originally written (“build Azure L10 room mode”) is the wrong A.**
+
+### Revised recommendation
+
+- **A′ (recommended):** Approve continuing the **existing M365 path**: Leadership L10 / weekly Traction UX as a **Power App** on the live Lists SSOT (plus Friday Scorecard automation and Facilitator later), aimed at five consecutive pure-EOS L10s and sub-20-minute Friday prep. Do **not** restart an Azure App Service dashboard.
+- **B:** Pilot L10s on raw Hub Lists / EOS.aspx for 4–8 weeks, then build Power App.
+- **C:** Overturn the Decision Register and revive Azure-hosted dashboard (requires explicit LT reversal).
+- **D:** Pause software; run EOS on coach process only until Rob/LT Agree V/TO and seats.
+
+Full analysis: [engineering-repo-analysis.md](../engineering-repo-analysis.md)
+
+| Name | Role | Decision (A′/B/C/D) | Approve scope lock? | Date |
+|------|------|---------------------|---------------------|------|
+| James | Integrator | | | |
+| Bruce | MD / Visionary | | | |
+| Matt | Management | | | |
+

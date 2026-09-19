@@ -1,20 +1,20 @@
 # EOS Operating Dashboard
 
-**Status:** Planning  
+**Status:** Planning — align to existing M365 path  
 **Timeline:** TBD  
-**Owner:** James (Integrator)  
-**Stakeholders:** James (Integrator), Bruce (MD), Matt (management), third-party EOS implementer (name TBD), eng owner of Azure hosting  
-**Engineering repo:** `ProDrive-EOS` (assumed) — **not accessible from this workspace yet**  
-**Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
-**1-pager:** [`prd/1-pager-eos-operating-dashboard.md`](./prd/1-pager-eos-operating-dashboard.md)
+**Owner:** James Stock (Integrator)  
+**Stakeholders:** James, Bruce Penson (Visionary), Matt Taylor, Rob / Mission Group (coach)  
+**Engineering repo:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS  
+**Live Hub:** https://prodrive365.sharepoint.com/sites/ManagementTeam  
+**Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)  
+**1-pager:** [`prd/1-pager-eos-operating-dashboard.md`](./prd/1-pager-eos-operating-dashboard.md)  
+**Repo analysis:** [`engineering-repo-analysis.md`](./engineering-repo-analysis.md)
 
 ## Initiative Goal
 
-Make **James’s** EOS week workable: Leadership L10 room mode on Azure / M365 / Copilot so Friday prep stays under 20 minutes, Monday L10 runs pure EOS from one Scorecard/agenda/Issues/To-Dos screen, and Bruce/Matt have a single plan to follow.
+Make **James’s** EOS week workable via the **already-decided M365 runtime**: Leadership L10 / Traction UX as a **Power App** on live Management Team Lists (Scorecard, Rocks, Issues, To-Dos), not a new Azure App Service. Friday prep under 20 minutes; five consecutive pure-EOS L10s.
 
-**Success bar:** 5 consecutive pure-EOS leadership L10s; KPIs via dashboard and/or current automated+manual → spreadsheet path mirrored to the Scorecard.
-
-**Working v1:** L10 room mode only. **v1.1:** Matt async updates. **Out:** time logging, AI chase, departments, Focus Days, third-party SaaS.
+**Working v1:** Power App weekly + L10 surfaces on existing Lists + Friday Scorecard automation. **Out:** revived Azure dashboard, department Traction before leadership cadence sticks, time logging.
 
 ## Current Status
 
@@ -23,12 +23,11 @@ Make **James’s** EOS week workable: Leadership L10 room mode on Azure / M365 /
 - [x] Failure post-mortem captured
 - [x] Primary user named *(James — Integrator)*
 - [x] Product diagnostic survived *(wedge = L10 room mode)*
-- [x] One-pager drafted *([prd/1-pager-eos-operating-dashboard.md](./prd/1-pager-eos-operating-dashboard.md))*
-- [ ] One-pager signed off *(James, Bruce, Matt)*
-- [ ] PRD Drafted / prototype built
-- [ ] Tasks Generated
-- [ ] Development Started (in engineering repo)
-- [ ] Analytics Setup Complete
+- [x] Engineering repo analysed *([engineering-repo-analysis.md](./engineering-repo-analysis.md))*
+- [x] One-pager drafted — **revision A′ required** *(original Azure A conflicts with Decision Register)*
+- [ ] One-pager signed off *(James, Bruce, Matt on A′)*
+- [ ] Phase 3–4 work continued in ProDrive-EOS (flows + Power App)
+- [ ] Five consecutive pure-EOS L10s recorded
 
 ## Folder Structure
 
@@ -47,22 +46,18 @@ Make **James’s** EOS week workable: Leadership L10 room mode on Azure / M365 /
 
 ## Quick Links
 
-- [PRD](./prd/)
-- [User Research Summary](./user-interviews/synthesis/)
-- [Priority Opportunities](./opportunities/)
-- [Assumptions & Tests](./assumptions/)
-- [Solution Explorations](./solutions/)
-- [Prototype & Companion Doc](./prototype/)
-- [Implementation Tasks](./tasks/)
+- [1-pager](./prd/1-pager-eos-operating-dashboard.md)
+- [Engineering repo analysis](./engineering-repo-analysis.md)
 - [Diagnostic notes](./diagnostic-eos-dashboard.md)
+- [PRD](./prd/)
+- [Implementation Tasks](./tasks/)
 
 ## Notes
 
-- Prior attempt: inconsistent artifacts (loop/notes/Teams/SharePoint); Bruce adapted EOS; peers didn’t challenge; implementer hired for accountability; ops Traction collapsed to solo meeting.
-- Design implication: **rigidity over flexibility** in v1.
-- This PM toolkit holds discovery/specs only; app code lives in the engineering repo once accessible.
-- Client monthly reports are a separate later initiative.
-- CIPP / CIPP-API may matter for M365/Azure context — not the EOS product.
+- Azure dashboard path is **superseded** in ProDrive-EOS Decision Register (03 Sep 2026).
+- Hub Lists + Scorecard already live; gap is Power App UX + controlled flows + Facilitator cutover.
+- 19 CEOS skills exist (`ceos-l10` etc.); production agent path is Copilot Studio on M365.
+- Client monthly reports remain a separate later initiative.
 
 ---
 *Created from initiatives template. Use `/setup-initiative` for new initiatives.*
