@@ -78,15 +78,14 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 
 ### A. EOS Operating Dashboard (priority)
 
-- **Intent:** Leadership L10 / Traction console — **Power App on live M365 Lists**, not Azure App Service
-- **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS (analysed)
-- **Live Hub:** Management Team SharePoint (Phases 0–1 done; Power App not started)
+- **Intent:** Purpose-built Leadership L10 console (CEOS/Azure dashboard), not SharePoint Lists as the meeting board
+- **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS
+- **Hub use test (2026-09-19):** Dummy L10 on Lists felt like a fudge; zero LT engagement; feels like OneNote/Loop/Planner. **A′ (Power App on Lists) withdrawn.**
+- **Current recommendation:** **C′** — revive Azure/CEOS dashboard; update Decision Register; 2-meeting bake-off
 - **Primary users:** James (Integrator), Bruce (Visionary), Matt; coach Rob / Mission Group
 - **Success bar:** 5 consecutive pure-EOS L10s; Friday prep under 20 minutes
-- **v1 wedge:** Power App L10/weekly views on existing Lists + Friday Scorecard automate
-- **Do not build:** Azure App Service dashboard (superseded 03 Sep 2026)
-- **1-pager:** revise to option **A′** — see revision section in the 1-pager
-- **Analysis:** [`../initiatives/eos-operating-dashboard/engineering-repo-analysis.md`](../initiatives/eos-operating-dashboard/engineering-repo-analysis.md)
+- **Decision note:** [`../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md`](../initiatives/eos-operating-dashboard/decision-revision-sharepoint-rejected.md)
+- **1-pager:** [`../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md`](../initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 
 

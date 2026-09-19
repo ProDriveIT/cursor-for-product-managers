@@ -8,13 +8,21 @@ This note is product-facing. It does not copy live KPI numbers or secret connect
 
 ---
 
-## Verdict
+## Verdict (updated 2026-09-19 — after Hub use test)
 
-**We had been planning the wrong production surface.**
+**Architecture paper said M365 Lists + Power App. Lived experience says Lists-as-L10-board failed.**
+
+James’s dummy L10 and zero LT engagement overturn “continue the Hub/Lists path” (A′). Meeting UX should return to a **purpose-built CEOS/Azure dashboard**, with the Decision Register updated. Full decision note: [decision-revision-sharepoint-rejected.md](./decision-revision-sharepoint-rejected.md).
+
+The earlier sections below remain accurate as a snapshot of what the repo *contains* and what was *decided on 03 Sep*. Treat the 03 Sep “Azure superseded” row as **pending reversal**, not as binding product direction for L10 UX.
+
+---
+
+## Verdict (original repo read — 2026-09-19 morning)
 
 Pro Drive already has an EOS **product engineering home** (CEOS-based), a **decided M365-native runtime**, a **live Management Team Hub** with Lists + Scorecard grid, and **19 CEOS skills** plus Copilot Facilitator design. The **Azure App Service dashboard/API path is formally superseded** (Decision Register, 03 Sep 2026). AGENTS.md says: do not execute `prodrive/dev/Cursor-Azure-EOS-Dashboard-Build-Prompt.md`.
 
-The PM 1-pager’s “build Azure L10 room mode” recommendation must be revised to match the existing architecture: **Power App + Lists + Teams + Copilot Facilitator** as the Leadership L10 console.
+The PM 1-pager briefly aligned to Power App + Lists. **That interim alignment is withdrawn after the Hub use test** (see Revision 2 / decision-revision-sharepoint-rejected.md).
 
 ---
 

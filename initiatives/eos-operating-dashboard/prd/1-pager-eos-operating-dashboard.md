@@ -4,7 +4,7 @@
 **Owner:** James (Integrator)  
 **Decision makers:** James, Bruce, Matt (all three must sign off)  
 **Date:** 2026-09-19  
-**Status:** Draft for decision  
+**Status:** Draft for decision — **Revision 2 active** (Hub rejected after use; revive Azure/CEOS dashboard)  
 **Related:** [Diagnostic](../diagnostic-eos-dashboard.md) · [Company context](../../../company-level-context/prodrive-context.md)
 
 ---
@@ -76,24 +76,28 @@ James, Bruce, and Matt are asked to decide the following together. The recommend
 
 ---
 
-## Revision — 2026-09-19 (after ProDrive-EOS analysis)
+## Revision 1 — 2026-09-19 (repo analysis)
 
-**Critical correction:** The engineering repo already decided (03 Sep 2026) that **production EOS is M365-native** (SharePoint Lists + Power App + controlled flows + Copilot Studio + Teams). The **Azure App Service dashboard/API build is superseded**. A live Management Team Hub already exists with Scorecard, Rocks, Issues, To-Dos lists and an EOS landing page. CEOS skills (including `ceos-l10`) already define L10 room behaviour against GitHub pilot data.
+Engineering repo had decided M365-native production; Azure dashboard superseded. Interim recommendation was **A′** (Power App on Lists). See [engineering-repo-analysis.md](../engineering-repo-analysis.md).
 
-**Therefore Decision Request 1 option A as originally written (“build Azure L10 room mode”) is the wrong A.**
+## Revision 2 — 2026-09-19 (after Hub use test) — CURRENT
 
-### Revised recommendation
+James ran a dummy L10 on the live SharePoint EOS Hub and shared the site with the team. Result: **in-meeting Lists UX feels like a fudge**; **zero LT engagement**; Hub feels too close to OneNote/Loop/Planner. The never-fully-tested CEOS/Azure dashboard is judged more effective for L10.
 
-- **A′ (recommended):** Approve continuing the **existing M365 path**: Leadership L10 / weekly Traction UX as a **Power App** on the live Lists SSOT (plus Friday Scorecard automation and Facilitator later), aimed at five consecutive pure-EOS L10s and sub-20-minute Friday prep. Do **not** restart an Azure App Service dashboard.
-- **B:** Pilot L10s on raw Hub Lists / EOS.aspx for 4–8 weeks, then build Power App.
-- **C:** Overturn the Decision Register and revive Azure-hosted dashboard (requires explicit LT reversal).
-- **D:** Pause software; run EOS on coach process only until Rob/LT Agree V/TO and seats.
+**A′ is withdrawn.** Full write-up: [decision-revision-sharepoint-rejected.md](../decision-revision-sharepoint-rejected.md).
 
-Full analysis: [engineering-repo-analysis.md](../engineering-repo-analysis.md)
+### Current recommendation
 
-| Name | Role | Decision (A′/B/C/D) | Approve scope lock? | Date |
-|------|------|---------------------|---------------------|------|
-| James | Integrator | | | |
+- **C′ (recommended):** Revive **CEOS/Azure Leadership L10 dashboard** as the meeting console. Update the ProDrive-EOS Decision Register. Bake off with two L10s before full SSOT cutover. Keep Azure/M365/Copilot hosting; **do not** use SharePoint Lists as the in-meeting board.
+- **A′′:** Power App-only L10 room mode (no raw Lists) as a competing bake-off.
+- **B′:** Keep Hub Lists (rejected by this test).
+- **D:** Pause build; coach-led process only.
+
+| Name | Role | Decision (C′/A′′/B′/D) | Approve scope lock? | Date |
+|------|------|-------------------------|---------------------|------|
+| James | Integrator | C′ (proposed) | | 2026-09-19 |
 | Bruce | MD / Visionary | | | |
 | Matt | Management | | | |
+
+**Recommendation:** Choose **C′**, update the Decision Register in ProDrive-EOS, and schedule the dashboard bake-off against the same outcome metrics (five consecutive pure L10s; Friday prep under 20 minutes).
 
