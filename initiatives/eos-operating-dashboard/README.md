@@ -2,25 +2,26 @@
 
 **Status:** Planning  
 **Timeline:** TBD  
-**Owner:** TBD (Pro Drive product owner)  
-**Stakeholders:** Bruce (MD), third-party EOS implementer (name TBD), management team, eng owner of Azure hosting  
+**Owner:** You (Integrator)  
+**Stakeholders:** You (Integrator), Bruce (MD), Matt (management), third-party EOS implementer (name TBD), eng owner of Azure hosting  
 **Engineering repo:** `ProDrive-EOS` (assumed) — **not accessible from this workspace yet**  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)
 
 ## Initiative Goal
 
-Enable a **second EOS adoption** with a single Azure-hosted **system of record** for leadership operating rhythm — so process isn’t reinvented each week in Teams/SharePoint/notes, and the third-party implementer (plus peers) can point at an agreed plan when the MD drifts off EOS.
+Make the **Integrator’s** EOS week workable: one opinionated portal where leadership updates Scorecard/KPIs, Rocks, and Issues (and you run L10 from the same SSOT) — so chase/admin cost drops and you can hold Bruce and Matt to the process.
 
-**Working v1 hypothesis:** Opinionated **leadership L10 only** (fixed agenda, Scorecard, Rocks, Issues, To-Dos). Defer Focus Days, department Traction, analytics, and agents until ~8 consecutive L10s with real multi-person participation.
+**Working v1 hypothesis:** Leadership Scorecard + Rocks + Issues (+ To-Dos) + fixed L10 agenda (“what next / why”). Optimize for Matt’s 2-minute updates and your pre-L10 completeness view.
 
-**Explicit non-goal for v1:** Software that “manages Bruce.” Authority stays with implementer + leadership; product makes drift visible and costly to ignore.
+**Explicit non-goals for v1:** Time logging, AI chase/automation, Focus Days, department Traction, Bruce customization sandbox.
 
 ## Current Status
 
 - [ ] User Research Complete
 - [ ] Opportunities Identified
 - [x] Failure post-mortem captured *(SSOT gap + MD process drift + passenger departments)*
-- [ ] Product diagnostic survived *(in progress)*
+- [x] Primary user named *(Integrator — you; contributors Bruce, Matt)*
+- [ ] Product diagnostic survived *(in progress — wedge next)*
 - [ ] One-pager drafted
 - [ ] PRD Drafted / prototype built
 - [ ] Tasks Generated

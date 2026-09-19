@@ -26,12 +26,12 @@ This file is the grounding reference for Cursor skills in this workspace. Incomp
 |-------|--------|
 | EOS status | **Not in use.** Prior adoption abandoned. Re-adopting via custom dashboard + third-party implementer. |
 | Why prior attempt failed | (1) No SSOT — whiteboard/notes/Teams/SharePoint, inconsistent by person/week; (2) MD (Bruce) adapted process until it wasn’t EOS; peers didn’t challenge; (3) Implementer role exists to hold accountability; (4) Department Traction became solo/passenger meetings; pick-and-choose process |
-| EOS champion (named person) | TODO — distinguish champion vs MD vs implementer |
-| Integrator / Visionary (named) | Visionary/MD: **Bruce**. Integrator: TODO |
-| Third-party EOS implementer | **Yes** — accountability / keep process faithful (esp. vs Bruce drift). Name: TODO |
+| EOS champion (named person) | TODO — distinguish from Integrator |
+| Integrator / Visionary (named) | **Integrator: you (repo owner / PM in this workspace).** Visionary/MD: **Bruce**. Management peer: **Matt** (time-poor) |
+| Third-party EOS implementer | **Yes** — accountability / process fidelity (esp. vs Bruce drift). Name: TODO |
 | Cadence | **None live yet.** Ambition: L10 → Focus Days → Traction; management first, then departments |
 | Tools used in failed attempt | Whiteboard/loop, notes, Teams, SharePoint (no single system) |
-| Pain / risk | Process drift and weak challenge culture; tool sprawl was real but secondary. Risk: building software as a substitute for authority |
+| Pain / risk | Integrator admin + chase load; Bruce process drift; Matt update friction; prior SSOT chaos. Risk: scope → PSA/AI platform before L10 habit |
 
 **EOS components — aspiration vs live:**
 
@@ -76,12 +76,12 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 ### A. EOS Operating Dashboard (priority)
 
 - **Intent:** Single Azure-hosted site so management (then departments) can run L10, Focus Days, Traction, and related EOS work without multi-tool maintenance; store data for reporting/analytics/agents.
-- **Primary users (named):** TODO — management team first; then department leads (names required)
-- **Job to be done (working):** Provide a **canonical, hard-to-fork** place to run leadership EOS (L10 first) so the implementer and peers can enforce agreed process vs ad-hoc variants; later departments, reporting, agents
-- **v1 wedge (hypothesis):** Opinionated leadership L10 (Scorecard + Rocks + Issues + To-Dos + same agenda every week) — **not** customizable “Bruce mode,” not Focus Days/departments/agents yet
-- **Out of scope for v1 (coach recommendation):** Department Traction, Focus Days, analytics platform, agent hooks, deep customization — until ~8 consecutive real leadership L10s
-- **Non-software dependency:** Implementer + at least one non-Bruce leader willing to challenge drift in-meeting using the SSOT
-- **Named people so far:** Bruce (MD / process drift risk). Implementer name: TODO. Integrator / product owner: TODO
+- **Primary users (named):** **You (Integrator)** — admin, number collection, chase. Contributors: **Matt** (fast KPI/Rock updates), **Bruce** (stay on plan in L10). Implementer uses SSOT for accountability.
+- **Job to be done (working):** Make the Integrator’s weekly EOS admin/chase cheap enough that leadership L10 can stick; give Bruce an on-screen “what next / why”; give Matt a 2-minute update path
+- **v1 wedge (hypothesis):** Leadership Scorecard + Rocks + Issues (+ To-Dos) in one opinionated portal — **no** time logging, **no** AI chase, **no** Focus Days/departments until update habit is real
+- **Out of scope for v1 (coach recommendation):** Time logging/PSA, AI automation, department Traction, Focus Days, deep customization (“Bruce mode”)
+- **Non-software dependency:** Implementer + you willing to challenge drift in-meeting using the SSOT; Bruce accepts fixed path for a trial period
+- **Named people so far:** You (Integrator), Bruce (MD), Matt (time-poor management), implementer (name TODO)
 - **Initiative folder:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
 - **Diagnostic:** [`../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md`](../initiatives/eos-operating-dashboard/diagnostic-eos-dashboard.md)
 

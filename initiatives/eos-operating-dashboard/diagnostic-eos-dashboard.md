@@ -10,73 +10,69 @@ A single Azure-hosted web dashboard so management (then departments) can run L10
 
 ## Coach position (updated)
 
-**Primary failure mode last time was process fidelity + power dynamics, not tool sprawl alone.**
+**Primary user is clear: you (Integrator).** That is real specificity. The product thesis is now: *reduce Integrator admin/chase cost so you can enforce process on Bruce and Matt.*
 
-| Factor | Type | Will a dashboard fix it? |
-|--------|------|--------------------------|
-| Artifacts lived in whiteboard / notes / Teams / SharePoint; people did it differently | Consistency / SSOT | **Yes — this is the real product job** |
-| Bruce (MD) adapted EOS until it wasn’t EOS; others didn’t challenge | Power / culture | **No.** At best SSOT + implementer give challengers a script |
-| Third-party implementer hired to hold accountability (esp. Bruce) | External governance | Dashboard is a **prop for the implementer**, not a substitute |
-| Ops “Traction” became a solo meeting; passengers; pick-and-choose | Cadence / buy-in | **No** if department rollout stays early; prove leadership L10 first |
+That thesis can work. The current feature cloud does **not**:
 
-Building software to “keep Bruce in line” is a weak product bet if Bruce can still override the room. Building an **opinionated, hard-to-fork EOS meeting system** that the implementer and non-Bruce leaders can point at is a coherent bet — **if** those people will actually use it in the room.
+| Ask | Verdict |
+|-----|---------|
+| One place for Rocks / Issues / Scorecard (KPI) updates | **Core** — this is the Integrator wedge |
+| User-friendly, minutes-not-hours for Matt | **Core UX constraint** on that wedge |
+| “What we’re supposed to do next and why” for Bruce in-meeting | **L10 run mode** — second surface, same data |
+| Time logging | **Creep** — PSA territory unless Scorecard literally needs it; defer |
+| AI chase / automation | **Leap of faith** — build after manual chase works inside the portal |
+| Make Bruce stop doing random things | **Still not a software problem** — you + implementer enforce; product supplies the script |
 
-**What would change my mind toward full platform now:** Evidence the implementer + ≥2 management members will refuse to run L10 outside this system starting on a fixed date.
+**Failure pattern named:** Solution expanding to “Integrator OS + PSA lite + AI chief of staff” before one weekly Scorecard/Rocks update habit exists.
 
-**What would change my mind toward “don’t build yet”:** Implementer not contracted for ongoing L10 facilitation, or Bruce will not accept a non-customizable EOS path for 90 days.
+**What would change my mind on AI-in-v1:** Written list of the exact chase messages you send today, frequency, and proof people respond to async nudges (email/Teams) — then automate *those* only.
+
+**What would change my mind on time-logging-in-v1:** A Scorecard KPI that cannot be computed without time entry and is required for the first L10.
 
 ## Evidence gaps
 
 | Gap | Status |
 |-----|--------|
-| Post-mortem of last attempt | **Filled** (see Q2) |
+| Post-mortem | Filled |
+| Named primary user | **Filled — you (Integrator)** |
+| Secondary users | Bruce (MD, process drift); Matt (time-poor updater) |
 | Engineering repo | Still missing |
-| Named primary user of the *product* | Open — Bruce vs implementer vs Integrator vs you |
 | Committed L10 restart date | Open |
-| Wedge | Emerging: opinionated leadership L10 SSOT — not departments/agents yet |
+| Narrowest wedge | Asked next |
 
 ## Session log
 
 ### Q1 — Demand reality
 
-*Upset if dashboard disappeared tomorrow?*
+Pre-adoption; second-chance bet. No “upset if disappeared” yet — proxy demand = Integrator pain when cadence restarts.
 
-**Answer:** Pre-adoption; prior attempt dropped; want one site for L10 / Focus Days / Traction / everything + data for agents.
+### Q2 — Post-mortem
 
-**Position:** Vision, not demand. Stage = second-chance adoption.
+SSOT gap + Bruce remix + weak challenge + passenger department Traction. Implementer for accountability.
 
-### Q2 — Status quo / post-mortem
+### Q3 — Desperate specificity
 
-*What exactly was the maintenance / failure mode?*
+*Who is the product for?*
 
-**Answer (paraphrased):**
+**Answer (paraphrased):** Largely for you as Integrator — meeting admin, number collection, chasing Rocks/Issues/KPIs. Want one portal (time, numbers, KPIs, Rocks), user-friendly; later AI to automate chase. Easier for you → easier to push Bruce (random/unplanned) with “what next and why,” and Matt (200-item list / time-poor) with a 2-minute browser update habit. Auto-pull KPIs where possible.
 
-1. **No single place:** loop / notes / Teams / SharePoint; management members did things differently every time.
-2. **Bruce (MD)** treated EOS as optional template; tweaked immediately; others lacked strength/position to challenge. User notes tooling won’t fix that, but SSOT enables “that’s not what we agreed.”
-3. **Third-party EOS implementer** exists mainly to hold accountability / keep Bruce in line; Bruce broke process; others wouldn’t challenge.
-4. **Downstream:** too many passengers; ops Traction became one person driving a solo meeting; pick-and-choose process killed value.
+**Position:** Best answer so far. Primary buyer/user = Integrator. Bruce and Matt are **constrained contributors**, not co-primary personas for v1 scope. “Make Integrator’s life easy” is a valid product; “AI + time log + full Traction + department rollout” is scope suicide.
 
-**Position on this answer:** Strong, specific, believable. Factor 1 justifies a product. Factors 2–4 mean **software is secondary to facilitation and authority**. Calling the old pain “effort maintaining separate EOS tools” was incomplete — the deeper pain was **inconsistent practice + unchallengeable MD drift + fake departmental EOS**.
+**Push into Q4:** Strip to the smallest thing that removes *your* weekly chase burden for the first L10.
 
-**Push (next):** Who is the product *for* in the room — Bruce, the implementer, or a named Integrator who will enforce the path?
+### Q4 — Narrowest wedge (asked next)
 
-### Q3 — Desperate specificity (asked next)
-
-Name the human who needs this most for *their* job to work (not “the management team”).
+What’s the smallest version that makes *your* Integrator week easier for the first L10 — shippable before Focus Days, AI, time logging, or department Traction?
 
 ---
 
 ## Sharpest reframe (current)
 
-You are not building “EOS in Azure.” You are building a **canonical, opinionated L10 / Traction system of record** so the implementer and management peers can enforce “this is the plan” against ad-hoc Bruce variants — and so department rollouts don’t start until leadership cadence is real.
-
-**v1 design implication:** Optimize for *process rigidity* (agenda, Scorecard, Rocks, Issues, To-Dos, same every week), not customization. Customization is how attempt #1 died.
-
-**v1 scope implication:** Leadership team L10 only. No Focus Days, no department Traction, no analytics/agents until ~8 consecutive real L10s with >1 active participant per seat.
+**EOS Integrator Console (leadership only):** Matt (and peers) update Scorecard numbers + Rock status + Issues in one place in minutes; you run L10 from that same SSOT with a fixed agenda (“what next / why”); you chase from incomplete fields — manually first, AI later. Bruce sees the plan in the room; he does not get a customization sandbox.
 
 ## Weakest link
 
-Using a dashboard as a proxy for challenging the MD. If the implementer won’t (or can’t) escalate, and peers still won’t speak, SSOT becomes a museum of ignored agreements.
+Building for your future AI-assisted self before proving Bruce/Matt will update anything weekly. If Matt won’t open a tab for 2 minutes, automation amplifies empty data.
 
 ## One assignment (update at close)
 
