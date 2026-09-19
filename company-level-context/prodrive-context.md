@@ -98,6 +98,15 @@ List systems that hold operational truth the EOS dashboard or client reports mig
 - **Depends on:** Stable operational data contract (likely after EOS dashboard data spine is clear).
 - **Initiative:** Not created yet — create after EOS diagnostic survives.
 
+### C. Self-Service Travel (live — strategy HOLD)
+
+- **Intent:** TBD — intake lists central travel-request reporting, near one-click multi-client deploy, and full client onboarding.
+- **Status:** Live in production for MSP Org (stated 2026-09-19). PRISM evidence gate **HOLD**.
+- **Strategy draft:** [`product-vision-and-strategy/self-service-travel-strategy.md`](./product-vision-and-strategy/self-service-travel-strategy.md)
+- **Review:** [`product-vision-and-strategy/review.md`](./product-vision-and-strategy/review.md)
+- **Initiative / evidence hub:** [`../initiatives/self-service-travel/`](../initiatives/self-service-travel/)
+- **Priority note:** Do not treat as funded multi-client roadmap until evidence sprint clears HOLD; clarify capacity vs EOS Operating Dashboard.
+
 ---
 
 ## 5. Strategy & OKRs (pointers)
