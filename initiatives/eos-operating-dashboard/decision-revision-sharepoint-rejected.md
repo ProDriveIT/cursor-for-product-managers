@@ -57,22 +57,20 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 ## Decision Register action required
 
-**Done (draft PR):** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/3 (branch `cursor/eos-meeting-ux-azure-d8ca`)
+**Done (merged):** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/3 → `main`
 
-Updates in that PR:
+Updates now on `main`:
 
 - `prodrive/governance/EOS-Decision-Register.md` — 19 Sep 2026 meeting-UX rows
 - `AGENTS.md` — Azure/CEOS bake-off allowed; Lists-as-board forbidden
 - `prodrive/dev/Cursor-Azure-EOS-Dashboard-Build-Prompt.md` — reopened
 - `prodrive/README.md` — current direction
 
-Until that PR merges, treat the branch as the source of truth for agents on that repo.
-
 ---
 
-## Stand-up (Phase 0) — in progress
+## Stand-up (Phase 0) — merged
 
-**Draft PR:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/4 (branch `cursor/stand-up-l10-dashboard-d8ca`)
+**Merged:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/pull/5 → `main` (superseded conflicted #4)
 
 | Open today | How |
 |------------|-----|
@@ -80,7 +78,7 @@ Until that PR merges, treat the branch as the source of truth for agents on that
 | Artifact | Actions → Build Pro Drive EOS dashboard → download `prodrive-eos-dashboard` |
 | Azure | `prodrive/deploy/azure/` after `az login` — target `eos.prodriveit.co.uk` + Easy Auth |
 
-Runbook: `prodrive/deployment/Dashboard-Bakeoff-Runbook.md` on the stand-up branch.
+Runbook: [`prodrive/deployment/Dashboard-Bakeoff-Runbook.md`](https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS/blob/main/prodrive/deployment/Dashboard-Bakeoff-Runbook.md) on `main`.
 
 ---
 
