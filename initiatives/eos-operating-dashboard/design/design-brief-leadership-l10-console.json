@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "date": "2026-09-20",
+    "locale": "en-GB",
+    "brand": "Pro Drive",
+    "feature": "leadership-l10-console",
+    "status": "shipped",
+    "url": "https://eos.prodriveit.co.uk",
+    "design_system": {
+      "source": "Pro Drive Branding 2026",
+      "paths": [
+        "80-branding/2026/",
+        "C:/Users/James.Stock/.cursor/skills/pro-drive-branding/references/tokens.md"
+      ]
+    },
+    "sources": [
+      "initiatives/eos-operating-dashboard/prd/1-pager-eos-operating-dashboard.md",
+      "https://eos.prodriveit.co.uk",
+      "ProDrive-EOS dashboard/build.py",
+      "Pro Drive IT Brand Guidelines 2026"
+    ]
+  },
+  "purpose": "Shared-screen Leadership L10 board: Scorecard, Rocks, Issues, To-Dos, and a 90-minute agenda. One writable store. Bruce and Matt run the meeting without GitHub.",
+  "audience": {
+    "primary": "James Stock (Integrator) — Friday prep and Monday facilitation",
+    "secondary": ["Bruce Penson (Visionary / MD)", "Matt Taylor (Finance / Admin + Tech Success)"],
+    "personas": ["Integrator at the shared screen", "Visionary in the room", "Peer updating a number or To-Do"],
+    "context": "Monday Leadership L10 on Teams; dashboard shared from James's browser at eos.prodriveit.co.uk"
+  },
+  "tone": "Calm, operational, EOS-plain. Short labels. No marketing voice on the board.",
+  "brand_voice": {
+    "do": [
+      "Say Scorecard, Rocks, Issues, To-Dos, L10",
+      "UK English",
+      "Black banner, Electric Green accent, white body",
+      "Owner chips by person, not by department colour theory"
+    ],
+    "dont": [
+      "Call it a bake-off pack on the live site",
+      "Use navy, purple, or extra brand hues",
+      "Put large Electric Green paragraphs on white",
+      "Show GitHub paths or Azure resource names to Bruce or Matt"
+    ]
+  },
+  "variables": {
+    "color": {
+      "semantic": {
+        "accent": "#B1FF53",
+        "banner": "#000000",
+        "page": "#FFFFFF",
+        "panel_on_black": "#0F0F0F",
+        "goal_met": "#15803d",
+        "goal_missed": "#b91c1c"
+      },
+      "neutral": {
+        "text": "#111827",
+        "muted": "#6b7280",
+        "rule": "#f3f4f6",
+        "row_hover": "#eff6ff"
+      }
+    },
+    "typography": {
+      "family": "TikTok Sans, system-ui, sans-serif",
+      "sizes": { "banner": "20px", "tab": "14px", "metric": "14px", "meta": "12px" },
+      "weights": { "label": 600, "body": 400, "mono": 400 }
+    },
+    "spacing": { "page": "24px", "card": "16px", "row": "12px" },
+    "radius": { "card": "8px", "chip": "999px", "button": "8px" },
+    "elevation": { "card": "border + light shadow" },
+    "motion": { "none_required": true }
+  },
+  "components": [
+    {
+      "name": "Banner/Brand",
+      "library_ref": "proposed",
+      "variants": ["black + green wordmark"],
+      "props": ["logo-green-white.png", "title", "quarter"],
+      "content_guidelines": "EOS Leadership Dashboard · 2026-Q3. No status slogan.",
+      "interactions": []
+    },
+    {
+      "name": "Tab/Nav",
+      "library_ref": "proposed",
+      "variants": ["Rocks", "Scorecard", "Issues", "To-Dos", "L10", "Accountability", "V/TO", "Calendar"],
+      "props": ["active"],
+      "content_guidelines": "L10 is the meeting path. Other tabs hold the same live state.",
+      "interactions": ["click tab"]
+    },
+    {
+      "name": "Scorecard/Table",
+      "library_ref": "proposed",
+      "variants": ["view", "edit"],
+      "props": ["code", "metric", "owner", "goal", "frequency", "green", "red"],
+      "content_guidelines": "One table. Department names are header rows, not separate tables. Eight Leadership KPIs only.",
+      "interactions": ["Edit", "Save Changes", "L10 Add to Issues on a red row"]
+    },
+    {
+      "name": "Owner/Chip",
+      "library_ref": "proposed",
+      "variants": ["James Stock blue", "Matt Taylor purple", "Bruce Penson green"],
+      "props": ["name"],
+      "content_guidelines": "Named person, never a team bucket except Alignment hours.",
+      "interactions": []
+    },
+    {
+      "name": "Rock/Card",
+      "library_ref": "proposed",
+      "variants": ["on_track", "off_track", "done", "edit"],
+      "props": ["title", "owner", "due", "milestones", "status"],
+      "content_guidelines": "Q3 Company Rocks. Milestone list is live-editable; deletions persist.",
+      "interactions": ["Edit", "Save", "toggle milestone done"]
+    },
+    {
+      "name": "L10/Clock",
+      "library_ref": "proposed",
+      "variants": ["90-minute sticky"],
+      "props": ["startedAt"],
+      "content_guidelines": "Keeps the room on the EOS 90-minute agenda.",
+      "interactions": ["Start", "Reset"]
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Monday L10 shared screen",
+      "flow": ["Sign in as James.Stock@", "Open L10 tab", "Start 90-minute clock", "Segue → Scorecard → Rocks → Headlines → To-Dos → IDS → Conclude"]
+    },
+    {
+      "name": "Instant save",
+      "flow": ["Edit on the board", "Save writes Azure /api/state", "Refresh reloads live JSON; pack only fills missing catalogue fields"]
+    }
+  ],
+  "channels": {
+    "ads": { "in_scope": false },
+    "branding": { "banner": "black", "logo": "green on white / white on black lockup", "accent": "Electric Green" },
+    "social": { "in_scope": false },
+    "prototype": {
+      "surface": "shipped web app, not a Figma draft",
+      "host": "https://eos.prodriveit.co.uk",
+      "auth": "Entra Easy Auth; James, Bruce, Matt only"
+    }
+  },
+  "deliverables": [
+    "Live board at eos.prodriveit.co.uk",
+    "This brief (as-shipped record)",
+    "Initiative 1-pager and roadmap"
+  ],
+  "a11y": {
+    "contrast": "WCAG 2.2 AA on white body; green-on-black banner labels only",
+    "min_touch": 44,
+    "focus_visible": true,
+    "rtl": false,
+    "keyboard_navigation": "tabs and form fields; meeting is pointer + shared screen"
+  },
+  "naming": {
+    "product": "EOS Leadership Dashboard",
+    "url": "eos.prodriveit.co.uk",
+    "files": "design-brief-leadership-l10-console.*"
+  },
+  "file_structure": {
+    "initiative_design": "initiatives/eos-operating-dashboard/design/",
+    "engineering_ui": "ProDrive-EOS/dashboard/build.py",
+    "brand_logo": "ProDrive-EOS/docs/brand/logo-green-white.png"
+  },
+  "metrics": {
+    "primary": "5 consecutive pure-EOS Leadership L10s",
+    "secondary": ["Friday prep under 20 minutes", "Bruce and Matt participate without GitHub"],
+    "success_criteria": [
+      "Monday 22 Sep L10 runs on eos.prodriveit.co.uk",
+      "Edits survive refresh",
+      "No SharePoint Lists used as the board"
+    ]
+  },
+  "assets": {
+    "logo": "docs/brand/logo-green-white.png",
+    "font": "TikTok Sans (fallback system-ui)",
+    "tokens": "Electric Green #B1FF53, Core Black #000000, Clear White #FFFFFF, Dark Grey #0F0F0F"
+  }
+}

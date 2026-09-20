@@ -40,18 +40,28 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 | Option | Meaning |
 |--------|---------|
-| **C′ (decided)** | **Revive CEOS/Azure Leadership L10 dashboard** as the meeting console. Decision Register already updated. Run a **3-meeting** bake-off; then Bruce + Matt sign the product. |
+| **C′ (decided, now live)** | **CEOS/Azure Leadership L10 dashboard** at https://eos.prodriveit.co.uk. Three live L10s; then Bruce + Matt sign the product. |
 | **A′′** | Build **Power App** L10 room mode only (no raw Lists in meeting). Timebox vs C′. |
 | **B′** | Keep using Hub Lists for 4 more weeks (reject — already failed the feel test). |
 | **D** | Pause product build; coach-led L10 on paper/template until Rob/LT Agree seats and V/TO. |
 
 ### Scope lock under C′
 
-**In for bake-off:** Shared-screen L10 (fixed agenda, Scorecard, Rocks, Issues, To-Dos), hosted on Pro Drive Azure, fed by existing Scorecard pipeline (Data Entry / spreadsheet) where needed so Friday prep stays under 20 minutes.
+**In for the live L10s:** Shared-screen L10 (fixed agenda, Scorecard, Rocks, Issues, To-Dos) at https://eos.prodriveit.co.uk, fed by existing Scorecard pipeline (Data Entry / spreadsheet) where needed so Friday prep stays under 20 minutes.
 
 **Out until five consecutive pure L10s:** Department Traction, Focus Days, AI chase, Bruce customization sandbox, dual live SSOTs (do not keep GitHub `data/` and Lists and Azure all “live”).
 
-**SSOT rule for the bake-off:** Pick one writable meeting store for the trial (dashboard/API). SharePoint Lists may remain read/archive or Scorecard feed — not the in-meeting editor.
+**SSOT rule:** Azure `/home/eos-data/state.json` is the writable meeting store. SharePoint Lists may remain read/archive or Scorecard feed — not the in-meeting editor.
+
+## Current operating state — 20 Sep 2026
+
+| Item | Value |
+|------|--------|
+| URL | https://eos.prodriveit.co.uk |
+| Host | Azure App Service Linux B1, UK South, Easy Auth |
+| Users | James, Bruce, Matt (`James.Stock@` — not `admin-jstock`) |
+| First live L10 | Monday 22 Sep 2026 |
+| Still gated | Product sign-off after L10 #3; five consecutive pure L10s |
 
 ---
 

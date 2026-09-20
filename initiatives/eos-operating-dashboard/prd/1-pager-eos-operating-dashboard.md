@@ -3,8 +3,8 @@
 **Initiative:** eos-operating-dashboard  
 **Owner:** James (Integrator)  
 **Decision makers:** James owns the C′ path. Bruce and Matt sign the **product** after 3 live L10s.  
-**Date:** 2026-09-19  
-**Status:** C′ decided by Integrator — **Revision 2 active** (Hub rejected after use; revive Azure/CEOS dashboard)  
+**Date:** 2026-09-20  
+**Status:** C′ live — board at https://eos.prodriveit.co.uk. First live L10 Mon 22 Sep. Bruce and Matt sign the product after 3 L10s.  
 **Related:** [Diagnostic](../diagnostic-eos-dashboard.md) · [Company context](../../../company-level-context/prodrive-context.md)
 
 ---
@@ -43,7 +43,7 @@ The last EOS attempt taught four lessons this proposal takes as constraints. Fir
 | Risk axis | Assumption | Test plan |
 |-----------|------------|-----------|
 | **Value** | Five pure-EOS L10s on one screen are worth eng spend vs restarting on spreadsheets alone | Count consecutive compliant L10s; stop build expansion until 5 are hit |
-| **Viability** | Bruce will keep accepting the fixed agenda in the room; Bruce and Matt will sign the product after 3 live L10s | After each bake-off L10, check whether the agenda was remixed; product sign-off after L10 #3 |
+| **Viability** | Bruce will keep accepting the fixed agenda in the room; Bruce and Matt will sign the product after 3 live L10s | After each live L10, check whether the agenda was remixed; product sign-off after L10 #3 |
 | **Feasibility** | L10 room mode can be built and hosted entirely on existing Azure / M365 / Copilot without third-party SaaS | Architecture spike in `ProDrive-EOS` (or successor repo): auth (Entra), data store, app host; kill custom build if spike fails |
 | **Usability** | James can prep Friday in under 20 minutes and run Monday L10 from the screen without leaving to Teams/SharePoint for core artifacts | Time James’s Friday prep for first 3 L10s; log every off-screen fetch during the meeting |
 
@@ -88,7 +88,7 @@ James ran a dummy L10 on the live SharePoint EOS Hub and shared the site with th
 
 ### Current recommendation
 
-- **C′ (decided):** Revive **CEOS/Azure Leadership L10 dashboard** as the meeting console. Decision Register already updated. Bake off with **three** L10s, then Bruce + Matt sign the product. Keep Azure/M365/Copilot hosting; **do not** use SharePoint Lists as the in-meeting board.
+- **C′ (decided, now live):** Leadership L10 dashboard on Azure at https://eos.prodriveit.co.uk. Three live L10s, then Bruce + Matt sign the product. Keep Azure/M365/Copilot hosting. Do not use SharePoint Lists as the in-meeting board.
 - **A′′:** Power App-only L10 room mode (no raw Lists) as a competing bake-off.
 - **B′:** Keep Hub Lists (rejected by this test).
 - **D:** Pause build; coach-led process only.
@@ -99,5 +99,20 @@ James ran a dummy L10 on the live SharePoint EOS Hub and shared the site with th
 | Bruce | MD / Visionary | Product after 3 L10s | | |
 | Matt | Management | Product after 3 L10s | | |
 
-**Decision:** **C′** is in force. Decision Register already updated. Bake-off is 3 L10s; then Bruce and Matt sign the product against the same outcome metrics (five consecutive pure L10s; Friday prep under 20 minutes).
+**Decision:** **C′** is in force. The board is live. Product sign-off is still 3 L10s against the same outcome metrics (five consecutive pure L10s; Friday prep under 20 minutes).
+
+## Revision 3 — 2026-09-20 (Azure live)
+
+Host, SSO, custom domain, and instant-save meeting state are in production.
+
+| Item | Value |
+|------|--------|
+| URL | https://eos.prodriveit.co.uk |
+| Auth | Entra Easy Auth — James, Bruce, Matt only |
+| Meeting store | Azure `/home/eos-data/state.json` |
+| Scorecard | Eight Leadership KPIs, one aligned table |
+| Rocks | 2026-Q3 |
+| First live L10 | Monday 22 Sep 2026 |
+
+GitHub `data/` is seed and catalogue. Do not dual-write to Lists. Sign in as `James.Stock@`, not `admin-jstock`.
 

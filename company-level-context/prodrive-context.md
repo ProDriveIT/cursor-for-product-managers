@@ -36,8 +36,8 @@ This file is the grounding reference for Cursor skills in this workspace. Prefer
 | Visionary / Integrator | **Visionary: Bruce Penson.** **Integrator: James Stock** (also Hub technical operator). Decided 07-09-2026 |
 | LT functional split (Proposed) | Bruce = Visionary + Sales & Marketing. James = Integrator + Operations (SD + PS + Tech/Cyber). Matt = Finance / Admin + Tech Success. Dual seats intentional at ~10 people |
 | Third-party EOS implementer | **Rob Liddiard**, Mission Group (`rob@mission-group.co.uk`) |
-| Focus Day | Supporting Data Decision Register: **Thu 17 Sep 2026** booked. This toolkit’s EOS materials still cite **1 Oct 2026** (no-dashboard Focus Day / bake-off framing) — **reconcile which event is which** |
-| Cadence | Monday Leadership L10; James Scorecard prep Friday. Pure-EOS L10 not yet sticky on new console |
+| Focus Day | **1 Oct 2026** with Rob Liddiard — no dashboard. Supporting Data also lists Thu 17 Sep; treat 1 Oct as the dated Focus Day unless Rob says otherwise |
+| Cadence | Monday Leadership L10 on https://eos.prodriveit.co.uk. First live L10 **22 Sep 2026**. Friday Scorecard prep |
 | KPI pipeline today | Autotask → Azure KPI / SharePoint Excels → management Scorecard → (planned) dashboard / Hub thin view |
 | Hosting constraint | **Azure + Microsoft 365 + Copilot only.** Self-hosted in Pro Drive. No third-party SaaS OS tools for Traction |
 | Peer / TruMethods | **Cancel Peer** (07-09-2026) to offset EOS year-one cost. TruMethods / ProDrive 360 = MSP delivery methods, not a second company OS |
@@ -48,8 +48,8 @@ This file is the grounding reference for Cursor skills in this workspace. Prefer
 | Component | Live today? | In product ambition? |
 |-----------|-------------|----------------------|
 | Vision / V/TO | Proposed pack only | Yes — agree with Rob |
-| Rocks / Issues / To-Dos / Scorecard | Spreadsheet + Hub Lists path; not pure L10 habit | Yes — CEOS/Azure L10 console (C′) |
-| Level 10 meeting | Monday slot; tool bake-off | Yes (management → Technical Team dept) |
+| Rocks / Issues / To-Dos / Scorecard | Live on https://eos.prodriveit.co.uk (Azure JSON). Spreadsheet still feeds some KPI actuals | Yes — CEOS/Azure L10 console (C′) |
+| Level 10 meeting | Monday slot; first live L10 22 Sep 2026 | Yes (management → Technical Team dept) |
 | Focus Days | Booked / in flight with Rob | Yes |
 | People analyzer | BreatheHR for sensitive GWC | Hub = Acc Chart seats only |
 | EOS Facilitator / EHAN / Reporting agents | Design in flight | Company OS agent trio (under EOS) |
@@ -100,7 +100,7 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 
 | Initiative | Status | Engineering home |
 |------------|--------|------------------|
-| [EOS Operating Dashboard](../initiatives/eos-operating-dashboard/) | Priority #1 — C′ CEOS/Azure L10 bake-off | `Pro-Drive-IT-Limited/ProDrive-EOS` |
+| [EOS Operating Dashboard](../initiatives/eos-operating-dashboard/) | Priority #1 — **live** at eos.prodriveit.co.uk; first L10 22 Sep | `Pro-Drive-IT-Limited/ProDrive-EOS` |
 | [Client Monthly Report](../initiatives/client-monthly-report/) | Priority #2 — Quest pilot planning | GitHub-Repos KPI automation + Reporting Agent |
 | [Self-Service Travel](../initiatives/self-service-travel/) | Priority #3 — **live**, strategy HOLD | `prodrive-agent-ops` / Travel Entra app |
 
@@ -147,7 +147,7 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 - **Intent:** Purpose-built Leadership L10 console (CEOS/Azure), not SharePoint Lists as the meeting board
 - **Engineering:** https://github.com/Pro-Drive-IT-Limited/ProDrive-EOS
 - **Practice notes:** https://github.com/ProDriveIT/Github-SupportingData/tree/main/50-eos
-- **Current recommendation:** **C′** — revive Azure/CEOS dashboard; 2-meeting bake-off
+- **Current recommendation:** **C′** — live at https://eos.prodriveit.co.uk. Product sign-off after 3 L10s
 - **Primary users:** James, Bruce, Matt; implementer Rob Liddiard
 - **Success bar:** 5 consecutive pure-EOS L10s; Friday prep under 20 minutes
 - **Initiative:** [`initiatives/eos-operating-dashboard/`](../initiatives/eos-operating-dashboard/)
@@ -250,7 +250,7 @@ Snapshot: [`team-structure/github-access-snapshot.md`](./team-structure/github-a
 2. **MSP Meeting Minutes change control** — James to define who may propose changes and how freeze is lifted (**explicit owner action**).
 3. **Product map decisions** — Approve Estate Control family name; confirm Standardiser as spine; whether Estate Control gets capacity after #1 or only via PS delivery ([product-map.md](./product-vision-and-strategy/product-map.md) §8).
 4. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path.
-5. Confirm L10 bake-off dates relative to Focus Day outcome.
+5. First live L10 is Mon 22 Sep on eos.prodriveit.co.uk; #2 Mon 29 Sep; #3 Mon 6 Oct unless another Monday is named.
 6. Client reporting commercially: separate product vs export of same data spine — still open.
 7. Will Rob facilitate from the CEOS dashboard after Focus Day / Vision Building?
 8. Promote missing live product clients (Pixel, Brunner, David Shepherd, CSC) into `35-clients/` packs where durable truth is needed.
