@@ -1,6 +1,6 @@
 # EOS Operating Dashboard — Roadmap
 
-**Last updated:** 2026-09-20  
+**Last updated:** 2026-09-21  
 **Owner:** James Stock (Integrator)  
 **Live board:** https://eos.prodriveit.co.uk  
 **Hard calendar anchor:** Focus Day with Rob Liddiard (Mission Group) — **1 October 2026**  
@@ -51,6 +51,10 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 **Must do (does not block Focus Day)**
 1. **Three facilitated L10s** on the live URL (share-screen in Teams). First: **Mon 22 Sep**
 2. After L10 #3: Bruce + Matt **sign the product** (not the 1-pager)
+
+**After L10 #1 (not today)**
+- Issues: add **and remove** a Scorecard metric from the Issues list; L10 “Add to Issues / On Issues” follows that link
+- Rocks: Add to Issues when a Rock is marked off track (EOS: drop it, don’t discuss in Rock Review)
 
 **Kill / pause rules**
 - If Bruce remixed the agenda off-screen in the first two live L10s → do not expand eng; fix facilitation + Rob contract first
