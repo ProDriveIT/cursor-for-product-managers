@@ -1,11 +1,13 @@
 # Client Monthly Report
 
-**Status:** Planning — 1-pager drafted for Quest pilot decision  
-**Timeline:** Align with Reporting Agent Phase 1 (one Quest month after pack confirmed)  
+**Status:** Process live from PRD v0.1 (28 Sep 2026). Option **A** still stands (Bruce 20 Sep). Spine change is unsigned.  
+**Timeline:** One Quest month. Facts match before any drafter. Scale stays gated.  
 **Owner:** James Stock (Head of Operations); operator = Bruce Penson (**vCIO**); TAM = Danny Bray  
 **Pilot:** Quest Fund Placement (`Quest Fund Placement Ltd`)  
 **Stakeholders:** Bruce (vCIO), Danny (TAM), James (ops), Quest economic buyer (reaction test)  
-**1-pager:** [`prd/1-pager-client-monthly-report.md`](./prd/1-pager-client-monthly-report.md)  
+**1-pager:** [`prd/1-pager-client-monthly-report.md`](./prd/1-pager-client-monthly-report.md) (approved)  
+**Working PRD:** [`prd/prd-monthly-client-service-report.md`](./prd/prd-monthly-client-service-report.md)  
+**Spine decision:** [`decision-prd-v0.1-spine.md`](./decision-prd-v0.1-spine.md) (proposed; canonical path unchanged until signed)  
 **Company context:** [`../../company-level-context/prodrive-context.md`](../../company-level-context/prodrive-context.md)  
 **Prior art:** [`prior-art-github-repos.md`](./prior-art-github-repos.md)  
 **Canonical path (SSOT):** [`canonical-path.md`](./canonical-path.md) · [GitHub-Repos twin](https://github.com/ProDriveIT/GitHub-Repos/blob/main/00%20Meta/Client-Monthly-Report-Canonical-Path.md)  
@@ -32,15 +34,48 @@ The report must give a clear, client-facing picture of:
 - [x] Canonical path SSOT published ([`canonical-path.md`](./canonical-path.md))
 - [x] Pilot named: Quest Fund Placement · vCIO Bruce · TAM Danny · ops James
 - [x] 1-pager drafted — [`prd/1-pager-client-monthly-report.md`](./prd/1-pager-client-monthly-report.md)
-- [ ] 1-pager signed (Bruce Approve on option A)
-- [ ] Quest Insights pack confirmed for chosen `YYYY-MM`
-- [ ] User Research Complete *(Quest buyer reaction after first approved cycle)*
-- [ ] Opportunities Identified
-- [ ] Assumptions logged / leap-of-faith tests defined
-- [ ] Full PRD *(only if pilot proves value; Phase 1 does not need a heavyweight PRD)*
-- [ ] Tasks Generated
-- [ ] Development Started *(engineering already in flight via Insights packs + Reporting Agent docs)*
+- [x] 1-pager signed — option **A** (James 19 Sep, Bruce 20 Sep); scope lock confirmed
+- [x] Engineering PRD v0.1 ingested (28 Sep) — facts.json + Cowork + Quest layout
+- [x] Opportunities, solutions, assumptions v1 written (evidence is thin; no interview snapshots)
+- [x] Working PRD, design brief, parent tasks
+- [ ] James signs the spine decision (A / B / C) **← next**
+- [ ] James answers the nine questions on the working PRD
+- [ ] Sub-tasks (`Go` on the parent list)
+- [ ] Quest facts match a manual count (A2; can kill Phase 1)
+- [ ] User research: Bruce usability session snapshot, then Quest buyer reaction snapshot
+- [ ] Synthesis (`/synthesize-snapshots`) once 3+ snapshots exist
 - [ ] First Quest pilot report shipped *(Bruce-approved draft matching pack)*
+- [x] Design brief — Quest layout, tokens proposed until the August HTML sample is linked
+- [ ] Figma / new prototype — skip; the Quest sample is the layout
+- [ ] Full / multi-client PRD — only if Phase 1 value test passes
+
+## Framework path (designed gateways)
+
+Order follows the Cursor-for-PMs skills plus the initiative-planner. Option **A** forbids interviewing the Quest buyer before the first draft. The kill switch is now the facts match (A2), not a missing HTML pack. CDH v1 is written; interview synthesis still waits on real sessions.
+
+| # | Gateway | Skill / agent | Status | When it fires |
+|---|---------|---------------|--------|----------------|
+| 0 | Initiative setup | `/setup-initiative` | Done | — |
+| 1 | Prior art + canonical path | (this folder) | Done | — |
+| 2 | 1-pager decision | `/create-one-pager` | **Approved A** | — |
+| 3 | Feasibility test | Assumptions A2 | **Next after the decision** | Quest `facts.json` matches a manual count on 6 fields. Mismatch with no written cause → stop |
+| 4 | Opportunities | `/create-opportunities` | v1 proposed | Review notes #1 and #2 still open for James |
+| 5 | Solutions | `/generate-solutions` | v1 | Human rounds were the 1-pager and PRD v0.1. Top 3 written |
+| 6 | Assumptions + test cards | `/identify-test-assumptions` | v1 | LoFA = buyer recall, facts match, Bruce’s 15-minute review |
+| 7 | Phase 1 PRD | `/create-prd` | Draft | Working copy from PRD v0.1. Nine questions unanswered |
+| 8 | Task breakdown | `/generate-tasks` | Parents only | Reply Go for sub-tasks |
+| 9 | ICE (optional) | `/calculate-ice-score` | Skip | Company rank is already #2; do not re-score the wedge |
+| 10 | Usability test | operator session | After A2 passes | Bruce reviews one draft; James observes; 15 minutes, zero tile edits |
+| 11 | Interview snapshots | `/create-interview-snapshots` | No transcripts | Snapshot the Bruce session; later snapshot the Quest buyer reaction. Do not run option B (buyer interview first) |
+| 12 | Value test | 1-pager LoFA | After first send or walkthrough | Named Quest economic buyer reaction in writing |
+| 13 | Synthesis | `/synthesize-snapshots` | Blocked | After 3–5 snapshots (Bruce, Quest buyer, ideally Danny / a second client later) |
+| 14 | Analytics | `/analyze-metrics` | Not started | Baseline: Quest reactive volume vs pack contents for the pilot month. After send: whether the buyer can name the work |
+| 15 | Design brief | `/create-design-brief` | Draft | Quest layout. Do not redraw; link the August sample before any visual change |
+| 16 | Figma Make | `/generate-figma-prompt` | Optional | Static visual exploration of chrome. Skip if we ship pack HTML as-is |
+| 17 | Working prototype | `/build-prototype` | Optional | Pack HTML *is* the Phase 1 artefact. Use this for Phase 2 narrative + vCIO/TAM meeting footer after Phase 1 exit |
+| 18 | Phase 2 / multi-client PRD | `/create-prd` | Gated | Only if the value test passes. Then tasks again |
+
+Discovery-researcher and initiative-planner subagents are available at those gates; do not skip the folders they write into.
 
 ## Folder Structure
 
@@ -60,8 +95,15 @@ The report must give a clear, client-facing picture of:
 ## Quick Links
 
 - [Canonical path (SSOT)](./canonical-path.md)
+- [Spine decision (unsigned)](./decision-prd-v0.1-spine.md)
 - [Prior art (GitHub-Repos)](./prior-art-github-repos.md)
 - [1-pager](./prd/1-pager-client-monthly-report.md)
+- [Working PRD](./prd/prd-monthly-client-service-report.md)
+- [Opportunities v1](./opportunities/opportunities-quest-value-visibility-v1.md)
+- [Solutions v1](./solutions/solutions-quest-value-visibility-v1.md)
+- [Assumptions v1](./assumptions/assumptions-quest-value-visibility-v1.md)
+- [Design brief](./design/design-brief-quest-monthly-report.md)
+- [Parent tasks](./tasks/tasks-monthly-client-service-report.md)
 - [User Research Summary](./user-interviews/synthesis/)
 - [Priority Opportunities](./opportunities/)
 - [Assumptions & Tests](./assumptions/)
@@ -90,17 +132,17 @@ Engineering decisions already locked: HTML artefact, vCIO sign-off, numbers from
 - Reuse **reporting-kpi-automation** Insights packs; do not rebuild KPI math.
 - Delivery: HTML draft → vCIO approval → email / portal (human-gated).
 
-### Open questions (post 1-pager)
+### Open questions (post approval)
 
-1. Bruce sign-off on option **A** in the 1-pager
-2. Chosen pilot `YYYY-MM` + confirmed Quest `client-pack-*.html` in KPI Insights
-3. Named Quest economic buyer for the reaction test (operator is Bruce; reader may differ)
-4. Path to the **external reports repo** for HTML templates
-5. Whether packs for Quest land in `{AccountSlug}/` or still flat in KPI Insights root
+1. Chosen pilot `YYYY-MM` + confirmed Quest `client-pack-*.html` in KPI Insights
+2. Named Quest economic buyer for the reaction test (operator is Bruce; reader may differ)
+3. Path to the **external reports repo** for HTML templates
+4. Whether packs for Quest land in `{AccountSlug}/` or still flat in KPI Insights root
+5. Danny acknowledgement on TAM cadence / Phase 2 meeting inputs (not blocking Phase 1)
 
-### Suggested next step after sign-off
+### Next step
 
-Confirm Quest pack for the chosen month → Bruce runs one Reporting Agent draft → approve cycle → capture Quest buyer reaction.
+James marks A, B, or C on [`decision-prd-v0.1-spine.md`](./decision-prd-v0.1-spine.md) and answers the nine questions on the working PRD. Then reply **Go** to expand sub-tasks. Facts for Quest are still the kill switch: if the six fields do not match a manual count, stop.
 
 ---
 *Created using initiatives template. Use `/setup-initiative` for new initiatives.*

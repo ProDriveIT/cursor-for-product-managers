@@ -6,8 +6,8 @@
 **Pilot vCIO:** Bruce Penson  
 **Pilot TAM:** Danny Bray  
 **Decision makers:** James, Bruce (and Danny on TAM cadence / meeting footer inputs)  
-**Date:** 2026-09-19  
-**Status:** Draft for decision  
+**Date:** 2026-09-19 (approved 2026-09-20)  
+**Status:** Approved — option A (Quest Phase 1)  
 **Prior art:** [prior-art-github-repos.md](../prior-art-github-repos.md)  
 **Engineering path:** [Reporting Agent](https://github.com/ProDriveIT/GitHub-Repos/tree/main/10%20Projects/2026-09%20agent-ecosystem-copilot) on [Insights client packs](https://github.com/ProDriveIT/GitHub-Repos/blob/main/10%20Projects/2026-01%20reporting-kpi-automation/Documentation/Monthly-Client-Service-Report.md)
 
@@ -64,7 +64,9 @@ Open assumptions: whether Quest’s pack already lands in `{AccountSlug}/` or st
 
 ## Decision Requests
 
-James and Bruce are asked to decide the following. The recommended path is **A**.
+**Decided 2026-09-20:** option **A**. Quest Fund Placement Phase 1 is approved. Scope lock stands: no auto-send, no multi-client rollout, no narrative list, no meeting footer until the first Bruce-approved draft exists. Archived `reporting-client` stays archived.
+
+Remaining open on this page: pilot `YYYY-MM` (after pack confirmation), Danny acknowledgement.
 
 1. **Pursue this opportunity now?**  
    - **A (recommended):** Approve the Quest Fund Placement pilot on Reporting Agent Phase 1: one calendar month, Bruce as vCIO sign-off, Danny as TAM context owner, James as ops owner. Exit = Bruce-approved draft matching pack numbers; then capture Quest buyer reaction.  
@@ -80,8 +82,8 @@ James and Bruce are asked to decide the following. The recommended path is **A**
 
 | Name | Role | Decision (A/B/C/D) | Approve scope lock? | Pilot month | Date |
 |------|------|--------------------|---------------------|-------------|------|
-| James Stock | Head of Operations | A (proposed) | | | 2026-09-19 |
-| Bruce Penson | vCIO (Quest) | | | | |
+| James Stock | Head of Operations | A | Yes | | 2026-09-19 |
+| Bruce Penson | vCIO (Quest) | A | Yes | | 2026-09-20 |
 | Danny Bray | TAM (Quest) | (ack / meeting inputs) | | | |
 
-**Recommendation:** Choose **A**. Next operational step after sign-off: James confirms Quest pack for the chosen month in SharePoint KPI Insights, then Bruce runs one Reporting Agent draft → approve cycle.
+**Next operational step:** James confirms a Quest Insights pack for a chosen `YYYY-MM` in SharePoint KPI Insights. If that pack cannot be produced, Phase 1 stops. If it can, Bruce runs one Reporting Agent draft → approve cycle.

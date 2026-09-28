@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "version": "0.1",
+    "date": "2026-09-28",
+    "locale": "en-GB",
+    "brand": "Pro Drive",
+    "scope": "minimal",
+    "design_system": {
+      "source": "none in cursor-for-product-managers",
+      "paths": [],
+      "note": "Tokens are proposed. Replace with Quest-August-2026-service-report.html when the file is located. Do not restyle the sample to match these tokens."
+    },
+    "sources": [
+      "initiatives/client-monthly-report/prd/prd-monthly-client-service-report.md",
+      "2026-01 reporting-kpi-automation/Documentation/PRD-Monthly-Client-Service-Report.md"
+    ]
+  },
+  "purpose": {
+    "objective": "One Quest-layout monthly service report a buyer can read in one sitting and Bruce can approve without rebuilding numbers.",
+    "job": "Show volume, SLA, and up to three decisions for a closed calendar month."
+  },
+  "audience": {
+    "primary": "Quest economic buyer reading a PDF or HTML file",
+    "secondary": "Bruce Penson reviewing the draft before send",
+    "personas": ["P3 client decision-maker", "P1 Bruce vCIO"],
+    "context": "Email or meeting walkthrough. Not an in-app screen."
+  },
+  "tone": {
+    "attributes": ["plain", "specific", "calm"],
+    "reading_level": "business English, UK"
+  },
+  "brand_voice": {
+    "do": [
+      "Lead with counts and percents, then a short explanation",
+      "Use card labels Done, In effect, and Next",
+      "Omit a date when Meeting Tracker has none"
+    ],
+    "dont": [
+      "Print ticket IDs, end-user names, or a raw title dump",
+      "Restyle per client",
+      "Encode SLA with colour and no percent",
+      "Fill a quiet month with praise"
+    ]
+  },
+  "variables": {
+    "color": {
+      "semantic": {
+        "paper": { "value": "#ffffff", "status": "proposed" },
+        "ink": { "value": "#1a1a1a", "status": "proposed" },
+        "ink.muted": { "value": "#4a4a4a", "status": "proposed" },
+        "rule": { "value": "#d0d0d0", "status": "proposed" },
+        "tile": { "value": "#f4f6f8", "status": "proposed" }
+      },
+      "neutral": {
+        "white": "#ffffff",
+        "black": "#1a1a1a"
+      }
+    },
+    "typography": {
+      "family": "Calibri, Arial, sans-serif",
+      "status": "proposed",
+      "sizes": { "body": "11pt", "section": "14pt", "tile": "20pt" },
+      "weights": { "body": 400, "section": 600, "tile": 700 }
+    },
+    "spacing": { "page": "18mm", "stack": "12px" },
+    "radius": { "tile": "0" },
+    "elevation": { "page": "none" },
+    "motion": { "page": "none" }
+  },
+  "components": [
+    {
+      "name": "Report/Header",
+      "library_ref": null,
+      "status": "proposed",
+      "variants": ["with-prepared-for", "prepared-for-omitted"],
+      "props": ["clientName", "monthLabel", "preparedFor", "accountManagerName"],
+      "content_guidelines": "Pro Drive wordmark treatment from the Quest sample. Client-facing account name.",
+      "interactions": []
+    },
+    {
+      "name": "Report/MetricTile",
+      "library_ref": null,
+      "status": "proposed",
+      "variants": ["count", "hours", "percent"],
+      "props": ["label", "value", "unit"],
+      "content_guidelines": "Value is copied from facts.json. Percent variant always prints the number.",
+      "interactions": []
+    },
+    {
+      "name": "Report/Section",
+      "library_ref": null,
+      "status": "proposed",
+      "variants": ["executive-summary", "what-we-did", "across-wider-base"],
+      "props": ["heading", "body"],
+      "content_guidelines": "Semantic heading. Empty wider-base is one plain sentence.",
+      "interactions": ["bruce-edit-in-review"]
+    },
+    {
+      "name": "Report/InsightCard",
+      "library_ref": null,
+      "status": "proposed",
+      "variants": ["done", "in-effect", "next"],
+      "props": ["label", "body"],
+      "content_guidelines": "Maximum 3 cards. Drafter must not add a fourth.",
+      "interactions": ["bruce-edit-in-review"]
+    },
+    {
+      "name": "Report/Footer",
+      "library_ref": null,
+      "status": "proposed",
+      "variants": ["default"],
+      "props": ["issuedDate"],
+      "content_guidelines": "Issued date from facts. Confidential line only if the Quest sample has one.",
+      "interactions": []
+    }
+  ],
+  "patterns": [
+    {
+      "name": "reader-one-sitting",
+      "flow": ["header", "tiles", "executive-summary", "what-we-did", "insight-cards", "across-wider-base", "footer"]
+    },
+    {
+      "name": "bruce-review",
+      "flow": ["open-review-folder", "compare-tiles-to-facts", "edit-cards", "mark-approved", "human-send"]
+    }
+  ],
+  "channels": {
+    "ads": { "status": "out-of-scope" },
+    "branding": { "status": "use Quest sample; do not invent a new system" },
+    "social": { "status": "out-of-scope" },
+    "prototype": {
+      "artifact": "Quest-August-2026-service-report.html",
+      "status": "file not located in the automation repo on 2026-09-28",
+      "flows": ["reader-one-sitting", "bruce-review"],
+      "transitions": []
+    }
+  },
+  "deliverables": [
+    "Single HTML template matching the Quest sample",
+    "PDF export for the client send",
+    "facts.json beside the month folder"
+  ],
+  "a11y": {
+    "contrast": "WCAG 2.2 AA",
+    "min_touch": 44,
+    "min_touch_applies_to": "future HTML controls only; not this PDF",
+    "focus_visible": "not applicable to the PDF",
+    "rtl": false,
+    "keyboard_navigation": "not applicable to the PDF",
+    "sla_not_colour_only": true,
+    "semantic_headings": ["Executive summary", "What we did", "Insights", "Across wider base"]
+  },
+  "naming": {
+    "template": "one Quest layout for every client",
+    "review_path": "Monthly Packs/{Client}/{yyyy-MM}/Review/",
+    "facts_file": "facts.json"
+  },
+  "file_structure": {
+    "brief_md": "initiatives/client-monthly-report/design/design-brief-quest-monthly-report.md",
+    "brief_json": "initiatives/client-monthly-report/design/design-brief-quest-monthly-report.json"
+  },
+  "metrics": {
+    "primary": "Named Quest buyer states 2 non-break-fix items from the report",
+    "secondary": "Bruce review at or under 15 minutes with 0 tile corrections",
+    "success_criteria": "Do not redesign. The Quest sample is the control."
+  },
+  "assets": {
+    "required": ["Quest-August-2026-service-report.html", "Quest-August-2026-service-report.pdf"],
+    "status": "not linked; search failed in the reporting-kpi-automation repo on 2026-09-28"
+  }
+}
