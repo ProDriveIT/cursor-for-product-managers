@@ -80,7 +80,7 @@ Specialist vertical (B now → C later):
 | Self-Service Travel | Estate Control | Live | **Med–High** | **High** | **High** | Time-boxed geo access without helpdesk CA gymnastics |
 | Inforcer Alignment | Estate Control | Live (internal UI) | **High** | **High** | Low–Med | Baseline Entra/Intune/M365 alignment (Enforce) |
 | CE Mobile Status | Estate Control | Live | **Med** | Med | Low | Phone readiness gate before CE work |
-| Client Monthly Report | Proof / attach | Planning | Low* | **High** | Low | Make proactive work visible when tickets drop |
+| Client Monthly Report | Proof / attach | Phase 1 approved | Low* | **High** | Low | Make proactive work visible when tickets drop |
 | MSP Meeting Minutes | Vertical | Live · freeze | Low | **High** (niche) | **High** | Board minutes from audio + pack |
 | EOS Operating Dashboard | Internal OS | Priority #1 | None | None | None | Leadership L10 fidelity |
 | ~~PD Performance Hub~~ | — | **Killed** | — | — | — | Replaced by EOS (2026-09-19) |

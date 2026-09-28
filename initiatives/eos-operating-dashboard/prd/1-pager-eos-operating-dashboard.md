@@ -3,8 +3,8 @@
 **Initiative:** eos-operating-dashboard  
 **Owner:** James (Integrator)  
 **Decision makers:** James owns the C′ path. Bruce and Matt sign the **product** after 3 live L10s.  
-**Date:** 2026-09-20  
-**Status:** C′ live — board at https://eos.prodriveit.co.uk. First live L10 Mon 22 Sep. Bruce and Matt sign the product after 3 L10s.  
+**Date:** 2026-09-21  
+**Status:** C′ live — board at https://eos.prodriveit.co.uk. L10 #1 ran 21 Sep. Bruce and Matt sign the product after 3 L10s. Q4 Rocks wait for Rob on 1 Oct.  
 **Related:** [Diagnostic](../diagnostic-eos-dashboard.md) · [Company context](../../../company-level-context/prodrive-context.md)
 
 ---
@@ -111,8 +111,12 @@ Host, SSO, custom domain, and instant-save meeting state are in production.
 | Auth | Entra Easy Auth — James, Bruce, Matt only |
 | Meeting store | Azure `/home/eos-data/state.json` |
 | Scorecard | Eight Leadership KPIs, one aligned table |
-| Rocks | 2026-Q3 |
-| First live L10 | Monday 22 Sep 2026 |
+| Rocks | 2026-Q3 on the live board until Focus Day 1 Oct |
+| First live L10 | **Done — 21 Sep 2026** (planned slot had been 22 Sep) |
 
 GitHub `data/` is seed and catalogue. Do not dual-write to Lists. Sign in as `James.Stock@`, not `admin-jstock`.
+
+## Revision 4 — 2026-09-21 (L10 #1 + freeze)
+
+The room used the live board. Team agreed the approach. **Hold** Planner sync, KPI pull, transcripts, and other dashboard automations until Rob validates the L10 method. Set Q4 Rocks with Rob on **1 Oct** (no dashboard); enter agreed Rocks before the **6 Oct** L10. Product sign-off still after L10 #3.
 

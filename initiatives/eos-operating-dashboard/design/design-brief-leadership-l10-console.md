@@ -53,4 +53,4 @@ White body meets AA for black text. Banner type is white or green on black. Meet
 
 ## Success
 
-Monday 22 Sep runs on this URL. Edits stay after refresh. Bruce and Matt do not touch GitHub. Five consecutive pure L10s remains the product bar.
+Monday L10s run on this URL. Edits stay after refresh. Bruce and Matt do not touch GitHub. Five consecutive pure L10s remains the product bar. Q4 Rocks wait for Rob on 1 Oct.

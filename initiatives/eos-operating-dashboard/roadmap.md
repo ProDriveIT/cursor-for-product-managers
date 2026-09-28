@@ -31,10 +31,11 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 
 | Date | What | Product role |
 |------|------|----------------|
-| **Now – 6 Oct** | Run **3 live L10s** on https://eos.prodriveit.co.uk; then ask Bruce + Matt to sign the product | Prove L10 UX — independent of Focus Day |
-| **Mon 22 Sep / Mon 29 Sep / Mon 6 Oct** | Leadership L10 slots | Live L10 #1, #2, and #3 (third is the first Monday L10 after Focus Day unless another slot is named) |
-| **1 Oct 2026** | **Focus Day — first session with Rob Liddiard** | **No dashboard.** Rob runs the day as he wishes (paper / his templates / whatever he uses) |
-| **After 1 Oct** | Weekly L10s toward **5 consecutive pure-EOS** | Dashboard is the L10 board only; Rob holds process fidelity |
+| **21 Sep 2026** | Leadership L10 #1 | **Done.** Board used in the room. Team agreed the approach; freeze further dashboard automation until Rob |
+| **Mon 29 Sep** | Leadership L10 #2 | Still Q3 Rocks. Do not invent Q4 titles |
+| **1 Oct 2026** | **Focus Day — Rob Liddiard** | **No dashboard.** Set Q4 Rocks. Plan lives in Supporting Data `50-eos/implementation/Q4-2026-Setting.md` |
+| **Mon 6 Oct** | Leadership L10 #3 | First Monday after Focus Day. Load **agreed** Q4 Rocks. Bruce + Matt sign the product |
+| **After 6 Oct** | Weekly L10s toward **5 consecutive pure-EOS** | Dashboard is the L10 board only; Rob holds process fidelity |
 
 ---
 
@@ -47,14 +48,16 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 - Azure B1 host, Easy Auth, custom domain `eos.prodriveit.co.uk`
 - Live meeting store (Azure JSON); eight KPIs; Q3 Rocks
 - Design brief in [`design/`](./design/)
+- **L10 #1 — 21 Sep 2026.** Team agreed the board. Automations frozen until Rob
 
 **Must do (does not block Focus Day)**
-1. **Three facilitated L10s** on the live URL (share-screen in Teams). First: **Mon 22 Sep**
-2. After L10 #3: Bruce + Matt **sign the product** (not the 1-pager)
+1. **L10 #2 Mon 29 Sep** on the live URL (Q3 content)
+2. **L10 #3 Mon 6 Oct** after Focus Day, with agreed Q4 Rocks; then Bruce + Matt **sign the product**
 
-**After L10 #1 (not today)**
+**After L10 #1 (not until Rob says the L10 method is good)**
 - Issues: add **and remove** a Scorecard metric from the Issues list; L10 “Add to Issues / On Issues” follows that link
 - Rocks: Add to Issues when a Rock is marked off track (EOS: drop it, don’t discuss in Rock Review)
+- Planner / Todoist / KPI pull / transcripts
 
 **Kill / pause rules**
 - If Bruce remixed the agenda off-screen in the first two live L10s → do not expand eng; fix facilitation + Rob contract first
@@ -87,6 +90,7 @@ Phase 1 is the **Leadership L10 board only** (Issues, Rocks, To-Dos, KPIs/Scorec
 - Bruce customization sandbox
 - Client monthly reports (separate initiative)
 - Third-party EOS SaaS (Ninety etc.)
+- Autotask–HubSpot / Planner / Todoist until Rob validates the L10 method
 
 ---
 

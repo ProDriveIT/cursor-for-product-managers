@@ -1,7 +1,7 @@
 # Pro Drive — Company Context
 
 **Status:** Grounded from GitHub org inventory (19 Sep 2026)  
-**Last updated:** 2026-09-19  
+**Last updated:** 2026-09-21  
 **Owner:** James Stock (Integrator / Head of Operations)
 
 This file is the grounding reference for Cursor skills in this workspace. Prefer short, factual bullets over marketing language. Proposed V/TO content is labelled **Proposed** until Rob / LT agrees it.
@@ -37,7 +37,7 @@ This file is the grounding reference for Cursor skills in this workspace. Prefer
 | LT functional split (Proposed) | Bruce = Visionary + Sales & Marketing. James = Integrator + Operations (SD + PS + Tech/Cyber). Matt = Finance / Admin + Tech Success. Dual seats intentional at ~10 people |
 | Third-party EOS implementer | **Rob Liddiard**, Mission Group (`rob@mission-group.co.uk`) |
 | Focus Day | **1 Oct 2026** with Rob Liddiard — no dashboard. Supporting Data also lists Thu 17 Sep; treat 1 Oct as the dated Focus Day unless Rob says otherwise |
-| Cadence | Monday Leadership L10 on https://eos.prodriveit.co.uk. First live L10 **22 Sep 2026**. Friday Scorecard prep |
+| Cadence | Monday Leadership L10 on https://eos.prodriveit.co.uk. L10 #1 ran **21 Sep 2026**. Friday Scorecard prep. Q4 Rocks set with Rob on **1 Oct** |
 | KPI pipeline today | Autotask → Azure KPI / SharePoint Excels → management Scorecard → (planned) dashboard / Hub thin view |
 | Hosting constraint | **Azure + Microsoft 365 + Copilot only.** Self-hosted in Pro Drive. No third-party SaaS OS tools for Traction |
 | Peer / TruMethods | **Cancel Peer** (07-09-2026) to offset EOS year-one cost. TruMethods / ProDrive 360 = MSP delivery methods, not a second company OS |
@@ -49,7 +49,7 @@ This file is the grounding reference for Cursor skills in this workspace. Prefer
 |-----------|-------------|----------------------|
 | Vision / V/TO | Proposed pack only | Yes — agree with Rob |
 | Rocks / Issues / To-Dos / Scorecard | Live on https://eos.prodriveit.co.uk (Azure JSON). Spreadsheet still feeds some KPI actuals | Yes — CEOS/Azure L10 console (C′) |
-| Level 10 meeting | Monday slot; first live L10 22 Sep 2026 | Yes (management → Technical Team dept) |
+| Level 10 meeting | Monday slot; L10 #1 ran 21 Sep 2026 | Yes (management → Technical Team dept) |
 | Focus Days | Booked / in flight with Rob | Yes |
 | People analyzer | BreatheHR for sensitive GWC | Hub = Acc Chart seats only |
 | EOS Facilitator / EHAN / Reporting agents | Design in flight | Company OS agent trio (under EOS) |
@@ -100,8 +100,8 @@ Other live products (MSP minutes, SPAT, CE Mobile, Archiver, Standardiser, Infor
 
 | Initiative | Status | Engineering home |
 |------------|--------|------------------|
-| [EOS Operating Dashboard](../initiatives/eos-operating-dashboard/) | Priority #1 — **live** at eos.prodriveit.co.uk; first L10 22 Sep | `Pro-Drive-IT-Limited/ProDrive-EOS` |
-| [Client Monthly Report](../initiatives/client-monthly-report/) | Priority #2 — Quest pilot planning | GitHub-Repos KPI automation + Reporting Agent |
+| [EOS Operating Dashboard](../initiatives/eos-operating-dashboard/) | Priority #1 — **live** at eos.prodriveit.co.uk; L10 #1 21 Sep; Q4 Rocks 1 Oct with Rob | `Pro-Drive-IT-Limited/ProDrive-EOS` |
+| [Client Monthly Report](../initiatives/client-monthly-report/) | Priority #2 — Quest Phase 1 approved (Bruce A, 20 Sep); pack confirmation next | GitHub-Repos KPI automation + Reporting Agent |
 | [Self-Service Travel](../initiatives/self-service-travel/) | Priority #3 — **live**, strategy HOLD | `prodrive-agent-ops` / Travel Entra app |
 
 ### Core commercial family — Estate Control
@@ -246,15 +246,16 @@ Snapshot: [`team-structure/github-access-snapshot.md`](./team-structure/github-a
 
 ## 10. Open questions / actions
 
-1. **Reconcile Focus Day dates** — Supporting Data says 17 Sep 2026; EOS initiative materials say 1 Oct 2026. Confirm what happened and what is next with Rob.
+1. Focus Day with Rob is **1 Oct 2026** (no dashboard). 17 Sep material in Supporting Data is Integrator talking points, not the live date.
 2. **MSP Meeting Minutes change control** — James to define who may propose changes and how freeze is lifted (**explicit owner action**).
 3. **Product map decisions** — Approve Estate Control family name; confirm Standardiser as spine; whether Estate Control gets capacity after #1 or only via PS delivery ([product-map.md](./product-vision-and-strategy/product-map.md) §8).
 4. Inventory of automated vs manual KPIs in the spreadsheet Scorecard path.
-5. First live L10 is Mon 22 Sep on eos.prodriveit.co.uk; #2 Mon 29 Sep; #3 Mon 6 Oct unless another Monday is named.
+5. L10 #2 Mon 29 Sep (Q3 content); L10 #3 Mon 6 Oct (agreed Q4 Rocks). Product sign-off after #3.
 6. Client reporting commercially: separate product vs export of same data spine — still open.
 7. Will Rob facilitate from the CEOS dashboard after Focus Day / Vision Building?
 8. Promote missing live product clients (Pixel, Brunner, David Shepherd, CSC) into `35-clients/` packs where durable truth is needed.
 9. Define which Autotask categories count toward Estate Control RTEM impact.
+10. Influential contact leaver process is **Proposed** until Autotask flags exist. SOP `70-Triage-leaver-form` stays unchanged until then.
 
 ---
 

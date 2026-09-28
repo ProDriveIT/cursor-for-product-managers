@@ -53,15 +53,16 @@ This is stronger evidence than the 03 Sep architecture paper. **Adoption and in-
 
 **SSOT rule:** Azure `/home/eos-data/state.json` is the writable meeting store. SharePoint Lists may remain read/archive or Scorecard feed — not the in-meeting editor.
 
-## Current operating state — 20 Sep 2026
+## Current operating state — 21 Sep 2026
 
 | Item | Value |
 |------|--------|
 | URL | https://eos.prodriveit.co.uk |
 | Host | Azure App Service Linux B1, UK South, Easy Auth |
 | Users | James, Bruce, Matt (`James.Stock@` — not `admin-jstock`) |
-| First live L10 | Monday 22 Sep 2026 |
-| Still gated | Product sign-off after L10 #3; five consecutive pure L10s |
+| First live L10 | **Done — 21 Sep 2026** |
+| Next | L10 #2 Mon 29 Sep; Focus Day 1 Oct (no dashboard); L10 #3 Mon 6 Oct |
+| Still gated | Product sign-off after L10 #3; five consecutive pure L10s; dashboard automations until Rob |
 
 ---
 

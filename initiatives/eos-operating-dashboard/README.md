@@ -1,7 +1,7 @@
 # EOS Operating Dashboard
 
-**Status:** Live for Monday L10 testing — https://eos.prodriveit.co.uk  
-**Timeline:** First live L10 **Mon 22 Sep 2026**. Focus Day **1 Oct 2026** (Rob Liddiard; no dashboard). Then 5 consecutive pure L10s.  
+**Status:** Live. L10 #1 ran **21 Sep 2026** on https://eos.prodriveit.co.uk  
+**Timeline:** L10 #2 **Mon 29 Sep**. Focus Day **1 Oct 2026** (Rob Liddiard; no dashboard; set Q4 Rocks). L10 #3 **Mon 6 Oct**. Then 5 consecutive pure L10s. Hold dashboard automations until Rob validates the L10 method.  
 **Owner:** James Stock (Integrator)  
 **Stakeholders:** James, Bruce Penson (Visionary), Matt Taylor, **Rob Liddiard** (Mission Group)  
 **Roadmap:** [`roadmap.md`](./roadmap.md)  
@@ -34,11 +34,12 @@ Make James’s EOS week workable with a purpose-built Leadership L10 dashboard, 
 - [x] Azure host live — B1 UK South, Easy Auth, `eos.prodriveit.co.uk`
 - [x] Live meeting store — Azure `/home/eos-data/state.json` (instant save)
 - [x] Eight Leadership KPIs, Q3 Rocks, SSO for James / Bruce / Matt
-- [ ] First live L10 — **Mon 22 Sep 2026**
-- [ ] L10s #2 and #3 — Mon 29 Sep, Mon 6 Oct (or next named Monday)
-- [ ] Bruce + Matt sign the product (after L10 #3)
-- [ ] Focus Day with Rob — **1 Oct 2026** (**no dashboard**)
+- [x] First live L10 — **21 Sep 2026** (planned slot had been 22 Sep)
+- [ ] L10 #2 — **Mon 29 Sep 2026** (Q3 content; Q4 Rocks wait for Rob)
+- [ ] Focus Day with Rob — **1 Oct 2026** (**no dashboard**; set Q4 Rocks)
+- [ ] L10 #3 — **Mon 6 Oct 2026** (load agreed Q4 Rocks; Bruce + Matt sign the product)
 - [ ] Five consecutive pure-EOS L10s recorded
+- [ ] Dashboard automations (Planner, KPI pull, transcripts) — **held until Rob validates the L10 method**
 
 ## Quick Links
 
@@ -52,5 +53,6 @@ Make James’s EOS week workable with a purpose-built Leadership L10 dashboard, 
 
 - Meeting state is Azure JSON. GitHub `data/` is the seed / catalogue, not the in-meeting editor.
 - Sign in as `James.Stock@prodriveit.co.uk`, not `admin-jstock`.
-- Focus Day (1 Oct): **no dashboard**. Phase 1 product = L10 only (Issues, Rocks, To-Dos, KPIs).
+- Focus Day (1 Oct): **no dashboard**. Set Q4 Rocks there; enter them on the board before the 6 Oct L10.
+- Phase 1 product = L10 only (Issues, Rocks, To-Dos, KPIs). Hold Planner / KPI / transcript work until Rob.
 - Client monthly reports: [`../client-monthly-report/`](../client-monthly-report/).
