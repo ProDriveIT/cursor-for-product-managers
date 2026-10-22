@@ -5,7 +5,7 @@
 **Date:** 2026-10-22  
 **Replaces:** `solutions-principia-registers-v1.md` for the recommendation. v1 stays as the Dataverse comparison.  
 **New inputs:** 50 employees. About $500 a month is not justified. Most staff hold a Copilot Business licence.  
-**Recommend:** Two SharePoint lists, one included flow, one Copilot Studio agent for licensed staff.
+**Recommend:** Two SharePoint lists, one included flow, one Power Apps form in Teams as the staff door, one Copilot Studio agent for licensed staff. The form was added in `prd/decision-principia-registers-v2.md` after v1 left people in the grid. The form uses only the SharePoint connector, so it stays on Business Premium.
 
 ## What changed
 

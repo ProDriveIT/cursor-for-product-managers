@@ -1,5 +1,7 @@
 # Two SharePoint lists, then a Copilot agent on licences Principia already has
 
+**Superseded 22 October 2026.** The lists stay. The "no canvas app" line does not. Staff get a Power Apps form in front of the lists. See `decision-principia-registers-v2.md`.
+
 **Status:** v1 decision. Replaces `decision-principia-registers-v0.md`. Not an approved PRD. Not a quote.  
 **Date:** 22 October 2026  
 **Client:** Principia Advisory, 50 employees  

@@ -47,7 +47,7 @@ Principia Advisory is an existing managed client (`principia-advisory` in Suppor
 
 Read the current decision first:
 
-1. [prd/decision-principia-registers-v1.md](./prd/decision-principia-registers-v1.md)
+1. [prd/decision-principia-registers-v2.md](./prd/decision-principia-registers-v2.md)
 2. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
 3. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
 

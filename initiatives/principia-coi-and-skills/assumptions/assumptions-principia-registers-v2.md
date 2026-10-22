@@ -4,7 +4,7 @@
 **Version:** v2  
 **Date:** 2026-10-22  
 **Replaces:** the pay-as-you-go recommendation in `assumptions-principia-registers-v1.md`  
-**Solution under test:** Two SharePoint lists, one permission flow, one Copilot agent for licensed staff. See `prd/decision-principia-registers-v1.md`.
+**Solution under test:** Two SharePoint lists, one permission flow, one Power Apps form as the staff door, one Copilot agent for licensed staff. See `prd/decision-principia-registers-v2.md`. The five-person check is done in the form. The app licence designation must read Standard before that check.
 
 ## What is now decided
 
