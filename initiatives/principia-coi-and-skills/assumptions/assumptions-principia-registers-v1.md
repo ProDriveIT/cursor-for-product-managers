@@ -1,5 +1,7 @@
 # Assumptions: a current private conflicts position
 
+**Superseded 22 October 2026.** See `assumptions-principia-registers-v2.md`. The pay-as-you-go gate is withdrawn. Headcount is 50, and that bill is refused.
+
 **Topic:** Principia conflicts register and skills matrix  
 **Version:** v1  
 **Date:** 2026-10-22  

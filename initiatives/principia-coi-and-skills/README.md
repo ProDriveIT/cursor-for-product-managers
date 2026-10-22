@@ -3,7 +3,7 @@
 **Status:** Discovery  
 **Timeline:** 22 October 2026. No end date.  
 **Owner:** James Stock (Pro Drive decision owner)  
-**Stakeholders:** Client stakeholder unnamed (Principia Advisory sponsor). No other client names were provided.
+**Stakeholders:** Client stakeholder unnamed (Principia Advisory sponsor). Headcount given 22 October 2026: 50 employees. Most staff hold a Copilot Business licence.
 
 ## 🎯 Initiative Goal
 A supportable conflicts register and skills matrix in Principia's own Microsoft tenant. Staff keep their own rows current. Named admins can see the full set. This is client delivery for Principia Advisory. It is a Pro Drive professional services decision. It is not a new Pro Drive product, and it does not move the locked work order (EOS Operating Dashboard, client monthly reports, self-service travel).
@@ -16,7 +16,7 @@ A supportable conflicts register and skills matrix in Principia's own Microsoft 
 - [ ] Development Started
 - [ ] Analytics Setup Complete
 
-Discovery started from one sponsor requirements brief dated 22 October 2026. There are no end-user interviews. The opportunities, solutions, and assumptions files are provisional. The note in `prd/` is a v0 decision for consultants. It is not an approved PRD.
+Discovery started from one sponsor requirements brief dated 22 October 2026. There are no end-user interviews. On the same day the cost ceiling and headcount arrived: 50 employees, and about $500 a month is not justified. Most staff hold a Copilot Business licence. Decision v1 replaces the Dataverse recommendation. It is not an approved PRD.
 
 ## 🗂️ Folder Structure
 - **[user-interviews/](./user-interviews/)** - Customer discovery and research
@@ -43,17 +43,15 @@ Discovery started from one sponsor requirements brief dated 22 October 2026. The
 - [Implementation Tasks](./tasks/)
 
 ## 📝 Notes
-Principia Advisory is an existing managed client (`principia-advisory` in Supporting Data). Pro Drive is the MSP. The sponsor sent a solution-shaped brief and no transcripts, no named end users, no headcount, and no regulatory citation.
+Principia Advisory is an existing managed client (`principia-advisory` in Supporting Data). Pro Drive is the MSP. The sponsor sent a solution-shaped brief and no transcripts, no named end users, and no regulatory citation. Headcount is now 50. Most staff hold a Copilot Business licence. A monthly run cost around $500 is refused.
 
-Read in this order:
+Read the current decision first:
 
-1. [diagnostic-principia-registers.md](./diagnostic-principia-registers.md)
-2. [user-interviews/snapshots/snapshot-client-requirements-brief-2026-10-22.md](./user-interviews/snapshots/snapshot-client-requirements-brief-2026-10-22.md)
-3. [user-interviews/synthesis/synthesis-skipped-2026-10-22.md](./user-interviews/synthesis/synthesis-skipped-2026-10-22.md)
-4. [opportunities/opportunities-principia-registers-v1.md](./opportunities/opportunities-principia-registers-v1.md)
-5. [solutions/solutions-principia-registers-v1.md](./solutions/solutions-principia-registers-v1.md)
-6. [assumptions/assumptions-principia-registers-v1.md](./assumptions/assumptions-principia-registers-v1.md)
-7. [prd/decision-principia-registers-v0.md](./prd/decision-principia-registers-v0.md)
+1. [prd/decision-principia-registers-v1.md](./prd/decision-principia-registers-v1.md)
+2. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
+3. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
+
+Earlier files stay as the record of the Dataverse option. The diagnostic still applies: nobody has shown the current workaround.
 
 Workflow deviations for this non-interactive run are recorded in those files. No tests have been run. No quote is approved. Re-check Partner Center before any client price.
 

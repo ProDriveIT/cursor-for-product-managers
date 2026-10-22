@@ -1,5 +1,7 @@
 # Build one pay-as-you-go Power App for Principia's registers
 
+**Superseded 22 October 2026.** Principia has 50 employees, and about $500 a month is not justified. Decision v1 replaces this note: `decision-principia-registers-v1.md`. Keep this file as the record of the Dataverse option that failed the cost test.
+
 **Status:** v0 decision for Pro Drive consultants. Not an approved PRD. Not a quote.  
 **Date:** 22 October 2026  
 **Client:** Principia Advisory  

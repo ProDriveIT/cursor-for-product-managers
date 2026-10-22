@@ -1,5 +1,7 @@
 # Solutions for a current, private conflicts position
 
+**Superseded 22 October 2026.** See `solutions-principia-registers-v2.md`. Fifty employees and a refusal of about $500 a month removes pay-as-you-go Dataverse. Most staff hold a Copilot Business licence.
+
 **Topic:** Principia conflicts register and skills matrix  
 **Version:** v1  
 **Date:** 2026-10-22  
