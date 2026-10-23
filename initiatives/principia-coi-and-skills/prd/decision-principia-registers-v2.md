@@ -1,5 +1,7 @@
 # A Power Apps form in front of two SharePoint lists
 
+**Superseded 23 October 2026.** The form and the lists stay. Deep research added three build rules: lock the list before the flow runs, no delete until Principia asks for it, and a nil declaration cannot sit on top of a current interest. See `decision-principia-registers-v3.md`.
+
 **Status:** v2 decision. Replaces the "no canvas app" line in `decision-principia-registers-v1.md`. Not an approved PRD. Not a quote.  
 **Date:** 22 October 2026  
 **Client:** Principia Advisory, 50 employees  

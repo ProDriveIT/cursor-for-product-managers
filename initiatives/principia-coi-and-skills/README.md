@@ -47,9 +47,10 @@ Principia Advisory is an existing managed client (`principia-advisory` in Suppor
 
 Read the current decision first:
 
-1. [prd/decision-principia-registers-v2.md](./prd/decision-principia-registers-v2.md)
-2. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
-3. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
+1. [prd/decision-principia-registers-v3.md](./prd/decision-principia-registers-v3.md)
+2. [research-findings-2026-10-22.md](./research-findings-2026-10-22.md)
+3. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
+4. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
 
 Earlier files stay as the record of the Dataverse option. The diagnostic still applies: nobody has shown the current workaround.
 
