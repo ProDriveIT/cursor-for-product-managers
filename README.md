@@ -18,13 +18,13 @@ Product management involves complex workflows across research, discovery, and de
 1. Clone this repository into your Cursor workspace
 2. Open Cursor Agent chat and start with a workflow:
 
-| What you want to do | Just type |
-|:---------------------|:----------|
-| Process interview transcripts | `/create-interview-snapshots` |
-| Create a PRD | `/create-prd` |
-| Review product strategy (PRISM) | `/product-strategy-review` |
-| Start a new initiative | `/setup-initiative` |
-| Run full discovery research | `/discovery-researcher` |
+| What you want to do             | Just type                     |
+| :------------------------------ | :---------------------------- |
+| Process interview transcripts   | `/create-interview-snapshots` |
+| Create a PRD                    | `/create-prd`                 |
+| Review product strategy (PRISM) | `/product-strategy-review`    |
+| Start a new initiative          | `/setup-initiative`           |
+| Run full discovery research     | `/discovery-researcher`       |
 
 Skills are automatically discovered — no configuration needed.
 
