@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example: two forms in Teams</title>
+  <style>
+    :root {
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #e7e5e4;
+      --paper: #fafaf9;
+      --card: #fff;
+      --blue: #1d4ed8;
+      --blue-soft: #eff6ff;
+      --green: #166534;
+      --green-soft: #f0fdf4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Calibri, sans-serif;
+      color: var(--ink);
+      background: #e7e5e4;
+    }
+    .banner {
+      background: #44403c;
+      color: #fafaf9;
+      padding: 10px 24px;
+      font-size: 14px;
+    }
+    .shell {
+      max-width: 880px;
+      margin: 24px auto 48px;
+      background: var(--card);
+      border: 1px solid #d6d3d1;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    header {
+      padding: 20px 28px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    header p { margin: 4px 0 0; color: var(--muted); }
+    h1 { font-size: 22px; margin: 0; font-weight: 650; }
+    h2 { font-size: 18px; margin: 0 0 8px; }
+    nav {
+      display: flex;
+      gap: 8px;
+      padding: 12px 28px;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+    button.tab, button.primary, button.ghost {
+      font: inherit;
+      cursor: pointer;
+      border-radius: 8px;
+      padding: 8px 14px;
+    }
+    button.tab {
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+    }
+    button.tab[aria-selected="true"] {
+      background: #fff;
+      border-color: var(--line);
+      color: var(--ink);
+      font-weight: 650;
+    }
+    main { padding: 24px 28px 32px; }
+    .view { display: none; }
+    .view.active { display: block; }
+    .choices { display: grid; gap: 12px; }
+    .choice {
+      text-align: left;
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 10px;
+      padding: 16px 18px;
+      cursor: pointer;
+      font: inherit;
+    }
+    .choice strong { display: block; font-size: 16px; margin-bottom: 4px; }
+    .choice span { color: var(--muted); font-size: 14px; }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+    .row { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    label { display: block; font-size: 14px; font-weight: 650; margin: 12px 0 6px; }
+    input, select, textarea {
+      width: 100%;
+      font: inherit;
+      padding: 8px 10px;
+      border: 1px solid #d6d3d1;
+      border-radius: 8px;
+      background: #fff;
+    }
+    textarea { min-height: 72px; }
+    .options { display: flex; gap: 8px; flex-wrap: wrap; }
+    .options button {
+      font: inherit;
+      border: 1px solid #d6d3d1;
+      background: #fff;
+      border-radius: 999px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+    .options button[aria-pressed="true"] {
+      background: var(--blue-soft);
+      border-color: var(--blue);
+      color: var(--blue);
+      font-weight: 650;
+    }
+    .hint { color: var(--muted); font-size: 13px; margin-top: 6px; }
+    .actions { display: flex; gap: 8px; margin-top: 16px; }
+    button.primary { background: var(--blue); color: #fff; border: 0; }
+    button.ghost { background: #fff; border: 1px solid #d6d3d1; }
+    .saved { background: var(--green-soft); color: var(--green); padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; display: none; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 650; }
+    .note {
+      background: var(--blue-soft);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+    .example {
+      font-size: 12px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">Rough example only. The questions are made up, so you can see the shape. This is not Microsoft Forms.</div>
+  <div class="shell">
+    <header>
+      <h1>Your records</h1>
+      <p>Opened from Teams. You only see your own entries unless you are one of the named people.</p>
+    </header>
+    <nav>
+      <button class="tab" data-view="home" aria-selected="true">Start</button>
+      <button class="tab" data-view="interests" aria-selected="false">Outside interests</button>
+      <button class="tab" data-view="skills" aria-selected="false">Skills</button>
+      <button class="tab" data-view="output" aria-selected="false">What a named person sees</button>
+    </nav>
+    <main>
+      <section class="view active" id="home">
+        <p>Pick the record you need to update. You do not have to open the other one.</p>
+        <div class="choices">
+          <button class="choice" data-goto="interests">
+            <strong>Outside interests</strong>
+            <span>Add a company you work for, or update one you have already recorded. This is a short form.</span>
+          </button>
+          <button class="choice" data-goto="skills">
+            <strong>Skills</strong>
+            <span>Answer the skills questions. You only open this when those answers need a refresh.</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="view" id="interests">
+        <p class="example">Example person: Alex Morgan</p>
+        <h2>Outside interests</h2>
+        <div class="saved" id="interest-saved">Saved. The same entry was updated. A second copy was not created.</div>
+        <div class="card">
+          <div class="row">
+            <div>
+              <strong>Northwind Workshops</strong>
+              <div class="hint">Director · Current · Last reviewed 2 March 2026</div>
+            </div>
+            <button class="ghost" id="edit-interest" type="button">Update this</button>
+          </div>
+          <div id="interest-editor" hidden>
+            <label for="company">Company</label>
+            <input id="company" value="Northwind Workshops" />
+            <label for="role">Your role</label>
+            <input id="role" value="Director" />
+            <label for="status">Status</label>
+            <select id="status">
+              <option>Current</option>
+              <option>Ended</option>
+            </select>
+            <div class="actions">
+              <button class="primary" id="save-interest" type="button">Save</button>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="ghost" id="add-company" type="button">Add another company</button>
+        </div>
+        <div class="card" id="new-company" hidden>
+          <div class="example">New interest</div>
+          <label for="new-co">Company</label>
+          <input id="new-co" placeholder="Type the company name" />
+          <label for="new-role">Your role</label>
+          <input id="new-role" placeholder="Type your role" />
+          <div class="actions">
+            <button class="primary" id="save-new" type="button">Save this company</button>
+          </div>
+        </div>
+        <p class="hint">Because Alex already has a current interest, there is no "nothing to declare" button on this page.</p>
+      </section>
+
+      <section class="view" id="skills">
+        <p class="example">Example questions, not Principia's</p>
+        <h2>Skills</h2>
+        <div class="saved" id="skill-saved">Saved. Your previous answer was updated.</div>
+        <div class="card">
+          <strong>Do you have experience working with client workshops?</strong>
+          <div class="options" id="workshop-options">
+            <button type="button" data-answer="No">No</button>
+            <button type="button" data-answer="Would like to">Would like to</button>
+            <button type="button" data-answer="Yes" aria-pressed="true">Yes</button>
+          </div>
+          <div id="workshop-details">
+            <label for="details">If yes, please give brief details</label>
+            <textarea id="details">I facilitate a monthly workshop with two client teams.</textarea>
+          </div>
+        </div>
+        <div class="card">
+          <strong>Which tools do you use for analysis?</strong>
+          <p class="hint">This one is a dropdown only.</p>
+          <label for="tools" class="hint">Answer</label>
+          <select id="tools">
+            <option>Excel</option>
+            <option>Power BI</option>
+            <option>Neither yet</option>
+          </select>
+        </div>
+        <div class="card">
+          <label for="free">Anything else we should know about your experience?</label>
+          <textarea id="free" placeholder="Free text. Leave blank if you have nothing to add."></textarea>
+        </div>
+        <div class="actions">
+          <button class="primary" id="save-skills" type="button">Save skills</button>
+        </div>
+      </section>
+
+      <section class="view" id="output">
+        <p class="example">Named person view</p>
+        <h2>Alex Morgan</h2>
+        <p>All of Alex's skills are together. Interests are separate, because they are a different record.</p>
+        <h2>Skills</h2>
+        <table>
+          <thead><tr><th>Question</th><th>Answer</th><th>Details</th></tr></thead>
+          <tbody>
+            <tr><td>Experience with client workshops?</td><td>Yes</td><td>Monthly workshop with two client teams.</td></tr>
+            <tr><td>Tools used for analysis</td><td>Excel</td><td></td></tr>
+          </tbody>
+        </table>
+        <h2 style="margin-top:18px">Outside interests</h2>
+        <table>
+          <thead><tr><th>Company</th><th>Role</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td>Northwind Workshops</td><td>Director</td><td>Current</td></tr>
+          </tbody>
+        </table>
+        <div class="actions">
+          <button class="primary" id="download" type="button">Download a spreadsheet copy</button>
+        </div>
+        <div class="note" id="download-note" hidden>
+          This downloads a copy. It is not linked to Excel. The file on your computer does not update itself, and editing that file does not change the records in Teams. Paste the skills rows onto your Skills data tab and the interests rows onto your Interests data tab, then refresh your pivot tables. The column headings stay the same every time, so you do not clean the sheet first.
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    const views = ["home", "interests", "skills", "output"];
+    function show(name) {
+      views.forEach((id) => {
+        document.getElementById(id).classList.toggle("active", id === name);
+      });
+      document.querySelectorAll("button.tab").forEach((btn) => {
+        btn.setAttribute("aria-selected", btn.dataset.view === name ? "true" : "false");
+      });
+    }
+    document.querySelectorAll("button.tab, button.choice").forEach((btn) => {
+      btn.addEventListener("click", () => show(btn.dataset.view || btn.dataset.goto));
+    });
+    document.getElementById("edit-interest").addEventListener("click", () => {
+      document.getElementById("interest-editor").hidden = false;
+    });
+    document.getElementById("save-interest").addEventListener("click", () => {
+      document.getElementById("interest-saved").style.display = "block";
+    });
+    document.getElementById("add-company").addEventListener("click", () => {
+      document.getElementById("new-company").hidden = false;
+    });
+    document.getElementById("save-new").addEventListener("click", () => {
+      document.getElementById("interest-saved").style.display = "block";
+      document.getElementById("interest-saved").textContent = "Saved. This company is a new entry. The earlier one is unchanged.";
+    });
+    document.getElementById("workshop-options").addEventListener("click", (event) => {
+      const button = event.target.closest("button");
+      if (!button) return;
+      document.querySelectorAll("#workshop-options button").forEach((item) => {
+        item.setAttribute("aria-pressed", item === button ? "true" : "false");
+      });
+      document.getElementById("workshop-details").hidden = button.dataset.answer !== "Yes";
+    });
+    document.getElementById("save-skills").addEventListener("click", () => {
+      document.getElementById("skill-saved").style.display = "block";
+    });
+    document.getElementById("download").addEventListener("click", () => {
+      document.getElementById("download-note").hidden = false;
+    });
+    const params = new URLSearchParams(location.search);
+    show(params.get("view") || "home");
+  </script>
+</body>
+</html>
