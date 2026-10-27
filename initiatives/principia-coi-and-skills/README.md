@@ -45,12 +45,13 @@ Discovery started from one sponsor requirements brief dated 22 October 2026. The
 ## 📝 Notes
 Principia Advisory is an existing managed client (`principia-advisory` in Supporting Data). Pro Drive is the MSP. The sponsor sent a solution-shaped brief and no transcripts, no named end users, and no regulatory citation. Headcount is now 50. Most staff hold a Copilot Business licence. A monthly run cost around $500 is refused.
 
-Read the current decision first:
+Read the current plan first:
 
-1. [prd/decision-principia-registers-v3.md](./prd/decision-principia-registers-v3.md)
-2. [research-findings-2026-10-22.md](./research-findings-2026-10-22.md)
-3. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
-4. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
+1. [delivery-plan.md](./delivery-plan.md)
+2. [prd/decision-principia-registers-v3.md](./prd/decision-principia-registers-v3.md)
+3. [research-findings-2026-10-22.md](./research-findings-2026-10-22.md)
+4. [solutions/solutions-principia-registers-v2.md](./solutions/solutions-principia-registers-v2.md)
+5. [assumptions/assumptions-principia-registers-v2.md](./assumptions/assumptions-principia-registers-v2.md)
 
 Earlier files stay as the record of the Dataverse option. The diagnostic still applies: nobody has shown the current workaround.
 
